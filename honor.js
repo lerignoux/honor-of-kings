@@ -749,13 +749,13 @@
               'id': 'dream_eater', 'name': 'Dream eater', 'description': 'Passive: '
             },
             {
-              'id': 'creamland_linger', 'name': 'linger in dreamland', 'description': ''
+              'id': 'dreamland_linger', 'name': 'Linger in dreamland', 'description': ''
             },
             {
-              'id': 'dreamland_crying', 'name': 'dreamland crying', 'description': ''
+              'id': 'dreamland_crying', 'name': 'Dreamland crying', 'description': ''
             },
             {
-              'id': 'dreamland_vortex', 'name': 'dreamland vortex', 'description': 'Ultimate: '
+              'id': 'dreamland_vortex', 'name': 'Dreamland vortex', 'description': 'Ultimate: '
             },
           ]
         },
@@ -1300,8 +1300,8 @@
         return "images/heroes/" + hero.name + ".jpg";
       };
 
-      $scope.getSkillImage = function(hero) {
-        return "images/skill/" + hero.name + ".jpg";
+      $scope.getSkillImage = function(skill) {
+        return "images/skills/" + skill.id + ".png";
       };
 
     }
