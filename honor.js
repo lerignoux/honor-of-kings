@@ -15,16 +15,16 @@
           'name': 'ake', 'types': [],
           'skills': [
             {
-              'id': 'dream_eater', 'name': 'Dream eater', 'description': 'Passive: '
+              'id': 'death_kiss', 'name': 'Death Kiss', 'description': 'Passive: '
             },
             {
-              'id': 'creamland_linger', 'name': 'linger in dreamland', 'description': ''
+              'id': 'arc_light', 'name': 'Arc Light', 'description': ''
             },
             {
-              'id': 'dreamland_crying', 'name': 'dreamland crying', 'description': ''
+              'id': 'flower_wink', 'name': 'Flower Wink', 'description': ''
             },
             {
-              'id': 'dreamland_vortex', 'name': 'dreamland vortex', 'description': 'Ultimate: '
+              'id': 'fantasy_dance', 'name': 'Fantasy Dance', 'description': 'Ultimate: '
             },
           ]
         },
@@ -32,16 +32,16 @@
           'name': 'anqila', 'types': [],
           'skills': [
             {
-              'id': 'dream_eater', 'name': 'Dream eater', 'description': 'Passive: '
+              'id': 'fire_magic', 'name': 'Fire Magic', 'description': 'Passive: '
             },
             {
-              'id': 'creamland_linger', 'name': 'linger in dreamland', 'description': ''
+              'id': 'fireball', 'name': 'Fireball', 'description': ''
             },
             {
-              'id': 'dreamland_crying', 'name': 'dreamland crying', 'description': ''
+              'id': 'chaos_spark', 'name': 'Chaos Spark', 'description': ''
             },
             {
-              'id': 'dreamland_vortex', 'name': 'dreamland vortex', 'description': 'Ultimate: '
+              'id': 'blazing_radiance', 'name': 'Blazing Radiance', 'description': 'Ultimate: '
             },
           ]
         },
@@ -49,16 +49,16 @@
           'name': 'bailishouyue', 'types': [],
           'skills': [
             {
-              'id': 'dream_eater', 'name': 'Dream eater', 'description': 'Passive: '
+              'id': 'aim', 'name': 'Aim', 'description': 'Passive: '
             },
             {
-              'id': 'creamland_linger', 'name': 'linger in dreamland', 'description': ''
+              'id': 'quiet_eye', 'name': 'Quiet eye', 'description': ''
             },
             {
-              'id': 'dreamland_crying', 'name': 'dreamland crying', 'description': ''
+              'id': 'gale_rest', 'name': 'Gale Rest', 'description': ''
             },
             {
-              'id': 'dreamland_vortex', 'name': 'dreamland vortex', 'description': 'Ultimate: '
+              'id': 'escape', 'name': 'Escape', 'description': 'Ultimate: '
             },
           ]
         },
@@ -66,16 +66,16 @@
           'name': 'bailixuance', 'types': [],
           'skills': [
             {
-              'id': 'dream_eater', 'name': 'Dream eater', 'description': 'Passive: '
+              'id': 'fanatical_order', 'name': 'Fanatical Order', 'description': 'Passive: '
             },
             {
-              'id': 'creamland_linger', 'name': 'linger in dreamland', 'description': ''
+              'id': 'god_hook', 'name': 'God Hook', 'description': ''
             },
             {
-              'id': 'dreamland_crying', 'name': 'dreamland crying', 'description': ''
+              'id': 'nightmare_lock', 'name': 'Nightmare Lock', 'description': ''
             },
             {
-              'id': 'dreamland_vortex', 'name': 'dreamland vortex', 'description': 'Ultimate: '
+              'id': 'shans_wink', 'name': 'Shan\'s wink', 'description': 'Ultimate: '
             },
           ]
         },
