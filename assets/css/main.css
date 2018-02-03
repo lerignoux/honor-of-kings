@@ -2239,10 +2239,11 @@ body.homepage.is-loading #header:after {
     .carousel .reel {
       padding: 0 0.5em 0 0.5em; }
     .carousel article {
-      width: 14em;
+      width: 6em;
       padding-bottom: 2em;
       margin: 0 0.5em 0 0; }
       .carousel article .image {
+        padding-left: 1em;
         margin-bottom: 2em; } }
 
 /*# sourceMappingURL=main.css.map */
