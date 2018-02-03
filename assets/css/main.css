@@ -1871,7 +1871,7 @@ body.homepage.is-loading #header:after {
     padding: 0 2em 0 2em; }
   .carousel article {
     display: inline-block;
-    width: 5em;
+    width: 6em;
     background: #fff;
     text-align: center;
     padding: 0 1em 1em 1em;
@@ -1889,10 +1889,12 @@ body.homepage.is-loading #header:after {
       left: -1em;
       top: 0;
       width: auto;
-      margin-right: -2em;
+      margin-right: -1em;
       margin-bottom: 1em; }
     .carousel article p {
       text-align: center; }
+    .carousel article h3 {
+      font-size: 0.8em; }
 
 /* Wide */
 @media screen and (max-width: 1680px) {

@@ -1000,7 +1000,7 @@
 
 		article {
 			display: inline-block;
-			width: 5em;
+			width: 6em;
 			background: #fff;
 			text-align: center;
 			padding: 0 1em 1em 1em;
@@ -1018,12 +1018,16 @@
 				left: -1em;
 				top: 0;
 				width: auto;
-				margin-right: -2em;
+				margin-right: -1em;
 				margin-bottom: 1em;
 			}
 
 			p {
 				text-align: center;
+			}
+
+			h3 {
+				font-size: 0.8em;
 			}
 		}
 	}
