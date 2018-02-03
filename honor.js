@@ -1311,7 +1311,7 @@
       };
 
       $scope.getSkillImage = function(skill) {
-        return "images/skills/" + skill.id + ".png";
+        return "images/skills/" + $scope.selection.name + "_" + skill.id + ".png";
       };
 
     }
