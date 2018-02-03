@@ -1,0 +1,8 @@
+.clickArea {
+  cursor: pointer;
+}
+
+.alphaback {
+  padding: 1em;
+  background: rgba(50, 50, 50, 0.5);
+}
