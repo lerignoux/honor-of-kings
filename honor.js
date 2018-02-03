@@ -701,16 +701,16 @@
           'name': 'luna', 'types': ['warrior'], 'ready':1,
           'skills': [
             {
-              'id': 'moonlight dance', 'name': 'Moonlight dance', 'description': 'Passive: '
+              'id': 'moonlight_dance', 'name': 'Moonlight dance', 'description': 'Passive: One her first attackagainst a target, Luna will teleport towards it\'s position. On her third attack she will deal extra damages and mark the target.'
             },
             {
-              'id': 'halfmoon_cut', 'name': 'Halfmoon cut', 'description': ''
+              'id': 'halfmoon_cut', 'name': 'Halfmoon cut', 'cooldown': 5, 'mana': 50, 'description': 'Luna will make a shockwave in the designated direction dealing 350/430/510/590/670/750（+51% Magic) magic damages and marking hit enemies.'
             },
             {
-              'id': 'warming_spot', 'name': 'dreamland crying', 'description': ''
+              'id': 'warming_spot', 'name': 'Earth thrust', 'cooldown': 8, 'mana': 50, 'description': 'Luna strike the earth and pull nearby enemies, dealing 120/135/150/165/180/195（+31% Magic）magic damages stunning them 0.5s and marking them. She will also gain a shield blocking 400/480/560/640/720/800（+80% Magic）damages slowing her for 2s of 50 of her movement speed.'
             },
             {
-              'id': 'new_moon_assault', 'name': 'New moon assault', 'description': 'Ultimate: '
+              'id': 'new_moon_assault', 'name': 'New moon assault', 'cooldown': 25/20/15, 'mana': 80, 'description': 'Ultimate: Luna will charge in the designated direction dealing 500/625/750（+60% Magic) magic damages. if a marked target is hit, her new moon assault coolddown is reset.'
             },
           ]
         },
@@ -786,16 +786,16 @@
           'name': 'miyue', 'types': ['mage'], 'ready':1,
           'skills': [
             {
-              'id': 'ethernal_blood', 'name': 'Dream eater', 'description': 'Passive: '
+              'id': 'ethernal_blood', 'name': 'Ethernal blood', 'description': 'Passive: When triggering an ability MiYue spawn a shadow servant (up to 6) attacking nearby enemies for 40（+7% Magic）magic damages and healing Miyue of 20（+3% Magic）health. When spawning a servant MiYue gain 30 shadow force. When out of shadow force all her servants disappear.'
             },
             {
-              'id': 'pain_attack', 'name': 'linger in dreamland', 'description': ''
+              'id': 'pain_attack', 'name': 'Shock of pain', 'cooldown': '10/9.6/9.2/8.8/8.4/8', 'description': 'MiYue release shadows in the specified direction dealing 200/220/240/260/280/300（+24% Magic）magic damages when activated a second time, MiYue will teelport to the shadow dealing 200/220/240/260/280/300（+24% Magic）to nearby enemies. If so she will spawn a servant'
             },
             {
-              'id': 'illusionary_servant', 'name': 'dreamland crying', 'description': ''
+              'id': 'illusionary_servant', 'name': 'Illusionary servant', 'cooldown': 9, 'description': 'MiYue release a shadow chain in specified direction lasting at most 4s, stealing to the first target hit 15（+2% Magic）life, 10 physical damages and 30 magic damages and dealing 50/60/70/80/90/100（+7% Magic). If the link is maintained, MiYue will spawn a servant'
             },
             {
-              'id': 'moon_shadow', 'name': 'dreamland vortex', 'description': 'Ultimate: '
+              'id': 'moon_shadow', 'name': 'Moon shadow', 'cooldown': '24/22/20', 'description': 'Ultimate: MiYue escape in the shadow 2s gaining 30%seed and become immune to any effect. Upon start and termination, she deals 400/500/600（+50% Magic）magic damages to nearby enemies if she deals damage to an enemy coing back she will spawn a shadow servant. Passive: MiYue attacks deal 40（+100 Physical）（+20%Magic) damages slow enemies of 10% adnd generate 10 Shadow force'
             },
           ]
         },
@@ -973,19 +973,19 @@
           ]
         },
         {
-          'name': 'wangzhaojun', 'types': ['mage'], 'ready':0,
+          'name': 'wangzhaojun', 'types': ['mage'], 'ready':1,
           'skills': [
             {
-              'id': 'frozen_heart', 'name': 'Frozen heart', 'description': 'Passive: '
+              'id': 'frozen_heart', 'name': 'Frozen heart', 'description': 'Passive: When out of combat for 3s WangZhaoJun will get an ice shield protecting 450 (+ 52% of her magic) damages. Upon breaking the shield will deal 450 (+52% magic) damage to nearby enemies and slow them down 1s at 50% of their move speed '
             },
             {
-              'id': 'withering_cristals', 'name': 'Withering cristals', 'description': ''
+              'id': 'withering_cristals', 'name': 'Withering cristals', 'cooldown': 5, 'mana': 80, 'description': 'WangZhaoJun creates a burst of ice dealing 400/480/560/640/720/800（+65%法术加成）magic damage and slowing affected enemies 2s for 50% of theirmovement speed.'
             },
             {
-              'id': 'frost_coffin', 'name': 'Frost coffin', 'description': ''
+              'id': 'frost_coffin', 'name': 'Frost coffin', 'cooldown': 5, 'mana': 80, 'description': 'WangZhaoJun will create a pillar of ice after a small cooldown on the designated area dealing 250/280/310/340/370/400（+47% magic）magic damages. targets in range upon trigger will be frozen for 2.5s. They will also suffer of 250/280/310/340/370/400（+50%magix damage）form WangZhaoJun',
             },
             {
-              'id': 'winter_coming', 'name': 'Winter is coming', 'description': 'Ultimate: '
+              'id': 'winter_coming', 'name': 'Winter is coming', 'cooldown': 50/45/40, 'mana': 150, 'description': 'Ultimate: WangZhaoJun will trigger a blizzard at her position dealing 300/375/450（+50% magic）magic damages every 0.5s for 4.7s to enemies in range and slowing them of 30% of their move speed for 1s. She will also gain her Ice shield upon trigger blocking 600 Physical damages.'
             },
           ]
         },
@@ -1231,16 +1231,16 @@
           'name': 'zhongwuyan', 'types': ['tank'], 'ready':1,
           'skills': [
             {
-              'id': 'jin_smelting', 'name': 'Jin\'s dynasty smelting', 'description': 'Passive: '
+              'id': 'jin_smelting', 'name': 'Jin\'s dynasty smelting', 'description': 'Passive: when hit by an enemy the attacker have 50% chance of being stoned for 1s. A hero cannot be affected more than once every 8s.'
             },
             {
-              'id': 'hurricane_dash', 'name': 'Hurricane dash', 'description': ''
+              'id': 'hurricane_dash', 'name': 'Hurricane dash', 'cooldown': 5, 'mana': 50, 'description': 'ZhongWuYuan rush in the specified direction. Her next attack will deal 225/270/315/360/405/450（+120% Physical）physical damage and leave the target stunned for 2s'
             },
             {
-              'id': 'intimidation_hit', 'name': 'Intimidation hit', 'description': ''
+              'id': 'intimidation_hit', 'name': 'Intimidation hit', 'cooldown': '10/9/8/7/6/5', 'mana': 70, 'description': 'ZhongwuYuna slam her sledehammer on the ground dealing 350/420/490/560/630/700（+150% Physical）physical damages to target in range. Targets in the center will suffer double damages'
             },
             {
-              'id': 'hurricane_hammer', 'name': 'Hurricane hammer', 'description': 'Ultimate: '
+              'id': 'hurricane_hammer', 'name': 'Hurricane hammer', 'cooldown': '40/35/30', 'mana': 100, 'description': 'Ultimate: ZhongwuYan turn with her hammer for 3.2s dealing 150/200/250（+80%物理加成）physical damage every 0.4s. Enemy in the outer range will receive an additional 40% damage. Passive: ZhongwuYan summon a rock shield protecting her from 80/120/160(+35% Physical) damages.'
             },
           ]
         },
