@@ -6,3 +6,11 @@
   padding: 1em;
   background: rgba(50, 50, 50, 0.5);
 }
+
+#nav.alphaback > ul > li > a {
+  color: white;
+}
+
+.carousel p {
+  font-size: 0.8em;
+}

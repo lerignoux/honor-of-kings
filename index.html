@@ -68,9 +68,9 @@
 						<article ng-repeat="hero in heroes | filter:{ ready: 1} | filter:{types: filter}">
 							<div class="clickArea" ng-click="selectHero(hero)">
 								<div class="image featured"><img ng-src="{{getHeroImage(hero)}}" alt=""/></div>
-								<header>
+								<p class="card_header">
 									{{hero.name}}
-								</header>
+								</p>
 							</div>
 						</article>
 
