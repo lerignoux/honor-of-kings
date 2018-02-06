@@ -868,22 +868,22 @@
           ]
         },
         {
-          'name': 'nvwa', 'types': [], 'ready':0,
+          'name': 'nvwa', 'cn_name': '女娲', 'types': ['mage'], 'ready':1,
           'skills': [
             {
-              'id': 'glorious_guide', 'name': 'Dream eater', 'description': 'Passive: '
+              'id': 'glorious_guide', 'name': 'lorious guide', 'cn_name':'辉煌指引', 'description': 'Passive: Every time she level up, Nvwa gain 3% vision range (up tyo 42%). Her attacks and abilities also gain 2% range (up to 28%). Her abilities mark enemies. Marks are triggered by friendly (including Nvwa herself) attacks and abilities dealing more damage and increasing source ally movement speed by 16% for 2s and recovering life (Maximum 40 (+ 12% Magic)) only once every 0.5s'
             },
             {
-              'id': 'radiate_order', 'name': 'linger in dreamland', 'description': ''
+              'id': 'radiate_order', 'name': 'Order: radiate', 'cn_name':'指令：放射', 'cooldown': 7, 'cost': 60, 'description': 'Nvwa release energy along the directed path dealing 250/290/330/370（+36% Magic）magic damages to enemies.When hitting an enemy the wave stops and unfold a cross shape area dealing the same damage to enemies within.'
             },
             {
-              'id': 'create_order', 'name': 'dreamland crying', 'description': ''
+              'id': 'create_order', 'name': 'Order: create', 'cn_name':'指令：创造', 'cooldown': 0, 'cost': 40, 'description': 'Nvwa creates a block at the expected position preventing enemies to go through during 3s. When disappearing or if another of her ability hit the area, it will explode dealing 500/580/660/740（+80% Magic）magic damages to nearby enemies. Whenever she gains 100 Magic, the box duration will increase by 0.2s. (Max 4 boxes at the same time)'
             },
             {
-              'id': 'move_order', 'name': 'dreamland vortex', 'description': 'Ultimate: '
+              'id': 'move_order', 'name': 'Order: move', 'cn_name':'指令：迁跃', 'cooldown': '50/45/40/35', 'cost': 100, 'description': 'Nvwa will teleport to the designated place after a short chant dealing 500/560/620/680（+65% Magic）magic damages to nearby enemies. Passive she will gain a shield from from enemies touched protecting her from 400/480/560/640（+80% Magic）damages from these enemies. When the shield takes damages Nvwa gain 30% move speed for 2s'
             },
             {
-              'id': 'destroy_order', 'name': 'dreamland vortex', 'description': 'Ultimate: '
+              'id': 'destroy_order', 'name': 'Order destroy', 'cn_name':'指令：毁灭', 'cooldown': '50/40/30', 'cost': 120, 'description': 'Nvwa release a bolt of energy in the direction after a short incantation dealing 700/1050/1400（+88% Magic）magic damages'
             },
           ]
         },
