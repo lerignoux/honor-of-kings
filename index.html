@@ -68,6 +68,9 @@
 								<p class="card_header">
 									{{hero.name}}
 								</p>
+								<p class="card_header" ng-if="hero.cn_name">
+									{{hero.cn_name}}
+								</p>
 							</div>
 						</article>
 
@@ -86,7 +89,14 @@
 								<a href="#" class="image featured"><img src="{{getSkillImage(skill)}}" alt="" /></a>
 								<header>
 									<h3>{{skill.name}}</h3>
+									<h3 ng-if="skill.cn_name">{{skill.cn_name}}</h3>
 								</header>
+								<p class="cooldown" ng-if="skill.cooldown">
+									Cooldown: {{skill.cooldown}}
+								</p>
+								<p class="energy" ng-if="skill.mana">
+									Energy: {{skill.mana}}
+								</p>
 								<p>
 									{{skill.description}}
 								</p>

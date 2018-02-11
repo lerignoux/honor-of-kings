@@ -131,19 +131,23 @@
           ]
         },
         {
-          'name': 'caiwenji', 'types': ['support'], 'ready':0,
+          'name': 'caiwenji', 'cn_name': '蔡文姬','types': ['support'], 'ready':1,
           'skills': [
             {
-              'id': 'singing_travel', 'name': 'Dream eater', 'description': 'Passive: '
+              'id': 'singing_travel', 'name': 'Dream eater', 'cn_name':'长歌行',
+              'description': 'Passive: When receiving damage 蔡文姬 gain 70% move speed for 2s, she will also heal herself of 250（+50% Magic). Can be triggered every 10s'
             },
             {
-              'id': 'ungulited_reasoning', 'name': 'linger in dreamland', 'description': ''
+              'id': 'ungulited_reasoning', 'name': 'linger in dreamland', 'cn_name':'思无邪', 'cooldown': '15/14.4/13.8/13.2/12.6/12', 'mana': 100,
+              'description': '蔡文姬 play for 3s increasing her speed by 20% and healing her and allies nearby by 60/66/72/78/84/90（+20% Magic）every 0.5s'
             },
             {
-              'id': 'hu_whistle', 'name': 'dreamland crying', 'description': ''
+              'id': 'hu_whistle', 'name': 'dreamland crying', 'cn_name':'胡笳乐', 'cooldown': 9, 'mana': 70,
+              'description': '蔡文姬 send a sound wave dealing 60/66/72/78/84/90（+20% Magic） magic damages and stuning each enemy hurt for 0.75s. If another enmy is in range the wave will be reflected on him. up to 6 targets can be hit. A target can be hit only 2 times but with only half damages the second time.'
             },
             {
-              'id': 'forget_concerns', 'name': 'dreamland vortex', 'description': 'Ultimate: '
+              'id': 'forget_concerns', 'name': 'dreamland vortex', 'cn_name':'忘忧曲', 'cooldown': 60, 'mana': 120,
+              'description': 'Ultimate: play music healing each 0.5s the hero (in range) with least health of 150/200/250（+35%法术加成）health. At the same time all nearby allies gain 200/250/300 physical and magical resist. Song last 5s'
             },
           ]
         },
@@ -199,19 +203,23 @@
           ]
         },
         {
-          'name': 'daji', 'types': ['mage'], 'ready':4,
+          'name': 'daji', 'cn_name': '妲己', 'types': ['mage'], 'ready':1,
           'skills': [
             {
-              'id': 'dishearted', 'name': 'Dis-hearted', 'description': 'Passive: '
+              'id': 'dishearted', 'name': 'Dis-hearted', 'cn_name': '失心', 'cooldown': '8/7.4/6.8/6.2/5.6/5', 'mana': 80,
+              'description': 'Passive: When one of 妲己 ability hit an enemy it reduces it\'s magic resistance by 30~72. Can be stacked 3 times'
             },
             {
-              'id': 'soul_attack', 'name': 'Soul attack', 'description': ''
+              'id': 'soul_attack', 'name': 'Soul attack', 'cn_name': '灵魂冲击', 'cooldown': '12/11/10/9/8/7', 'mana': 120,
+              'description': '妲己 send a shockwave dealing 520/585/650/715/780/845（+122% Magic）magic damages to enemies hit'
             },
             {
-              'id': 'idol_charm', 'name': 'Idol charm', 'description': ''
+              'id': 'idol_charm', 'name': 'Idol charm', 'cn_name': '偶像魅力', 'cooldown': '12/11/10/9/8/7', 'mana': 90,
+              'description': '妲己 send her charms dealing to the first target hit 285/320/355/390/425/460（+66% Magic）magic damage and stunning for 1.5s'
             },
             {
-              'id': 'queen_adoration', 'name': 'Queen adoration', 'description': 'Ultimate: '
+              'id': 'queen_adoration', 'name': 'Queen adoration', 'cn_name': '女王崇拜', 'cooldown': '18/15/12', 'mana': 120,
+              'description': 'Ultimate: 妲己 send 5 fox fire balls dealing 325/405/485（+75% Magic）magic damage. Balls can hit a same target but additional balls deal only 50% of the initial damage to this target'
             },
           ]
         },
@@ -698,19 +706,23 @@
           ]
         },
         {
-          'name': 'luna', 'types': ['warrior'], 'ready':1,
+          'name': 'luna', 'cn_name': '露娜', 'types': ['warrior'], 'ready':1,
           'skills': [
             {
-              'id': 'moonlight_dance', 'name': 'Moonlight dance', 'description': 'Passive: One her first attackagainst a target, Luna will teleport towards it\'s position. On her third attack she will deal extra damages and mark the target.'
+              'id': 'moonlight_dance', 'name': 'Moonlight dance', 'cn_name': '月光之舞',
+              'description': 'Passive: One her first attackagainst a target, Luna will teleport towards it\'s position. On her third attack she will deal extra damages and mark the target.'
             },
             {
-              'id': 'halfmoon_cut', 'name': 'Halfmoon cut', 'cooldown': 5, 'mana': 50, 'description': 'Luna will make a shockwave in the designated direction dealing 350/430/510/590/670/750（+51% Magic) magic damages and marking hit enemies.'
+              'id': 'halfmoon_cut', 'name': 'Halfmoon cut', 'cn_name': '弦月斩', 'cooldown': 5, 'mana': 50,
+              'description': 'Luna will make a shockwave in the designated direction dealing 350/430/510/590/670/750（+51% Magic) magic damages and marking hit enemies.'
             },
             {
-              'id': 'warming_spot', 'name': 'Earth thrust', 'cooldown': 8, 'mana': 50, 'description': 'Luna strike the earth and pull nearby enemies, dealing 120/135/150/165/180/195（+31% Magic）magic damages stunning them 0.5s and marking them. She will also gain a shield blocking 400/480/560/640/720/800（+80% Magic）damages slowing her for 2s of 50 of her movement speed.'
+              'id': 'warming_spot', 'name': 'Earth thrust', 'cn_name': '炙热剑芒', 'cooldown': 8, 'mana': 50,
+              'description': 'Luna strike the earth and pull nearby enemies, dealing 120/135/150/165/180/195（+31% Magic）magic damages stunning them 0.5s and marking them. She will also gain a shield blocking 400/480/560/640/720/800（+80% Magic）damages slowing her for 2s of 50 of her movement speed.'
             },
             {
-              'id': 'new_moon_assault', 'name': 'New moon assault', 'cooldown': 25/20/15, 'mana': 80, 'description': 'Ultimate: Luna will charge in the designated direction dealing 500/625/750（+60% Magic) magic damages. if a marked target is hit, her new moon assault coolddown is reset.'
+              'id': 'new_moon_assault', 'name': 'New moon assault', 'cn_name': '新月突击', 'cooldown': '25/20/15', 'mana': 80,
+              'description': 'Ultimate: Luna will charge in the designated direction dealing 500/625/750（+60% Magic) magic damages. if a marked target is hit, her new moon assault coolddown is reset.'
             },
           ]
         },
@@ -783,19 +795,23 @@
           ]
         },
         {
-          'name': 'miyue', 'types': ['mage'], 'ready':1,
+          'name': 'miyue', 'cn_name': '芈月', 'types': ['mage'], 'ready':1,
           'skills': [
             {
-              'id': 'ethernal_blood', 'name': 'Ethernal blood', 'description': 'Passive: When triggering an ability MiYue spawn a shadow servant (up to 6) attacking nearby enemies for 40（+7% Magic）magic damages and healing Miyue of 20（+3% Magic）health. When spawning a servant MiYue gain 30 shadow force. When out of shadow force all her servants disappear.'
+              'id': 'ethernal_blood', 'name': 'Ethernal blood', 'cn_name':'永生之血',
+              'description': 'Passive: When triggering an ability 芈月 spawn a shadow servant (up to 6) attacking nearby enemies for 40（+7% Magic）magic damages and healing Miyue of 20（+3% Magic）health. When spawning a servant MiYue gain 30 shadow force. When out of shadow force all her servants disappear.'
             },
             {
-              'id': 'pain_attack', 'name': 'Shock of pain', 'cooldown': '10/9.6/9.2/8.8/8.4/8', 'description': 'MiYue release shadows in the specified direction dealing 200/220/240/260/280/300（+24% Magic）magic damages when activated a second time, MiYue will teelport to the shadow dealing 200/220/240/260/280/300（+24% Magic）to nearby enemies. If so she will spawn a servant'
+              'id': 'pain_attack', 'name': 'Shock of pain', 'cn_name':'痛苦冲击', 'cooldown': '10/9.6/9.2/8.8/8.4/8',
+              'description': '芈月 release shadows in the specified direction dealing 200/220/240/260/280/300（+24% Magic）magic damages when activated a second time, MiYue will teelport to the shadow dealing 200/220/240/260/280/300（+24% Magic）to nearby enemies. If so she will spawn a servant'
             },
             {
-              'id': 'illusionary_servant', 'name': 'Illusionary servant', 'cooldown': 9, 'description': 'MiYue release a shadow chain in specified direction lasting at most 4s, stealing to the first target hit 15（+2% Magic）life, 10 physical damages and 30 magic damages and dealing 50/60/70/80/90/100（+7% Magic). If the link is maintained, MiYue will spawn a servant'
+              'id': 'illusionary_servant', 'name': 'Illusionary servant', 'cn_name':'幻翼仆从', 'cooldown': 9,
+              'description': '芈月 release a shadow chain in specified direction lasting at most 4s, stealing to the first target hit 15（+2% Magic）life, 10 physical damages and 30 magic damages and dealing 50/60/70/80/90/100（+7% Magic). If the link is maintained, MiYue will spawn a servant'
             },
             {
-              'id': 'moon_shadow', 'name': 'Moon shadow', 'cooldown': '24/22/20', 'description': 'Ultimate: MiYue escape in the shadow 2s gaining 30%seed and become immune to any effect. Upon start and termination, she deals 400/500/600（+50% Magic）magic damages to nearby enemies if she deals damage to an enemy coing back she will spawn a shadow servant. Passive: MiYue attacks deal 40（+100 Physical）（+20%Magic) damages slow enemies of 10% adnd generate 10 Shadow force'
+              'id': 'moon_shadow', 'name': 'Moon shadow', 'cn_name':'痛苦冲击', 'cooldown': '24/22/20',
+              'description': 'Ultimate: 芈月 escape in the shadow 2s gaining 30%seed and become immune to any effect. Upon start and termination, she deals 400/500/600（+50% Magic）magic damages to nearby enemies if she deals damage to an enemy coing back she will spawn a shadow servant. Passive: MiYue attacks deal 40（+100 Physical）（+20%Magic) damages slow enemies of 10% adnd generate 10 Shadow force'
             },
           ]
         },
@@ -871,19 +887,24 @@
           'name': 'nvwa', 'cn_name': '女娲', 'types': ['mage'], 'ready':1,
           'skills': [
             {
-              'id': 'glorious_guide', 'name': 'lorious guide', 'cn_name':'辉煌指引', 'description': 'Passive: Every time she level up, Nvwa gain 3% vision range (up tyo 42%). Her attacks and abilities also gain 2% range (up to 28%). Her abilities mark enemies. Marks are triggered by friendly (including Nvwa herself) attacks and abilities dealing more damage and increasing source ally movement speed by 16% for 2s and recovering life (Maximum 40 (+ 12% Magic)) only once every 0.5s'
+              'id': 'glorious_guide', 'name': 'lorious guide', 'cn_name':'辉煌指引',
+              'description': 'Passive: Every time she level up, 女娲 gain 3% vision range (up tyo 42%). Her attacks and abilities also gain 2% range (up to 28%). Her abilities mark enemies. Marks are triggered by friendly (including Nvwa herself) attacks and abilities dealing more damage and increasing source ally movement speed by 16% for 2s and recovering life (Maximum 40 (+ 12% Magic)) only once every 0.5s'
             },
             {
-              'id': 'radiate_order', 'name': 'Order: radiate', 'cn_name':'指令：放射', 'cooldown': 7, 'cost': 60, 'description': 'Nvwa release energy along the directed path dealing 250/290/330/370（+36% Magic）magic damages to enemies.When hitting an enemy the wave stops and unfold a cross shape area dealing the same damage to enemies within.'
+              'id': 'radiate_order', 'name': 'Order: radiate', 'cn_name':'指令：放射', 'cooldown': 7, 'cost': 60,
+              'description': '女娲 release energy along the directed path dealing 250/290/330/370（+36% Magic）magic damages to enemies.When hitting an enemy the wave stops and unfold a cross shape area dealing the same damage to enemies within.'
             },
             {
-              'id': 'create_order', 'name': 'Order: create', 'cn_name':'指令：创造', 'cooldown': 0, 'cost': 40, 'description': 'Nvwa creates a block at the expected position preventing enemies to go through during 3s. When disappearing or if another of her ability hit the area, it will explode dealing 500/580/660/740（+80% Magic）magic damages to nearby enemies. Whenever she gains 100 Magic, the box duration will increase by 0.2s. (Max 4 boxes at the same time)'
+              'id': 'create_order', 'name': 'Order: create', 'cn_name':'指令：创造', 'cooldown': 0, 'cost': 40,
+              'description': '女娲 creates a block at the expected position preventing enemies to go through during 3s. When disappearing or if another of her ability hit the area, it will explode dealing 500/580/660/740（+80% Magic）magic damages to nearby enemies. Whenever she gains 100 Magic, the box duration will increase by 0.2s. (Max 4 boxes at the same time)'
             },
             {
-              'id': 'move_order', 'name': 'Order: move', 'cn_name':'指令：迁跃', 'cooldown': '50/45/40/35', 'cost': 100, 'description': 'Nvwa will teleport to the designated place after a short chant dealing 500/560/620/680（+65% Magic）magic damages to nearby enemies. Passive she will gain a shield from from enemies touched protecting her from 400/480/560/640（+80% Magic）damages from these enemies. When the shield takes damages Nvwa gain 30% move speed for 2s'
+              'id': 'move_order', 'name': 'Order: move', 'cn_name':'指令：迁跃', 'cooldown': '50/45/40/35', 'cost': 100,
+              'description': '女娲 will teleport to the designated place after a short chant dealing 500/560/620/680（+65% Magic）magic damages to nearby enemies. Passive she will gain a shield from from enemies touched protecting her from 400/480/560/640（+80% Magic）damages from these enemies. When the shield takes damages Nvwa gain 30% move speed for 2s'
             },
             {
-              'id': 'destroy_order', 'name': 'Order destroy', 'cn_name':'指令：毁灭', 'cooldown': '50/40/30', 'cost': 120, 'description': 'Nvwa release a bolt of energy in the direction after a short incantation dealing 700/1050/1400（+88% Magic）magic damages'
+              'id': 'destroy_order', 'name': 'Order destroy', 'cn_name':'指令：毁灭', 'cooldown': '50/40/30', 'cost': 120,
+              'description': '女娲 release a bolt of energy in the direction after a short incantation dealing 700/1050/1400（+88% Magic）magic damages'
             },
           ]
         },
@@ -973,19 +994,23 @@
           ]
         },
         {
-          'name': 'wangzhaojun', 'types': ['mage'], 'ready':1,
+          'name': 'wangzhaojun', 'cn_name': '王昭君', 'types': ['mage'], 'ready':1,
           'skills': [
             {
-              'id': 'frozen_heart', 'name': 'Frozen heart', 'description': 'Passive: When out of combat for 3s WangZhaoJun will get an ice shield protecting 450 (+ 52% of her magic) damages. Upon breaking the shield will deal 450 (+52% magic) damage to nearby enemies and slow them down 1s at 50% of their move speed '
+              'id': 'frozen_heart', 'name': 'Frozen heart', 'cn_name': '冰封之心',
+              'description': 'Passive: When out of combat for 3s 王昭君 will get an ice shield protecting 450 (+ 52% of her magic) damages. Upon breaking the shield will deal 450 (+52% magic) damage to nearby enemies and slow them down 1s at 50% of their move speed '
             },
             {
-              'id': 'withering_cristals', 'name': 'Withering cristals', 'cooldown': 5, 'mana': 80, 'description': 'WangZhaoJun creates a burst of ice dealing 400/480/560/640/720/800（+65%法术加成）magic damage and slowing affected enemies 2s for 50% of theirmovement speed.'
+              'id': 'withering_cristals', 'name': 'Withering cristals', 'cn_name': '凋零冰晶', 'cooldown': 5, 'mana': 80,
+              'description': '王昭君 creates a burst of ice dealing 400/480/560/640/720/800（+65%法术加成）magic damage and slowing affected enemies 2s for 50% of theirmovement speed.'
             },
             {
-              'id': 'frost_coffin', 'name': 'Frost coffin', 'cooldown': 5, 'mana': 80, 'description': 'WangZhaoJun will create a pillar of ice after a small cooldown on the designated area dealing 250/280/310/340/370/400（+47% magic）magic damages. targets in range upon trigger will be frozen for 2.5s. They will also suffer of 250/280/310/340/370/400（+50%magix damage）form WangZhaoJun',
+              'id': 'frost_coffin', 'name': 'Frost coffin', 'cn_name': '禁锢寒霜', 'cooldown': 5, 'mana': 80,
+              'description': '王昭君 will create a pillar of ice after a small cooldown on the designated area dealing 250/280/310/340/370/400（+47% magic）magic damages. targets in range upon trigger will be frozen for 2.5s. They will also suffer of 250/280/310/340/370/400（+50%magix damage）form WangZhaoJun',
             },
             {
-              'id': 'winter_coming', 'name': 'Winter is coming', 'cooldown': 50/45/40, 'mana': 150, 'description': 'Ultimate: WangZhaoJun will trigger a blizzard at her position dealing 300/375/450（+50% magic）magic damages every 0.5s for 4.7s to enemies in range and slowing them of 30% of their move speed for 1s. She will also gain her Ice shield upon trigger blocking 600 Physical damages.'
+              'id': 'winter_coming', 'name': 'Winter is coming', 'cn_name': '凛冬已至', 'cooldown': '50/45/40', 'mana': 150,
+              'description': 'Ultimate: 王昭君 will trigger a blizzard at her position dealing 300/375/450（+50% magic）magic damages every 0.5s for 4.7s to enemies in range and slowing them of 30% of their move speed for 1s. She will also gain her Ice shield upon trigger blocking 600 Physical damages.'
             },
           ]
         },
@@ -1228,19 +1253,23 @@
           ]
         },
         {
-          'name': 'zhongwuyan', 'types': ['tank'], 'ready':1,
+          'name': 'zhongwuyan', 'cn_name': '钟无艳', 'types': ['tank'], 'ready':1,
           'skills': [
             {
-              'id': 'jin_smelting', 'name': 'Jin\'s dynasty smelting', 'description': 'Passive: when hit by an enemy the attacker have 50% chance of being stoned for 1s. A hero cannot be affected more than once every 8s.'
+              'id': 'jin_smelting', 'name': 'Jin\'s dynasty smelting', 'cn_name': '石之炼金',
+              'description': 'Passive: when hit by an enemy the attacker have 50% chance of being stoned for 1s. A hero cannot be affected more than once every 8s.'
             },
             {
-              'id': 'hurricane_dash', 'name': 'Hurricane dash', 'cooldown': 5, 'mana': 50, 'description': 'ZhongWuYuan rush in the specified direction. Her next attack will deal 225/270/315/360/405/450（+120% Physical）physical damage and leave the target stunned for 2s'
+              'id': 'hurricane_dash', 'name': 'Hurricane dash', 'cn_name': '狂飙突进', 'cooldown': 5, 'mana': 50,
+              'description': '钟无艳 rush in the specified direction. Her next attack will deal 225/270/315/360/405/450（+120% Physical）physical damage and leave the target stunned for 2s'
             },
             {
-              'id': 'intimidation_hit', 'name': 'Intimidation hit', 'cooldown': '10/9/8/7/6/5', 'mana': 70, 'description': 'ZhongwuYuna slam her sledehammer on the ground dealing 350/420/490/560/630/700（+150% Physical）physical damages to target in range. Targets in the center will suffer double damages'
+              'id': 'intimidation_hit', 'name': 'Intimidation hit', 'cn_name': '震慑打击', 'cooldown': '10/9/8/7/6/5',
+              'mana': 70, 'description': '钟无艳 slam her sledehammer on the ground dealing 350/420/490/560/630/700（+150% Physical）physical damages to target in range. Targets in the center will suffer double damages'
             },
             {
-              'id': 'hurricane_hammer', 'name': 'Hurricane hammer', 'cooldown': '40/35/30', 'mana': 100, 'description': 'Ultimate: ZhongwuYan turn with her hammer for 3.2s dealing 150/200/250（+80%物理加成）physical damage every 0.4s. Enemy in the outer range will receive an additional 40% damage. Passive: ZhongwuYan summon a rock shield protecting her from 80/120/160(+35% Physical) damages.'
+              'id': 'hurricane_hammer', 'name': 'Hurricane hammer', 'cn_name': '飓风之锤', 'cooldown': '40/35/30',
+              'mana': 100, 'description': 'Ultimate: 钟无艳 turn with her hammer for 3.2s dealing 150/200/250（+80%物理加成）physical damage every 0.4s. Enemy in the outer range will receive an additional 40% damage. Passive: ZhongwuYan summon a rock shield protecting her from 80/120/160(+35% Physical) damages.'
             },
           ]
         },
