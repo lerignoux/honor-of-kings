@@ -30,6 +30,11 @@
         $scope.contents = [{heading:"Error",description:"Could not load json   data"}];
       });
 
+      $scope.filterType = function(type) {
+        $scope.typeFilter = {'types': type};
+        console.log($scope.typeFilter);
+      }
+
       $scope.selectHero = function(hero) {
         $scope.selection = hero;
       };

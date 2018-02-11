@@ -31,10 +31,10 @@
 								<p>
 									Hope you'll find it useful.<b>
 								</p>
+								<span ng-repeat="type in types">
+									<a href="#heroes" class="scrolly" ng-click="filterType(type)"><img src="images/{{type}}.svg" height="128" alt="{{type}}"/></a>
+								</span>
 							</header>
-							<footer>
-								<a href="#heroes" class="button circled scrolly">See</a>
-							</footer>
 						</div>
 
 					<!-- Nav -->
@@ -62,7 +62,7 @@
 				<section class="carousel">
 					<div class="reel" id="heroes">
 
-						<article ng-repeat="hero in heroes | filter:{ ready: 1} | filter:{types: filter}">
+						<article ng-repeat="hero in heroes | filter:{ ready: 1} | filter:typeFilter">
 							<div class="clickArea" ng-click="selectHero(hero)">
 								<div class="image featured"><img ng-src="{{getHeroImage(hero)}}" alt=""/></div>
 								<p class="card_header">
@@ -239,6 +239,7 @@
 											<li>Honor of kings</li>
 											<li>&copy; Design: <a href="http://html5up.net">HTML5 UP</a></li>
 											<li>&copy; Graphicals assets: <a href="http://pvp.qq.com">Tencent group's QQ 王者荣耀</a></li>
+											<div>&copy; Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a>, <a href="https://www.flaticon.com/authors/prosymbols" title="Prosymbols">Prosymbols</a>, <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> and <a href="https://www.flaticon.com/authors/twitter" title="Twitter">Twitter</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
 										</ul>
 									</div>
 
