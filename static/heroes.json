@@ -380,19 +380,23 @@
     ]
   },
   {
-    "name": "gongsunche", "types": [], "ready":0,
+    "name": "gongsunchi", "cn_name": "公孙离", "types": [], "ready":1,
     "skills": [
       {
-        "id": "night_whisper", "name": "Dream eater", "description": "Passive: "
+        "id": "night_whisper", "name": "Dream eater", "cn_name": "晚云落",
+        "description": "Passive: whenever hitting an enemy 1 stack is added. 4 stack trigger an explosion, adding a new stack, dealing 150（+80% Phys）magic damages to nearby enemies and slowing their cooldown recovery by 1s. When triggering an ability or recovering her umbrella 阿离 send an additional knife dealing 30% Physical additional damage"
       },
       {
-        "id": "cens_moon", "name": "linger in dreamland", "description": ""
+        "id": "cens_moon", "name": "linger in dreamland", "cn_name": "岑中归月", "cooldown": "10/9.4/8.8/8.2/7.6/7", "mana": 50,
+        "description": "阿离 wink at a direction, sending there her umbrella if she has it. Passive: when triggering her ability 阿离 can trigger it a second time to go to her umbrella spot. When she does not have her umbrella 阿离 gain 50 points move speed but has 20% reduced damages."
       },
       {
-        "id": "frost_dance", "name": "dreamland crying", "description": ""
+        "id": "frost_dance", "name": "dreamland crying", "cn_name": "霜叶舞", "cooldown": 12, "mana": 60,
+        "description": "If she has her umbrella 阿离 fly with it dealing to enemies in range twice 120/144/168/192/216/240（+40% Phys）magical damages. Passive: when triggering her ability 阿离 can trigger it a second time to go to her umbrella spot. When she does not have her umbrella 阿离 gain 50 points move speed but has 20% reduced damages."
       },
       {
-        "id": "lonely_duck_cloud", "name": "dreamland vortex", "description": "Ultimate: "
+        "id": "lonely_duck_cloud", "name": "dreamland vortex", "cn_name": "孤鹜断霞", "cooldown": "30/25/20", "mana": 90,
+        "description": "Ultimate: rush back from her front enemy dealing 250/375/500（+80% Phys）magic damages sending her umbrella in designated direction if she has it. Passive: when triggering her ability 阿离 can trigger it a second time to go to her umbrella spot. When she does not have her umbrella 阿离 gain 50 points move speed but has 20% reduced damages."
       }
     ]
   },
