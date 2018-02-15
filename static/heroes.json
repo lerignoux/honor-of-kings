@@ -275,19 +275,23 @@
     ]
   },
   {
-    "name": "diaochan", "types": ["mage"], "ready":0,
+    "name": "diaochan", "cn_name": "貂蝉", "types": ["mage"], "ready":1,
     "skills": [
       {
-        "id": "flower_print", "name": "Dialect: flower print", "description": "Passive: "
+        "id": "flower_print", "name": "Dialect: flower print", "cn_name": "语·花印",
+        "description": "Passive: When hitting an enemy with an ability  leave a mark on him for 8s. after 4 marks  recover 100 hit points. It will also damage enemy for 160 (+64 Mag) true damages and lower their movement speed by 90% for 1.5s."
       },
       {
-        "id": "red_rain", "name": "linger in dreamland", "description": ""
+        "id": "red_rain", "name": "Fall: Red rain", "cn_name": "落·红雨", "cooldown": 5, "mana": 50,
+        "description": " will send a flower ball. It will fly a while and then come back. each enemy touched wii get 180/220/260/300/340/380 (+57% Mag) magic damages."
       },
       {
-        "id": "sorrow", "name": "dreamland crying", "description": ""
+        "id": "fate_rancor", "name": "Fate: rancor", "cn_name": "缘·心结", "cooldown": 10, "mana": 50,
+        "description": " will appear immediatly at the position throwing three balls targeting closest enemies. Each ball deals 140/155/170/185/200/215 (+24% Mag) magic damages. If the ball hit enemies,  cooldown will be reduced by 4s"
       },
       {
-        "id": "dreamland_vortex", "name": "dreamland vortex", "description": "Ultimate: "
+        "id": "burst_magnificent", "name": "Burst: magnificent", "cn_name": "绽·风华", "cooldown": "40/35/30", "mana": "80",
+        "description": "Ultimate:  will great a burst at the given position dealing upon start and end 210/245/280 (+50% Mag)magic damages. Red rain and Fate rancor triggered within will have reduced cooldown"
       }
     ]
   },
@@ -1152,19 +1156,23 @@
     ]
   },
   {
-    "name": "yuji", "types": ["archer"], "ready":0,
+    "name": "yuji", "cn_name": "虞姬", "types": ["archer"], "ready": 1,
     "skills": [
       {
-        "id": "tree_god_blessing", "name": "Dream eater", "description": "Passive: "
+        "id": "tree_god_blessing", "name": "Tree god blessing", "cn_name": "树神佑护", "cooldown": "", "mana": "",
+        "description": "Passive: After entering combat, next attack will deal an additional 200(+200% Phsy) physical damages and slow the target move speed by 90% for 1.5s."
       },
       {
-        "id": "rise", "name": "linger in dreamland", "description": ""
+        "id": "rise", "name": "Rise", "cn_name": "楚歌起", "cooldown": 5, "mana": 50,
+        "description": "will thrown a spear in the given direction dealing 365/475/585/695/805/915 (+180% Phys) physical damages. Each hero hit afterwards will recived 15% less damage than the previous for a minimum of 40%."
       },
       {
-        "id": "gale", "name": "dreamland crying", "description": ""
+        "id": "gale", "name": "Gale", "cn_name": "大风来", "cooldown": "15/14/13/12/11/10", "mana": 80,
+        "description": " gain 30/36/42/48/54/60% move speed for 2s During this time will avoid all physical damages. Other  abilities will cancel this effect."
       },
       {
-        "id": "front_wave_dance", "name": "dreamland vortex", "description": "Ultimate: "
+        "id": "front_wave_dance", "name": "Front wave dance", "cn_name": "阵前舞", "cooldown": "20/17/14", "mana": 100,
+        "description": "Ultimate:  will jump at her target stunning it for 0.5s. She will afterwards leap backwards sending in her target direction to projectiles dealing 220/280/340 (+120 Phys) physical damages. At her leap point,  is immuned to crowd control."
       }
     ]
   },
