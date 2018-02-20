@@ -126,23 +126,23 @@
     ]
   },
   {
-    "name": "buzhihuowu", "types": ["mage"], "ready":0,
+    "name": "buzhihuowu", "cn_name": "不知火舞", "types": ["mage"], "ready":1,
     "skills": [
       {
-        "id": "bear", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "bear", "name": "Bear", "cn_name": "忍蜂",
+        "description": "Passive: After entering combat 不知火舞 next basic attack gain 100（+100% Mag）magic damages and will repel the target. 不知火舞 abilities roll upon ending and 不知火舞 will gain 50% move speed for 0.5s."
       },
       {
-        "id": "circling_flame", "name": "", "cn_name": "",
-        "description": ""
+        "id": "circling_flame", "name": "Circling flame", "cn_name": "飞翔龙炎阵", "cooldown": "10/9.2/8.4/7.6/6.8/6", "mana": 70,
+        "description": "不知火舞 will rise in the air dealing 550/620/690/760/830/900（+73% Mag）magic damages to enemies in range. She will fly for 0.75s and recover 25 Health if a target is hit."
       },
       {
-        "id": "fan_slap", "name": "", "cn_name": "",
-        "description": ""
+        "id": "fan_slap", "name": "Fan slap", "cn_name": "花蝶扇", "cooldown": "4/3.6/3.2/2.8/2.4/2", "mana": 40,
+        "description": "不知火舞 send her fan dealing 500/590/680/770/860/950（+100% Mag）magic damags to the first enemy hit. It will also reduce target speed by 90% for 1s and reduce it's magic resist by 50/100/150/200/250/300 for 3s. Upon hit 不知火舞 will recover 25 Life."
       },
       {
-        "id": "certain_death", "name": "", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "certain_death", "name": "Certain death", "cn_name": "必杀·忍蜂", "cooldown": "25/22.5/20", "mana": 110,
+        "description": "Ultimate: 不知火舞 dash forward dealing 800/1000/1200（+110%法术加成）magic damages to enemies and reducing their damages by 20%/25%/30%.不知火舞 will recover 25 life if she hits an enemy."
       }
     ]
   },
@@ -910,23 +910,23 @@
     ]
   },
   {
-    "name": "mengji", "cn_name": "", "types": ["tank", "soldier"], "ready":0,
+    "name": "mengji", "cn_name": "梦奇", "types": ["tank"], "ready":1,
     "skills": [
       {
-        "id": "dream_eater", "name": "Dream eater",
-        "description": "Passive: "
+        "id": "dream_eater", "name": "Dream eater", "cn_name": "食梦",
+        "description": "Passive: 梦奇 progressively absorb surrounding nightmares to get bigger. On his fat form he gets 100 more power for 20s. In this form his attacks and abilities range are increased, he gets 150 more physical damages, 200 physical and magical reistance, 92 more health recovery and 200 move speed. Using abilities consume his power. In small form every 3rd basic attack deals more damage to enemies."
       },
       {
-        "id": "dreamland_linger", "name": "Linger in dreamland",
-        "description": ""
+        "id": "dreamland_linger", "name": "Linger in dreamland", "cn_name": "梦境萦绕", "cooldown": 3, "mana": 30,
+        "description": "梦奇 get a shield preventing 525/630/735/840/945/1050（+120% Mag）damages. When appearing nearby enemies are dealt 350/420/490/560/630/700（+80% Mag）magic damages and slowed by 50% for 1.5s. 7s after trigger every 梦奇 third attack recover 5 power"
       },
       {
-        "id": "dreamland_crying", "name": "Dreamland crying",
-        "description": ""
+        "id": "dreamland_crying", "name": "Dreamland crying", "cn_name": "梦境挥洒", "cooldown": 5, "mana": 40,
+        "description": "梦奇 send a receptacle dealing 200/250/300/350/400/450（+45% Mag）magic damages. The nightmare contained will remain on the floor 5s dealing every 0.5s 100/125/150/175/200/225（+22% Mag）magic damages and reduing enemy speed inside of 30% move speed. If 梦奇 touches the area he recover 2 nightmares"
       },
       {
-        "id": "dreamland_vortex", "name": "Dreamland vortexs",
-        "description": "Ultimate: "
+        "id": "dreamland_vortex", "name": "Dreamland vortexs", "cn_name": "梦境漩涡", "cooldown": "40/35/30",
+        "description": "Ultimate: 梦奇 creates a nightmare whirlpool at the position. It deals 150/225/300（+30% Mag）magic damages every 0.5s to enemy within and lower their move speed by 50%. Upon ending or on trigger, will be transported to the location and deal 300/450/600（+60% Mag）magic damages and making them fly for 1s. This can be interrupted and in that case get 1/3 of the cooldown. 梦奇 needs 1/3 of his power to be transported. Passive: When an enemy his hit by nightmares he get a stask of it. Each one lessening his magic resistance by 8% up to 5 stacks."
       }
     ]
   },
