@@ -1145,23 +1145,23 @@
     ]
   },
   {
-    "name": "sunwukong", "cn_name": "", "types": ["warrior"], "ready":0,
+    "name": "sunwukong", "cn_name": "孙悟空", "types": ["warrior"], "ready": 1,
     "skills": [
       {
-        "id": "god_power", "name": "God power", "cn_name": "",
-        "description": "Passive: "
+        "id": "god_power", "name": "God Power", "cn_name": "大圣神威",
+        "description": "Passive: Each time 孙悟空 trigger an ability his next attack gain strength dealing 210 (+140% Phys) physical damages if it hits. 孙悟空 have 20% more chance to trigger critical attacks but they deal only 150% damages."
       },
       {
-        "id": "magical_body_protection", "name": "Magical body protection", "cn_name": "",
-        "description": ""
+        "id": "magical_body_protection", "name": "Magical body protection", "cn_name": "护身咒法", "cooldown": "12/11.6/11.2/10.8/10.4/10", "mana": 80,
+        "description": "孙悟空 get a protection blocking an ability for at most 1s. If triggered he gains for 0.25s unrivaled ability protecting up. To 500/600/700/800/900/1000 health damages during 4s.孙悟空 will also get 40% increased speed after trigger "
       },
       {
-        "id": "charge", "name": "Charge", "cn_name": "",
-        "description": ""
+        "id": "charge", "name": "Charge", "cn_name": "斗战冲锋", "cooldown": "8/7.4/6.8/6.2/5.6/5", "mana": 60,
+        "description": "孙悟空 will charge in the given direction and jump on the first enemy met. attacking or using an ability stop the charge."
       },
       {
-        "id": "goldband_wish", "name": "Goldband wish", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "goldband_wish", "name": "Goldband wish", "cn_name": "如意金箍", "cooldown": "40/35/30", "mana": 150,
+        "description": "Ultimate: 孙悟空 summon his goldband stick dealing 150/190/230（+50% Phys）physical damages to enemies in the area and stunning them for 1s. it also marks enemies nearby with 3 marks each.孙悟空 attacks on a marked target will consume one mark and deal an additional 120~450 physical damages (damage is increased according to the hero level)"
       }
     ]
   },
