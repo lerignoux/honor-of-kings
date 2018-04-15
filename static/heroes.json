@@ -1313,6 +1313,27 @@
     ]
   },
   {
+    "name": "yangyuhuan", "cn_name": "杨玉环", "types": ["mage"], "ready":1,
+    "skills": [
+      {
+        "id": "graceful_move", "name": "Graceful move", "cn_name": "惊鸿调",
+        "description": "Passive: When switching song 杨玉环 get different effects. Destruction: All enemies in a 800 range suffer 75 (+15% Mag) magic damages, minions suffer an additional 75% damages. serenity: all allies within 800 range get 50 (+10% Mag) health upon trigger"
+      },
+      {
+        "id": "nichang_song", "name": "Nichang song", "cn_name": "霓裳曲", "cooldown": 5, "mana": 50,
+        "description": "杨玉环 send 3 sound waves. Each will slowly move toward nearby enemi and deal 200/240/280/320/360/400（+33% Mag）magic damages and lessen move speed by 50% for 1s. After release 杨玉环 next attack will deal an additional 225/270/315/360/405/450（+36% Mag）magic damages and lessen 杨玉环 cooldows by 1s."
+      },
+      {
+        "id": "hu_melody", "name": "Hu melody", "cn_name": "胡旋乐", "cooldown": "5/14/13/12/11/10", "mana": 70,
+        "description": "杨玉环 will gain 50% move speed for 1.5s. after 1.5s enemies within 600~800 from 杨玉环 will suffer 250/300/350/400/450/500（+40% Mag）magic damages and be stunned for 0.75s."
+      },
+      {
+        "id": "sorrow_song", "name": "Sorrow's song", "cn_name": "长恨歌", "cooldown": "60/55/50", "mana": 100,
+        "description": "杨玉环 jump in the air becoming untargetable. At the end of the song, allies within 500 will recover 750/1100/1450（+80% Mag）health and enemies will suffer 500/750/1000（+75% Mag）magic damages"
+      }
+    ]
+  },
+  {
     "name": "yangjian", "cn_name": "", "types": ["warrior"], "ready":0,
     "skills": [
       {
