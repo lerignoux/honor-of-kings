@@ -21,107 +21,107 @@
     ]
   },
   {
-    "name": "anqila", "cn_name": "", "types": [], "ready":0,
+    "name": "anqila", "cn_name": "安琪拉", "types": ["mage"], "ready":0,
     "skills": [
       {
-        "id": "fire_magic", "name": "Fire Magic", "cn_name": "",
-        "description": "Passive: "
+        "id": "fire_magic", "name": "Fire Magic", "cn_name": "咒术火焰",
+        "description": "Passive: 安琪拉的技能会灼烧敌人，每层灼烧效果会造成11（+2%法术加成）点法术伤害，灼烧效果最多叠加10层"
       },
       {
-        "id": "fireball", "name": "Fireball", "cn_name": "",
-        "description": ""
+        "id": "fireball", "name": "Fireball", "cn_name": "火球术", "cooldown": 6, "mana": 70,
+        "description": "安琪拉召唤5颗火球朝指定位置攻击，每颗火球对敌人造成350/390/430/470/510/550（+30%法术加成）点法术伤害，当多颗火球命中同一目标时，从第二颗火球开始将只造成30%伤害，当火球命中敌方英雄时会停止移动并销毁"
       },
       {
-        "id": "chaos_spark", "name": "Chaos Spark", "cn_name": "",
-        "description": ""
+        "id": "chaos_spark", "name": "Chaos Spark", "cn_name": "混沌火种", "cooldown": "10/9.6/9.2/8.8/8.4/8", "mana": 80,
+        "description": "安琪拉朝指定方向释放混沌火种，火种会在命中敌人或飞行到最远距离时裂变为火焰漩涡，火焰漩涡会继续缓慢的向前飞行并且每0.5秒对周围的敌人造成130/145/160/175/190/205（+17%法术加成）点法术伤害，持续3秒；同时范围内的敌人会减少50%移动速度，持续1.5秒；当火种直接命中敌人时还会将其晕眩1秒"
       },
       {
-        "id": "blazing_radiance", "name": "Blazing Radiance", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "blazing_radiance", "name": "Blazing Radiance", "cn_name": "炽热光辉", "cooldown": "30/26/22", "mana": 120,
+        "description": "Ultimate: 安琪拉引导魔力朝指定方向释放炽热光辉，持续3秒，对触碰的敌人每0.3秒造成150/190/230（+21%法术加成）点法术伤害并获得可抵免600/900/1200（+80%法术加成）点伤害的炽热护盾，护盾存在期间不会受到控制效果，施法1秒后再次释放该技能可以取消引导"
       }
     ]
   },
   {
-    "name": "bailishouyue", "cn_name": "", "types": ["archer"], "ready":0,
+    "name": "bailishouyue", "cn_name": "百里守约", "types": ["archer", "assassin"], "ready":0,
     "skills": [
       {
-        "id": "aim", "name": "Aim", "cn_name": "",
-        "description": "Passive: "
+        "id": "aim", "name": "Aim", "cn_name": "瞄准",
+        "description": "Passive: 被动：百里守约的普通攻击会造成180%物理加成点物理伤害，但攻击间隔更长且无法暴击；百里守约每获得1%暴击几率就会将其转化为3点物理攻击力；非战斗状态下，百里守约能够隐匿在地形边缘，进入伪装状态，并增加16%~30%移动速度，移动速度随英雄等级成长"
       },
       {
-        "id": "quiet_eye", "name": "Quiet eye", "cn_name": "",
-        "description": ""
+        "id": "quiet_eye", "name": "Quiet eye", "cn_name": "静谧之眼", "cooldown": 1.5, "mana": 30,
+        "description": "百里守约在脚下布置一个视野装置，获得600~1000范围的全部视野，随技能等级成长；视野装置每50/48/46/44/42/40秒可准备1个，最多储备3个；同时最多放置3个视野装置，每个视野装置可持续300秒；视野装置被敌方英雄占领后失效；百里守约普通攻击和技能对探测视野内的野怪会额外造成伤害；被动：原地不动时百里守约每秒获得1层伏击效果，每层伏击效果会增加7/8/9/10/11/12%物理穿透，最多叠加5层；移动后伏击效果消失"
       },
       {
-        "id": "gale_rest", "name": "Gale Rest", "cn_name": "",
-        "description": ""
+        "id": "gale_rest", "name": "Gale Rest", "cn_name": "狂风之息", "cooldown": 1.5, "mana": 60,
+        "description": "百里守约开始瞄准，并尝试进行一次狙击，对命中目标造成1050/1200/1350/1500/1650/1800（+250%额外物理加成）点物理伤害并减少其90%移动速度，持续0.5秒；瞄准需要花费2秒的时间，但在瞄准未完成时子弹有可能产生偏移；技能子弹每16秒获得一颗，最多储存3颗（受冷却缩减影响）"
       },
       {
-        "id": "escape", "name": "Escape", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "escape", "name": "Escape", "cn_name": "逃脱", "cooldown": "25/20/15", "mana": 100,
+        "description": "Ultimate: 百里守约向后跳跃并向指定方向射击，造成500/700/900（+168%物理加成）点物理伤害并减少其50%移动速度，持续2秒；落地后自身将增加30%移动速度，持续2秒，但普通攻击或技能攻击会立即停止增加移动速度"
       }
     ]
   },
   {
-    "name": "bailixuance", "cn_name": "", "types": ["assassin"], "ready":0,
+    "name": "bailixuance", "cn_name": "百里玄策", "types": ["assassin"], "ready":0,
     "skills": [
       {
-        "id": "fanatical_order", "name": "Fanatical Order", "cn_name": "",
-        "description": "Passive: "
+        "id": "fanatical_order", "name": "Fanatical Order", "cn_name": "狂热序章",
+        "description": "Passive: 钩链近端造成80%物理加成点物理伤害，远端额外造成50%伤害。玄策普通攻击将会触发神乎钩镰的效果且有25%的概率造成暴击，当钩镰远端命中敌人时降低移速，并且自身会获得短暂移速提升，该效果受神乎钩镰等级影响"
       },
       {
-        "id": "god_hook", "name": "God Hook", "cn_name": "",
-        "description": ""
+        "id": "god_hook", "name": "God Hook", "cn_name": "神乎钩镰", "cooldown": "5/4.8/4.6/4.4/4.2/4", "mana": 50,
+        "description": "玄策进行快速位移戏弄对手增加自身25/30/35/40/45/50点物理攻击力，钩镰链中时，玄策进行快速位移会将链中的目标向自己移动方向拉动一小段距离。当钩镰远端命中敌人时，敌人将会减少10%/14%/18%/22%/26%/30%移动速度，自身增加10%/14%/18%/22%/26%/30%移动速度"
       },
       {
-        "id": "nightmare_lock", "name": "Nightmare Lock", "cn_name": "",
-        "description": ""
+        "id": "nightmare_lock", "name": "Nightmare Lock", "cn_name": "梦魇钩锁", "cooldown": "10/9.6/9.2/8.8/8.4/8.0", "mana": 70,
+        "description": "玄策舞动钩镰，蓄力后将钩镰向指定方向甩出，钩镰会对路径上的敌人造成400/480/560/640/720/800(+200%额外物理加成)点物理伤害并捆绑在回收过程中命中的第一个目标，同时对捆绑目标施加狩猎效果；如果捆绑住目标后再次释放该技能，玄策会将目标甩向身后并失去狩猎效果;蓄力越久，钩镰飞行距离越远，蓄力最多持续4秒；蓄力时，自身将增加30%移动速度；取消蓄力会减少梦魇钩锁60%的冷却时间；玄策和狩猎目标作战时将增加10%/12%/14%/16%/18%/20%伤害并减少20%/22%/24%/26%/28%/30%该目标对自己的伤害；狩猎目标死亡，将立刻刷新梦魇钩锁的冷却时间"
       },
       {
-        "id": "shans_wink", "name": "Shan\"s wink", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "shans_wink", "name": "Shan\"s wink", "cn_name": "瞬镰闪", "cooldown": "2.5/2.3/2.0", "mana": 80,
+        "description": "Ultimate: 玄策沿钩镰锁链瞬镰闪到对方身后，对路径的的敌人造成350/525/700（+200%额外物理加成）点物理伤害；移动过程中，玄策挥舞短镰，将会减少50%所受到的伤害；瞬镰闪只有在钩镰捆绑住目标时才能释放；被动:玄策助攻或击杀死英雄都会激发心中的狂血使得移速增加70%（随时间效果衰减），攻速增加75%，持续5秒"
       }
     ]
   },
   {
-    "name": "baiqi", "cn_name": "", "types": ["tank", "soldier"], "ready":0,
+    "name": "baiqi", "cn_name": "白起", "types": ["tank"], "ready":0,
     "skills": [
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "", "name": "", "cn_name": "反击之镰",
+        "description": "Passive: 白起的普通攻击和技能将会减少目标对白起造成5％~12％的伤害，持续3秒，减少幅度随英雄等级成长"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": ""
+        "id": "", "name": "", "cn_name": "血之回响", "cooldown": 7, "mana": 40,
+        "description": "白起回旋大镰血洗四方，对范围内的敌人造成150/200/250/300/350/400（+40％物理加成）（+3％最大生命值）点物理伤害，并回复2％已损失生命值，命中敌方英雄时会额外回复2％已损生命；被动：白起受伤时有20％几率释放血之回响"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": ""
+        "id": "", "name": "", "cn_name": "死神之镰", "cooldown": "14/13/12/11/10/9", "mana": 60,
+        "description": "白起在指定位置召唤镰刀，镰刀在一定延迟后收回，对范围内的敌人造成200/230/260/290/320/350（+100％物理加成）点法术伤害并将其拉回；同时敌人会减少50％移动速度，持续2.5秒；被动：白起对生命值低于30％的目标会额外造成30％伤害"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "", "name": "", "cn_name": "傲慢嘲讽", "cooldown": "40/35/30", "mana": 100,
+        "description": "Ultimate: 白起向指定位置跳跃，造成300/380/460（+100％物理加成）点法术伤害并嘲讽敌人，持续1/1.3/1.5秒；嘲讽时间会随着白起的额外生命值增加，每1000点额外生命值额外提供0.2秒嘲讽时长，最多持续2.5秒；期间受到生命回复效果提升100％；被动：白起受到攻击时会获得庇佑，增加10点移动速度与30/60/90点物理防御，持续3秒，最多叠加3层"
       }
     ]
   },
   {
-    "name": "bianque", "cn_name": "", "types": [], "ready":0,
+    "name": "bianque", "cn_name": "扁鹊", "types": ["mage"], "ready":0,
     "skills": [
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "", "name": "", "cn_name": "恶德医疗",
+        "description": "Passive: 扁鹊的普通攻击和技能都会附带剧毒，每秒造成25（+5%法术加成）点法术伤害，并叠加1层毒药印记，当友方英雄受到善恶诊断的治疗时，每秒回复5（+2%法术加成）点生命值，并叠加1层回复印记；毒药印记和恢复印记最多可叠加至多5层，持续7秒"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": ""
+        "id": "", "name": "", "cn_name": "致命灵药", "cooldown": 2, "mana": 40,
+        "description": "扁鹊朝指定目标范围扔出致命毒药瓶，毒液会残留原地，持续4秒，毒液每秒会对范围内的敌人造成70/76/82/88/94/100（+12%法术加成）点法术伤害并减少其30%移动速度，持续2秒；扁鹊每15/14.4/13.8/13.2/12.6/12秒可制作1瓶毒药，最多存放3瓶"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": ""
+        "id": "", "name": "", "cn_name": "善恶诊断", "cooldown": 5, "mana": 60,
+        "description": "扁鹊朝指定方向释放药剂，对路径上的敌人造成100/120/140/160/180/200（+30%法术加成）点法术伤害，并且对触碰的友军英雄施加恢复印记并回复50/60/70/80/90/100（+15%法术加成）点生命值"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "", "name": "", "cn_name": "生命主宰", "cooldown": "18/15/12", "mana": 130,
+        "description": "Ultimate: 扁鹊引爆附近所有印记，对敌人造成200/250/300（+40%法术加成）点法术伤害，对友军英雄治疗80/100/120（+20%法术加成）点生命值.每层印记额外增加50%的额外伤害与治疗效果。"
       }
     ]
   },
@@ -168,65 +168,66 @@
     ]
   },
   {
-    "name": "caocao", "cn_name": "", "types": [], "ready":0,
+    "name": "caocao", "cn_name": "曹操", "types": ["warrior"], "ready":0,
     "skills": [
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "", "name": "", "cn_name": "争霸",
+        "description": "Passive: 曹操每次施放技能会增加10%攻击速度，最多叠加5层，持续3秒"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": ""
+        "id": "", "name": "", "cn_name": "霸道之刃", "cooldown": "10/9.4/8.8/8.2/7.6/7",
+        "description": "曹操向指定方向发起斩击突袭，对路径上的敌人造成160/185/210/235/260/285（+84%物理加成）点物理伤害；最多可以发动3次，每次斩击间隔不能超过8秒，并且第三次斩击会将敌人击飞0.5秒
+"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": ""
+        "id": "", "name": "", "cn_name": "纵横天下", "cooldown": "12/11/10/9/8/7",
+        "description": "曹操剑指天下，向指定方向挥出强大剑气，对路径上的敌人造成240/300/360/420/480/540（+90%物理加成）点物理伤害并减少其50%移动速度，持续2秒；被动：普通攻击命中敌人时减少1秒纵横天下的冷却时间"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "", "name": "", "cn_name": "浴血枭雄", "cooldown": 30,
+        "description": "Ultimate: 曹操以鲜血意志强化大剑，持续8秒，施放时对附近敌人造成300/375/450（+100%物理加成）点物理伤害，强化的大剑会增加100/150/200物理攻击力和20%韧性；并且每次普通攻击或技能命中敌方将回复120/180/240（+40%物理加成）点生命值"
       }
     ]
   },
   {
-    "name": "chengjisihan", "cn_name": "", "types": ["archer"], "ready":0,
+    "name": "chengjisihan", "cn_name": "成吉思汗", "types": ["archer"], "ready":0,
     "skills": [
       {
-        "id": "hunt", "name": "Hut", "cn_name": "",
-        "description": "Passive: "
+        "id": "hunt", "name": "Hunt", "cn_name": "追猎",
+        "description": "Passive: 当成吉思汗穿越草丛时会增加40%移动速度，持续2秒，同时下一次普通攻击将变更为两连射，每支箭矢造成0（+65%物理加成）点物理伤害；两连射有4秒冷却时间"
       },
       {
-        "id": "eagle_eye", "name": "", "cn_name": "",
-        "description": ""
+        "id": "eagle_eye", "name": "Eagle eye", "cn_name": "鹰眼", "cooldown": "16/14/12/10/8/6", "mana": 80,
+        "description": "成吉思汗释放猎鹰侦查，照亮周围区域并获取其中敌人的视野，持续5秒；猎鹰还会朝指定方向飞行，获取沿途区域视野；每16秒可准备1只猎鹰，同时最多可拥有2只猎鹰；被动：箭矢对同一个目标的第三次攻击会额外造成80/160/240/320/400/480（+40%物理加成）点物理伤害"
       },
       {
-        "id": "trap", "name": "", "cn_name": "",
-        "description": ""
+        "id": "trap", "name": "Trap", "cn_name": "百兽陷阱", "cooldown": "10/9/8/7/6/5", "mana": 60,
+        "description": "成吉思汗向指定位置投掷陷阱，持续120秒，陷阱被敌人触碰后范围内敌人将减少30%移动速度并将暴露视野；短暂延迟后对区域内造成360/432/504/576/648/720（+120%物理加成）点物理伤害；每12秒可准备一枚陷阱，同时最多储备2个陷阱；未被触发的陷阱落地2秒后隐形"
       },
       {
-        "id": "violent_hunt", "name": "", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "violent_hunt", "name": "Violent hunt", "cn_name": "可汗狂猎", "cooldown": "5/4.5/4", "mana": 30,
+        "description": "Ultimate: 成吉思汗骑行中对敌人射出箭矢造成160/240/320（+100%物理加成）点物理伤害，箭矢可触发普通攻击的法球效果并可以暴击。每5秒可准备1只箭矢，同时最多可储备5只箭矢"
       }
     ]
   },
   {
-    "name": "chengyaojin", "cn_name": "", "types": [], "ready":0,
+    "name": "chengyaojin", "cn_name": "程咬金", "types": ["tank"], "ready":0,
     "skills": [
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "", "name": "", "cn_name": "舍生忘死",
+        "description": "Passive: 程咬金每损失1%最大生命值获得额外3～7点物理攻击力，增加幅度随英雄等级成长，并且程咬金释放普通技能会消耗当前8%的最大生命值，大招消耗16%的当前生命值；每次释放技能还会回复6%已损失生命值，回复过程持续3秒"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": ""
+        "id": "", "name": "", "cn_name": "爆裂双斧", "cooldown": "15/14.4/13.8/13.2/12.6/12",
+        "description": "程咬金向指定目标位置猛力一跃并挥动双斧斩击，对范围内敌人造成120/155/190/225/260/295（+50%物理加成）点物理伤害并造成50%的减速效果，持续2秒；被动：程咬金的普通攻击命中敌方英雄会减少1秒爆裂双斧的冷却时间"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": ""
+        "id": "", "name": "", "cn_name": "激热回旋", "cooldown": 5,
+        "description": "程咬金转动双斧劈砍敌人，对范围内的敌人造成两段伤害，每段造成125/150/175/200/225/250（+60%物理加成）点物理伤害"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-         "description": "Ultimate: "
+        "id": "", "name": "", "cn_name": "正义潜能", "cooldown": 30,
+         "description": "Ultimate: 程咬金迸发正义热情，每秒回复8%最大生命，同时增加移动速度30%，持续5秒"
       }
     ]
   },
@@ -252,23 +253,23 @@
     ]
   },
   {
-    "name": "damo", "cn_name": "", "types": [], "ready":0,
+    "name": "damo", "cn_name": "达摩", "types": ["warrior"], "ready":0,
     "skills": [
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "", "name": "", "cn_name": "真言·心经",
+        "description": "Passive: 达摩每次释放技能将会获得真言护体，每层真言增加80点物理防御，最多叠加3层；如果技能命中目标，下两次普通攻击将增加100%攻击速度，并会造成额外的（+30%物理加成）的物理伤害并回复60点生命值"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": ""
+        "id": "", "name": "", "cn_name": "真言·无相", "cooldown": 7, "mana": 45,
+        "description": "达摩往前冲刺挥出强力冲拳，对路径上的敌人造成200/240/280/320/360/400（+100%物理加成）点物理伤害并击飞目标0.5秒"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": ""
+        "id": "", "name": "", "cn_name": "真言·明王", "cooldown": "10/9.6/9.2/8.8/8.4/8", "mana": 60,
+        "description": "达摩快速朝指定方向连续打出五拳，每一拳造成75/90/105/120/135/150（+33%物理加成）点物理伤害并减少目标20/28/36/44/52/60点物理防御，最多叠加5层，持续5秒"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "", "name": "", "cn_name": "真言·普渡", "cooldown": "35/30/25", "mana": 100,
+        "description": "Ultimate: 达摩向指定方向挥出超强一拳，对附近的敌人造成150/225/300（+65%物理加成）点物理伤害并将敌人向该方向击退；被击退的敌人如果在飞行过程中触碰了地形边缘将会再次受到150/225/300（+65%物理加成）点物理伤害并晕眩1.5秒；成功将敌方击退至地形边缘可再次释放真言·普渡，再次释放时达摩会向指定方向飞踢，对路径上的敌人造成150/225/300（+65%物理加成）点物理伤害并附带目标已损生命值16%的额外伤害"
       }
     ]
   },
@@ -298,23 +299,23 @@
     ]
   },
   {
-    "name": "dianwei", "cn_name": "", "types": [], "ready":0,
+    "name": "dianwei", "cn_name": "典韦", "types": ["warrior"], "ready":0,
     "skills": [
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "", "name": "", "cn_name": "激怒",
+        "description": "Passive: 典韦每一次击败英雄或者助攻会增加1层激怒效果，每层激怒效果会增加典韦12点物理攻击力，最多叠20层"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": ""
+        "id": "", "name": "", "cn_name": "红眼", "cooldown": "9/8.6/8.2/7.8/7.4/7", "mana": 55,
+        "description": "暴怒的典韦践踏大地，对范围内敌人造成250/280/310/340/370/400（+100%物理加成）点物理伤害并减少其50%的移动速度，持续2秒，如果命中敌人将会突破自身极限，增加200%攻击速度和30%吸血效果，持续2秒"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": ""
+        "id": "", "name": "", "cn_name": "狂暴", "cooldown": "8/7.4/6.8/6.2/5.6/5", "mana": 65,
+        "description": "暴怒的典韦践踏大地，对范围内敌人造成250/280/310/340/370/400（+100%物理加成）点物理伤害并减少其50%的移动速度，持续2秒，如果命中敌人将会突破自身极限，增加200%攻击速度和30%吸血效果，持续2秒"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "", "name": "", "cn_name": "嗜血", "cooldown": "30/25/20", "mana": 130,
+        "description": "Ultimate: 典韦对锁定目标发起跳斩，造成300/375/450（+140%物理加成）点真实伤害并减少其50%的移动速度，持续3秒，同时会强化自身，对敌人造成的所有伤害附带目标最大生命3%的真实伤害，持续5秒"
       }
     ]
   },
@@ -340,116 +341,116 @@
     ]
   },
   {
-    "name": "direnjie", "cn_name": "", "types": [], "ready":0,
+    "name": "direnjie", "cn_name": "狄仁杰", "types": ["archer"], "ready":0,
     "skills": [
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "", "name": "", "cn_name": "迅捷",
+        "description": "Passive: 狄仁杰的普通攻击能够获得1层迅捷效果，每层迅捷效果会增加3％攻击速度和5％移动速度，最多叠加5层"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": ""
+        "id": "", "name": "", "cn_name": "逃脱", "cooldown": "8/7.6/7.2/6.8/6.4/6", "mana": 60,
+        "description": "狄仁杰向指定方向甩出六道令牌，对命中的目标造成65％物理加成点物理伤害和80/88/96/104/112/120（+20％法术加成）（+40％额外物理加成）点法术伤害，其中蓝牌只能造成50％的伤害，但蓝牌会减少目标90％移动速度，持续0.5秒，当同一目标受到多道令牌伤害，从第二道令牌开始伤害会衰减至初始伤害的70％，令牌可以触发普通攻击的法球效果；被动：狄仁杰持续使用普通攻击时，每两次普通攻击后下一次普通攻击将会随机强化为一张蓝牌或红牌"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": ""
+        "id": "", "name": "", "cn_name": "逃脱", "cooldown": "14/13.6/13.2/12.8/12.4/12", "mana": 70,
+        "description": "狄仁杰向周围掷出八道令牌，清除自身负面效果，增加25％移动速度，持续1秒，令牌的伤害和效果与六令追凶相同"
       },
       {
-        "id": "magnificent", "name": "", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "magnificent", "name": "", "cn_name": "王朝密令", "cooldown": "30/25/20", "mana": 100,
+        "description": "Ultimate: 狄仁杰向指定方向掷出一道金色密令，对命中的第一个敌方英雄造成300/375/450(+60％法术加成）（+120％额外物理加成）点物理伤害和300/375/450(60％法术加成）（+120％额外物理加成）点法术伤害，并将其晕眩1秒，同时会减少目标30％物理防御和法术防御，命中后会获得目标视野，持续5秒；期间友军向该目标移动时会增加10％移动速度"
       }
     ]
   },
   {
-    "name": "donghuangtaiyi", "cn_name": "", "types": ["tank"], "ready":0,
+    "name": "donghuangtaiyi", "cn_name": "东皇太一", "types": ["tank"], "ready":0,
     "skills": [
       {
-        "id": "freezing_bite", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "freezing_bite", "name": "", "cn_name": "暗冕之噬",
+        "description": "Passive: 东皇太一使用祭典创造出来的黑暗能量体极不稳定，敌人被黑暗能量体触碰到都会造成100（+敌方3%最大生命值）（50%法术加成）点法术伤害；每当黑暗能量体对敌方英雄造成伤害时，东皇太一将会回复100（自身最大生命3%）（+40%法术加成）点生命值，对敌人非英雄目标造成伤害时，东皇太一将会回复自身1%最大生命值"
       },
       {
-        "id": "daily_sacrifice", "name": "", "cn_name": "",
-        "description": ""
+        "id": "daily_sacrifice", "name": "", "cn_name": "日蚀祭典", "cooldown": 5, "mana": 60,
+        "description": "东皇太一释放力量，对周围造成300/360/420/480/540/600（+40%法术加成）点法术伤害并创造出黑暗能量体在身边环绕，同时最多存在3个；释放能量时，若对范围内敌人造成伤害，则会减少50%日蚀祭典的冷却时间；黑暗能量体的数量会影响曜龙烛兆的威力"
       },
       {
-        "id": "bright_dragon", "name": "", "cn_name": "",
-        "description": ""
+        "id": "bright_dragon", "name": "", "cn_name": "曜龙烛兆", "cooldown": 6, "mana": 75,
+        "description": "东皇太一每拥有1个黑暗能量体，就可召唤1条曜龙对指定方向进行范围冲击，每次冲击将造成500/600/700/800/900/1000（+60%法术加成）点法术伤害；第一次和第二次冲击范围内的敌人减少50%和90%移动速度，持续1秒；第三次冲击范围内的敌人将被眩晕1秒；释放时，自身将增加30%移动速度，持续1秒，并且每增加1个黑暗能量体将额外增加10%移动速度"
       },
       {
-        "id": "fall_agreement", "name": "", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "fall_agreement", "name": "", "cn_name": "堕神契约", "cooldown": "50/45/40", "mana": 100,
+        "description": "Ultimate: 东皇太一压制敌方英雄，同时在彼此间创造一个契约链接，持续2.5秒；当契约的双方的一方受到伤害时，另一方会受到同等的伤害；在强大的堕神契约下双方无法进行任何操作，也无法净化；堕神契约强大的能量溢出，东皇太一将直接获得三个黑暗能量体"
       }
     ]
   },
   {
-    "name": "ganjiangmoxie", "cn_name": "", "types": ["mage"], "ready":0,
+    "name": "ganjiangmoxie", "cn_name": "干将莫邪", "types": ["mage"], "ready":0,
     "skills": [
       {
-        "id": "united_flight", "name": "United flight", "cn_name": "",
-        "description": "Passive: "
+        "id": "united_flight", "name": "United flight", "cn_name": "比翼同心",
+        "description": "Passive: 释放飞剑技能时，莫邪都会配合干将飞出自己的雌剑，雌剑和雄剑呈对称状在一点交汇，造成同等伤害。干将莫邪普通攻击使用飞剑挥砍对方造成300（+25%法术加成）点法术伤害"
       },
       {
-        "id": "master_protection", "name": "Protection master", "cn_name": "",
-        "description": ""
+        "id": "master_protection", "name": "Protection master", "cn_name": "护主邪冢", "cooldown": "12/11/10/9/8/7", "mana": 80,
+        "description": "干将连续两次将剑冢用力向前推刺出并自身后移，剑冢造成300/350/400/450/500/550（+50%法术加成）点法术伤害并击飞击退敌人。剑冢击伤的敌人3秒内降低150/180/210/240/270/300点法术防御。被动：每次击败英雄或助攻，剑冢都为干将增加自身15点永久法术强度，最高20层"
       },
       {
-        "id": "male_female_closing", "name": "Male & Female closing", "cn_name": "",
-        "description": ""
+        "id": "male_female_closing", "name": "Male & Female closing", "cn_name": "雌雄双剑·近", "cooldown": 9, "mana": 45,
+        "description": "凌空成剑，释放雄剑，雄剑沿着曲型弹道飞行对敌方造成400/485/570/655/740/825（+40%法术加成）点法术伤害"
       },
       {
-        "id": "male_female_far", "name": "Male & Female distance", "cn_name": "",
-        "description": ""
+        "id": "male_female_far", "name": "Male & Female distance", "cn_name": "雌雄双剑·远", "cooldown": 9, "mana": 45,
+        "description": "凌空成剑，释放雄剑，雄剑沿着曲型弹道飞行对敌方造成400/485/570/655/740/825（+40%法术加成）点法术伤害"
       },
       {
-        "id": "strike", "name": "Strike", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "strike", "name": "Strike", "cn_name": "剑来", "cooldown": "40/35/30", "mana": 120,
+        "description": "Ultimate: 干将立刻刷新飞剑技能，并唤出更多的剑来强化下一次飞剑技能。被动：莫邪时刻观察着战场，将增加15%视野距离，每一股飞剑命中敌人减少剑来一秒CD"
       }
     ]
   },
   {
-    "name": "gaojianchi", "cn_name": "", "types": [], "ready":0,
+    "name": "gaojianchi", "cn_name": "高渐离", "types": ["mage"], "ready":0,
     "skills": [
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "", "name": "", "cn_name": "哀歌",
+        "description": "Passive: 高渐离的普通攻击或释放技能可视作一次演奏，每四次演奏后的下一次普通攻击将会向目标弹奏出带有击穿效果的能量和弦，造成300（+100%法术加成）的法术伤害"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": ""
+        "id": "", "name": "", "cn_name": "狂歌", "cooldown": 7, "mana": 80,
+        "description": "高渐离弹奏出音符，锁定附近至多2名敌人造成350/410/470/530/590/650（+47%法术加成）点法术伤害；音符命中敌人后，会向附近的敌人进行弹射，音符至多弹射2次；当多个音符命中同一目标时，从第二个音符开始将只造成30%伤害"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": ""
+        "id": "", "name": "", "cn_name": "离歌", "cooldown": "12/11/10/9/8/7", "mana": 70,
+        "description": "高渐离震慑琴弦，对附近敌人造成500/560/620/680/740/800（+65%法术加成）点法术伤害并减少其35%/40%/45%/50%/55%/60%移动速度，持续2秒"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "", "name": "", "cn_name": "魔音贯耳", "cooldown": "50/45/40", "mana": 140,
+        "description": "Ultimate: 高渐离释放激情，每0.5秒进行一次演奏，对附近敌人造成200/250/300（+15%法术加成）点法术伤害，持续5秒；演奏持续时自身会减少15%所收到的伤害，并且附近每个敌方英雄还将减少高渐离5%所收到的伤害；并且在演奏开始时自身会增加70%持续衰减的移动速度，持续3秒"
       }
     ]
   },
   {
-    "name": "gongbenwuzang", "cn_name": "", "types": [], "ready":0,
+    "name": "gongbenwuzang", "cn_name": "宫本武藏", "types": ["warrior"], "ready":0,
     "skills": [
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "", "name": "", "cn_name": "狩魔",
+        "description": "Passive: 宫本武藏施放技能后，下一次普通攻击变更为蓄力攻击，蓄力攻击会额外造成30（+60%物理加成）点物理伤害并减少1秒所有技能的冷却时间"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": ""
+        "id": "", "name": "", "cn_name": "空明斩", "cooldown": "10/9.6/9.2/8.8/8.4/8",
+        "description": "宫本武藏向指定方向斩出一道剑气，对路径上的敌人造成340/440/540/640/740/840（+125%物理加成）点物理伤害并减少其50%移动速度，持续2秒；剑气会击落路径上的敌方飞行物；施放空明斩时宫本武藏处于霸体状态；被动：宫本武藏对敌方英雄造成伤害后会回复30/48/66/84/102/120（+21%物理加成）点生命值，回复将会持续3秒，回复效果不会叠加"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": ""
+        "id": "", "name": "", "cn_name": "神速", "cooldown": "10/9.6/9.2/8.8/8.4/8",
+        "description": "宫本武藏向前冲刺，对路径上的敌人造成100/130/160/190/220/250（+60%物理加成）点物理伤害；如果穿过敌人将获得抵免100/160/220/280/340/400（+60%物理加成）点伤害的护盾并减少50%神速的冷却时间，护盾每4秒只能获得一次"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "", "name": "", "cn_name": "二天一流", "cooldown": "80/75/70",
+        "description": "Ultimate: 宫本武藏在指定方向范围内选择并锁定目标后跃向空中，在短暂迟延后拔出鸣雷斩落，对目标范围内的敌人造成400/550/700（+100%物理加成）点物理伤害，同时将锁定目标击飞0.75秒并减少其50%移动速度，持续2秒；在接下来的12秒内宫本武藏进入二刀流状态，所有普通攻击和技能都会附带35（+15%物理加成）点法术伤害；狩魔范围提升；神速将获得额外的突进距离"
       }
     ]
   },
   {
-    "name": "gongsunchi", "cn_name": "公孙离", "types": [], "ready":1,
+    "name": "gongsunchi", "cn_name": "公孙离", "types": ["archer"], "ready":1,
     "skills": [
       {
         "id": "night_whisper", "name": "Night Whisper", "cn_name": "晚云落",
@@ -470,379 +471,401 @@
     ]
   },
   {
-    "name": "guanyu", "cn_name": "", "types": [], "ready":0,
+    "name": "guanyu", "cn_name": "关羽", "types": ["tank"], "ready":0,
     "skills": [
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "", "name": "", "cn_name": "一骑当千",
+        "description": "Passive: 关羽每主动移动100距离将增加2％移动速度；持续移动达到2000距离时会进入冲锋姿态；当关羽的移动速度被减少至375点以下或受到控制效果时将退出冲锋姿态；关羽面朝敌方移动时将增加20％移动速度；冲锋姿态：关羽的普通攻击会击退敌人并附带10％最大生命值的物理伤害"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": ""
+        "id": "", "name": "", "cn_name": "单刀赴会", "cooldown": "8/7.2/6.4/5.6/4.8/4",
+        "description": "关羽旋转大刀队附近的敌人造成215/430/645/860/1075/1290（+127％物理加成）点物理伤害；冲锋姿态：关羽向前发起冲锋造成（100％物理加成）（12％最大生命值）点物理伤害，并在结束时向前劈砍，造成250/500/750/1000/1250/1500（+150％物理加成）点物理伤害"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": ""
+        "id": "", "name": "", "cn_name": "青龙偃月", "cooldown": 14,
+        "description": "关羽清啸一声，解除自身控制效果并增加30％移动速度，持续2秒；冲锋姿态：关羽清啸一声，解除自身控制效果并向前跃击敌人将其击退，造成335/470/605/740/875/1010(+112％物理加成）点物理伤害"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "", "name": "", "cn_name": "刀锋铁骑", "cooldown": "70/60/50",
+        "description": "Ultimate: 关羽激发潜能，将减少50％的冲锋准备距离，持续10秒；冲锋姿态：关羽将召唤铁骑向前方突击撞退敌人，并造成（100％物理加成）（+12％最大生命值）点物理伤害"
       }
     ]
   },
   {
-    "name": "guiguzi", "cn_name": "", "types": ["support"], "ready":0,
+    "name": "guiguzi", "cn_name": "鬼谷子", "types": ["support"], "ready":0,
     "skills": [
       {
-        "id": "warp_soldiers", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "warp_soldiers", "name": "", "cn_name": "纵横兵法",
+        "description": "Passive: 鬼谷子脱离敌方视野3秒后，玄微子会再次归巢到法杖中，下一次普通攻击变更为强化攻击，强化攻击会造成300（+45%法术加成）点法术伤害并将范围内的敌人减少50%移动速度，持续1.5秒；如果使用强化攻击时，鬼谷子不处于敌方视野，则纵横兵法的冷却时间将会增加至10秒"
       },
       {
-        "id": "secret_god_prophet", "name": "", "cn_name": "",
-        "description": ""
+        "id": "secret_god_prophet", "name": "", "cn_name": "先知·神隐", "cooldown": 10, "mana": 70,
+        "description": "鬼谷子命令玄微子包裹自身，使自己与周围环境融为一体进入伪装状态，持续4秒；伪装状态下，鬼谷子将增加40%移动速度，并且对触碰到的每个敌人造成450/540/630/720/810/900（+60%法术加成）点法术伤害，同时降低该敌人25%的物理和法术防御，持续4秒，每个敌人最多触发1次；伪装效果会在鬼谷子用其它方式伤害敌人时消失"
       },
       {
-        "id": "life_detection", "name": "", "cn_name": "",
-        "description": ""
+        "id": "life_detection", "name": "", "cn_name": "万物有灵", "cooldown": "10/9.8/9.6/9.4/9.2/9", "mana": 80,
+        "description": "鬼谷子召唤大量玄微子在自身周围聚集，对范围内敌人每0.5秒造成100/120/140/160/180/200（+15%法术加成）点法术伤害，持续2秒；2秒后玄微子集结完毕，对范围内敌人造成400（+60%法术加成）点法术伤害，同时将敌人拉扯到鬼谷子身旁并将其晕眩1秒；如果该伤害命中敌方英雄，鬼谷子和范围内的队友将获得可抵免500/600/700/800/900/1000（+100%法术加成）点伤害的护盾"
       },
       {
-        "id": "prophet_mist", "name": "", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "prophet_mist", "name": "", "cn_name": "先知·雾隐", "cooldown": "35/30/25", "mana": 120,
+        "description": "Ultimate: 鬼谷子命令玄微子包裹自身和1500距离内的队友，准备1秒后进入伪装状态；伪装状态下鬼谷子和队友将增加30%移动速度；同时将会探查到距离鬼谷子最近的一名敌方英雄视野，伪装状态最多持续4秒；伪装状态下，如果使用普通攻击、技能或敌方造成负面效果会立即解除伪装状态"
       }
     ]
   },
   {
-    "name": "hanxin", "cn_name": "", "types": [], "ready":0,
+    "name": "hanxin", "cn_name": "韩信", "types": ["assassin"], "ready":0,
     "skills": [
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "", "name": "", "cn_name": "杀意之枪",
+        "description": "Passive: 韩信的第四次普通攻击会将敌人击飞0.5秒；韩信释放技能命中目标后会增加50％攻击速度"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": ""
+        "id": "", "name": "", "cn_name": "无情冲锋", "cooldown": "9.6/8.8/8/7.2/6.4/5.6", "mana": 55,
+        "description": "韩信持枪向指定目标周围发起冲锋，冲锋会对范围内目标造成135/151/167/183/199/215（+62％物理加成）点物理伤害并将范围内敌人击飞0.8秒；冲锋后5秒内可发动第二次冲锋，但不会击飞敌人"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": ""
+        "id": "", "name": "", "cn_name": "背水一战", "cooldown": 5, "mana": 80,
+        "description": "韩信向后跳跃并使下一次普通攻击变更为横扫攻击，持续3秒，横扫会对范围内敌人造成180/200/220/240/260/280(+100％物理加成）点物理伤害"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "", "name": "", "cn_name": "国士无双", "cooldown": "36/30/24", "mana": 140,
+        "description": "Ultimate: 韩信朝指定方向乱舞四次长枪，对命中的敌人每次造成130/165/200(+62％物理加成）点物理伤害；最后一次攻击会将范围内的敌人击飞0.5秒；乱舞期间韩信处于霸体状态"
       }
     ]
   },
   {
-    "name": "houyi", "cn_name": "", "types": [], "ready":0,
+    "name": "houyi", "cn_name": "后羿", "types": ["archer"], "ready":0,
     "skills": [
       {
-        "id": "archer_discipline", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "archer_discipline", "name": "Archer discipline", "cn_name": "惩戒射击",
+        "description": "Passive: 后羿的普攻命中敌人后增加自身10%攻击速度，可叠加至多3层。当攻速加成叠加到3层时，后羿的普攻将射出3支箭矢，每支箭矢造成原伤害的40%，强化持续3秒。（期间每次命中刷新持续时间）"
       },
       {
-        "id": "multi_arrow", "name": "", "cn_name": "",
-        "description": ""
+        "id": "multi_arrow", "name": "Multiple arrows", "cn_name": "多重箭矢", "cooldown": 10, "mana": 60,
+        "description": "后羿强化自身攻击，每次攻击造成100/120/140/160/180/200（+80%物理加成）点物理伤害（若触发惩戒射击则每支箭矢造成原伤害的40%）并对面前区域内另外2名敌人造成50%伤害，该效果持续5秒"
       },
       {
-        "id": "sunset_twilight", "name": "", "cn_name": "",
-        "description": ""
+        "id": "sunset_twilight", "name": "Sunset twilight", "cn_name": "落日余晖", "cooldown": "10/9/8/7/6/5", "mana": 60,
+        "description": "后羿命令日炙塔对指定区域进行攻击，短暂时间后召唤一束激光打击指定位置。对命中的敌人造成240/280/320/360/400/440（+80%物理加成）点法术伤害和50%减速效果，持续2秒，被中心点命中的敌人将受到额外50%的伤害"
       },
       {
-        "id": "sun_arrow", "name": "", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "sun_arrow", "name": "", "cn_name": "灼日之矢", "cooldown": "45/40/35", "mana": 130,
+        "description": "Ultimate: 后羿向前方射出火焰箭。击中敌方英雄时造成500/625/750（+140%物理加成）点物理伤害并晕眩此目标(晕眩时长取决于火焰箭的飞行距离，最多造成3.5秒晕眩)。目标周围的敌人会受到爆炸伤害"
       }
     ]
   },
   {
-    "name": "huamulan", "cn_name": "", "types": ["warrior"], "ready":0,
+    "name": "huamulan", "cn_name": "花木兰", "types": ["warrior"], "ready":0,
     "skills": [
       {
-        "id": "great_wall_patrol", "name": "Great wall patrol", "cn_name": "",
-        "description": "Passive: "
+        "id": "great_wall_patrol", "name": "Great wall patrol", "cn_name": "长城巡守者",
+        "description": "Passive: 花木兰使用轻剑时，增加40点移动速度，并且普通攻击和技能伤害将会对敌方英雄叠加平衡印记，持续5秒；叠加满5层后将触发印记，造成200%物理加成点物理伤害，同时将该目标沉默1.5秒并减少其50%移动速度，持续1.5秒；花木兰使用重剑时，普通攻击的基础攻击速度会降低，但造成的伤害会增加50%；并且释放技能过程中将处于霸体状态并减少50%所受到的伤害"
       },
       {
-        "id": "decapitate", "name": "Decapitate", "cn_name": "",
-        "description": ""
+        "id": "decapitate", "name": "Decapitate", "cn_name": "空裂斩", "cooldown": "8/7.6/7.2/6.8/6.4/6", "mana": 0,
+        "description": "花木兰冲锋后向指定方向挥砍，对命中的目标造成80/90/100/110/120/130（+43%物理加成）点物理伤害；如果该技能命中目标，可在5秒内发起第二次空裂斩"
       },
       {
-        "id": "whirlwind_dance", "name": "Whirlwind Dance", "cn_name": "",
-        "description": ""
+        "id": "whirlwind_dance", "name": "Whirlwind Dance", "cn_name": "旋舞之华", "cooldown": 12, "mana": 0,
+        "description": "花木兰向指定方向投掷轻剑，对路径上的敌人造成180/200/220/240/260/280（+90%物理加成）点物理伤害，轻剑会在终点旋转3秒，对范围内敌人每0.5秒造成72（+36%物理加成）点物理伤害并减少50%移动速度，持续1秒；拾起轻剑会减少5秒旋舞之华的冷却时间"
       },
       {
-        "id": "blosssom_edge", "name": "Blossom Edge", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "blosssom_edge", "name": "Blossom Edge", "cn_name": "绽放刀锋", "cooldown": 6, "mana": 0,
+        "description": "Ultimate: 花木兰拔出重剑横扫，对附近的敌人造成200/280/360（+110%物理加成）点物理伤害，同时增加60点攻击力，持续5秒；拔出重剑后，会使用重剑技能"
       }
     ]
   },
   {
-    "name": "huangzhong", "cn_name": "", "types": ["archer"], "ready":0,
+    "name": "huangzhong", "cn_name": "黄忠", "types": ["archer"], "ready":0,
     "skills": [
       {
-        "id": "artillery_spirit", "name": "Artillery spirit", "cn_name": "",
-        "description": "Passive: "
+        "id": "artillery_spirit", "name": "Artillery spirit", "cn_name": "炮手燃魂",
+        "description": "Passive: 黄忠普攻命中目标将不断激怒自己，获得1.5%暴击率和1%攻击力加成的效果（重装炮塔状态下效果翻倍），持续1.5秒，最多叠加5层"
       },
       {
-        "id": "hidden_pursuit", "name": "Hidden pursuit", "cn_name": "",
-        "description": ""
+        "id": "hidden_pursuit", "name": "Hidden pursuit", "cn_name": "追击潜能", "cooldown": 10, "mana": 50,
+        "description": "黄忠短时间大量提升自身移速，持续2秒，如果是在架起状态，可瞬间取消架起状态。被动：增加黄忠40/52/64/76/88/100点物理攻击"
       },
       {
-        "id": "alert_landmine", "name": "Landmine", "cn_name": "",
-        "description": ""
+        "id": "alert_landmine", "name": "Landmine", "cn_name": "警戒地雷", "cooldown": "8/7.6/7.2/6.8/6.4/6", "mana": 80,
+        "description": "黄忠向指定地点放置警戒地雷，同时获得视野效果，敌方在地雷范围内可触发造成200/240/280/320/360/400（+60%物理加成）点物理伤害，对英雄额外造成50%减速效果与15/18/21/24/27/30%的破甲效果，持续2秒，同时自身获得护盾，可吸收200/240/280/320/360/400（+50%物理加成）点伤害。地雷最多存在2个"
       },
       {
-        "id": "heavy_battery", "name": "heavy artillery battery", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "heavy_battery", "name": "heavy artillery battery", "cn_name": "重装炮台", "cooldown": "8/6/4", "mana": 80,
+        "description": "Ultimate: 黄忠进入架起状态，自身不能移动，但会增加60点物理防御和法术防御，持续15秒，再次释放后退出架起状态；架起状态下，黄忠的普通攻击射程得到增加，并且5秒后还会再次增加射程；架起状态下，黄忠的每次普通攻击会对范围内的敌人造成60/88/116（+80%物理加成）点物理伤害；架起状态下，黄忠将每秒增加20%伤害，最高增加100%伤害；架起状态下，目标距离黄忠越近伤害越低，最低将衰减至70%"
       }
     ]
   },
   {
-    "name": "jiangziya", "cn_name": "", "types": [], "ready":0,
+    "name": "jiangziya", "cn_name": "姜子牙", "types": ["mage"], "ready":0,
     "skills": [
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "", "name": "", "cn_name": "心魔",
+        "description": "Passive: 姜子牙每10秒为友军增加25点经验"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": ""
+        "id": "", "name": "", "cn_name": "忏悔", "cooldown": 8, "mana": 70,
+        "description": "姜子牙聚集能量对目标区域的敌人进行冲击，对受到冲击的敌人造成每0.5秒60/72/84/96/108/120（+7%法术加成）点法术伤害，持续5秒；持续期间敌人还将逐渐减少移动速度，物理防御和法术防御，最多将会减少90%移动速度，100/120/140/160/180/200点物理防御和100/120/140/160/180/200点法术防御"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": ""
+        "id": "", "name": "", "cn_name": "湮灭", "cooldown": "10/9.4/8.8/8.2/7.6/7", "mana": 80,
+        "description": "姜子牙在指定位置引爆能量，对范围内敌人造成310/350/390/430/470/510（+47%法术加成）点法术伤害并将其击退，同时将会减少50%移动速度，持续0.5秒"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "", "name": "", "cn_name": "断罪", "cooldown": "10.0/8.0/6.0", "mana": 100,
+        "description": "Ultimate: 姜子牙朝指定方向引导能量聚集，最多持续3秒，冲击波会造成450/600/750（+35%法术加成）～1350（+105%法术加成）点法术伤害并且可对路径上的建筑造成10%伤害；聚集时间会影响冲击波的伤害和攻击距离，冲击波最远可攻击1800距离内的敌人；进行任意操作都会中断聚集过程并立即放出冲击波"
       }
     ]
   },
   {
-    "name": "juyoujing", "cn_name": "", "types": ["assassin"], "ready":0,
+    "name": "juyoujing", "cn_name": "橘右京", "types": ["assassin"], "ready":0,
     "skills": [
       {
-        "id": "moon_sword", "name": "Moon Sword", "cn_name": "",
-        "description": "Passive: "
+        "id": "moon_sword", "name": "Moon Sword", "cn_name": "秘剑胧刀",
+        "description": "Passive: 橘右京将下一次普攻将进行一次强力拔刀斩，对前方敌人造成130%物理加成物理伤害并减少50%移动速度，持续2秒；拔刀斩每5秒可准备1次；对处于攻击边缘的敌人将承受50%的额外伤害"
       },
       {
-        "id": "yan_return", "name": "Yan's return", "cn_name": "",
-        "description": ""
+        "id": "yan_return", "name": "Yan's return", "cn_name": "燕返", "cooldown": 7, "mana": 0,
+        "description": "橘右京跃向后方，同时向前方挥刀，对附近的敌人造成200/240/280/320/360/400（+145%物理加成）点物理伤害，若成功命中一名敌方英雄，会减少50%燕返的冷却时间"
       },
       {
-        "id": "reserve", "name": "Reserve", "cn_name": "",
-        "description": ""
+        "id": "reserve", "name": "Reserve", "cn_name": "居合", "cooldown": "10/9.5/9/8.5/8/7.5", "mana": 0,
+        "description": "橘右京向指定方向快速拔刀，对路径上的第一个敌人造成330/375/420/465/510/555（+212%物理加成）点物理伤害，对路上的其余敌人造成的伤害将衰减50%,并将路径末端的敌人眩晕1秒"
       },
       {
-        "id": "slender_snow", "name": "Slender snow", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "slender_snow", "name": "Slender snow", "cn_name": "细雪", "cooldown": "12/11.5/11", "mana": 0,
+        "description": "Ultimate: 橘右京向指定方向连续拔刀四次，每次命中造成100/150/200（+70%物理加成）点物理伤害并且每次命中敌方英雄，自身将回复70/100/130（+35%物理加成）点生命值（命中非英雄单位效果减半）"
       }
     ]
   },
   {
-    "name": "kai", "cn_name": "", "types": ["warrior"], "ready":0,
+    "name": "kai", "cn_name": "铠", "types": ["warrior"], "ready":0,
     "skills": [
       {
-        "id": "asura_spirit", "name": "Asura spirit", "cn_name": "",
-        "description": "Passive: "
+        "id": "asura_spirit", "name": "Asura spirit", "cn_name": "修罗之魂",
+        "description": "Passive: 铠拥有精湛的战斗技巧，当铠的普通攻击和极刃风暴只命中了一个单位时将会额外造成50%伤害"
       },
       {
-        "id": "blade_cycle", "name": "Blade cycle", "cn_name": "",
-        "description": ""
+        "id": "blade_cycle", "name": "Blade cycle", "cn_name": "回旋之刃", "cooldown": 10, "mana": 60,
+        "description": "铠向指定方向投掷刀刃，对命中的敌人造成150/180/210/240/270/300（+60%物理加成）点物理伤害并减少其30%移动速度，持续1秒；刀刃命中敌人后会在敌人间弹射，最多4次；命中至少一个目标将会额外减少20%移动速度，持续1秒；当刀刃命中敌人时，铠将回复150/180/210/240/270/300（+60%物理加成）点生命值并且减少30%回旋之刃的冷却时间，同时增加20%移动速度，持续3秒"
       },
       {
-        "id": "blade_storm", "name": "Blade storm", "cn_name": "",
-        "description": ""
+        "id": "blade_storm", "name": "Blade storm", "cn_name": "极刃风暴", "cooldown": 6, "mana": 50,
+        "description": "铠向指定方向发动两次挥砍，每次80/96/112/128/144/160（+30%物理加成）点物理伤害，并且第二此挥砍会将敌人击飞0.5秒；同时使得下一次普通攻击更变为冲砍，冲砍会冲锋至目标身旁并发动普通攻击，冲砍会额外造成80（+30%物理加成）点成物理。被动：脱离战斗后铠每秒回复1%最大生命值及最大法力值并且会增加10/12/14/16/18/20点移动速度"
       },
       {
-        "id": "ethernal_magic_body", "name": "Ethernal magic body", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "ethernal_magic_body", "name": "Ethernal magic body", "cn_name": "不灭魔躯", "cooldown": "60/55/50", "mana": 120,
+        "description": "Ultimate: 铠召唤魔铠，魔铠在1秒后降临，对附近造成300/400/500点法术伤害并强化自身100/150/200攻击力、50点移动速度、60/95/130点伤害格挡；同时会对自身附近的敌人造成60点法术伤害，持续8秒"
       }
     ]
   },
   {
-    "name": "lanlingwang", "cn_name": "", "types": [], "ready":0,
+    "name": "kuangtie", "cn_name": "狂铁", "types": ["warrior"], "ready": 0,
     "skills": [
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "0", "name": "", "cn_name": "无畏战车",
+        "description": "Passive: 狂铁的武器在击中敌人时会激发电流，进而为武器充能。普攻每命中一个英雄/非英雄回复7点/5点能量,技能每命中一个英雄/非英雄回复9点/6点能量，最多可储存90点能量。充能＞30点时，技能会获得不同的强化效果。强化技能使用时会消耗30点能量，且不会因击中敌人而获取能量。脱离战斗后，能量每秒减少3点"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": ""
+        "id": "1", "name": "", "cn_name": "碎裂之刃", "cooldown": 7,
+        "description": "狂铁奋力向前横挥武器两次，每次造成150/170/190/210/230/250(+100%物理加成)点物理伤害。每命中一个敌人回复自身已损生命值2%+40/48/56/64/72/80（+20%物理加成）点生命值。充能强化：伤害提升至225/255/285/315/345/475（+150%物理加成）点物理伤害，生命回复提升至已损生命值4%+80/96/112/128/144/160（+40%物理加成）点生命值。作用于非英雄单位时，生命回复效果减半"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": ""
+        "id": "2", "name": "", "cn_name": "强袭风暴", "cooldown": "10/9.6/9.2/8.8/8.4/8",
+        "description": "狂铁向前冲锋，冲锋路径上的敌人受到150/180/210/240/270/300(+75%物理加成)点物理伤害。冲锋结束后，狂铁的下次普攻得到强化，造成200/240/280/320/360/400（+100%物理加成）点物理伤害和50%减速效果持续2秒。充能强化：在释放强化普攻时若能量＞30，强化普攻伤害提升至300/360/420/480/540/600（+183%物理加成）点物理伤害，对受击者造成1秒击飞和晕眩，以及之后1秒50%减速。且在释放第一次强化普攻时消耗30点能量"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "3", "name": "", "cn_name": "力场压制", "cooldown": "30/26/22",
+        "description": "Ultimate: 狂铁将武器重重砸向地面，使电流向周围蔓延，电流对触及的敌人造成250/375/500（+100%物理加成）点物理伤害和1.5秒50%减速。强烈的电流还会形成可抵挡1000/1500/2000点伤害的护盾，护盾每0.5秒对周围敌人造成50/75/100（+20%物理加成）点物理伤害，并且每次伤害为狂铁汲取4点能量（从非英雄单位汲取2点）,护盾最多持续6秒。充能强化：伤害提升375/563/751（+150%物理加成）点物理伤害，护盾值提升至1500/2250/3000。"
       }
     ]
   },
   {
-    "name": "laofuzi", "cn_name": "", "types": [], "ready":0,
+    "name": "lanlingwang", "cn_name": "兰陵王", "types": ["assassin"], "ready":0,
     "skills": [
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "", "name": "", "cn_name": "秘技·极意",
+        "description": "Passive: 兰陵王朝敌方英雄移动时会增加20%移动速度"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": ""
+        "id": "", "name": "", "cn_name": "秘技·分身", "cooldown": 5, "mana": 50,
+        "description": "兰陵王以拳刃挥砍身边敌人，造成215/260/305/350/395/440（+85%物理加成）点物理伤害，同时召唤出影分身随机攻击附近一名敌人，影分身会造成等量的伤害"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": ""
+        "id": "", "name": "", "cn_name": "秘技·影蚀", "cooldown": "9.6/8.8/8/7.2/6.4/5.6", "mana": 80,
+        "description": "兰陵王向指定方向投射暗影匕首，造成165/186/207/228/249/270（+57%物理加成）点物理伤害并减少其90%移动速度，持续2秒；匕首命中的敌人会被标记，持续3秒，期间再次受到兰陵王攻击将晕眩1秒并使兰陵王回复140/168/196/224/252/280（+50%物理加成）点生命值；标记消失时该目标还会受到已损失生命值24%物理伤害"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "", "name": "", "cn_name": "秘技·隐袭", "cooldown": "36/30/24", "mana": 120,
+        "description": "Ultimate: 兰陵王开始准备并于1.5秒后进入隐身状态，持续30秒，期间再次施放该技能，将向指定方向冲锋并对路径上敌人造成660/830/1000（+188%物理加成）点物理伤害，解除影身状态后兰陵王会增加50%攻击速度，持续5秒；隐身时若处于敌人附近超过3秒，隐身状态将会自动解除"
       }
     ]
   },
   {
-    "name": "lianpo", "cn_name": "", "types": [], "ready":0,
+    "name": "laofuzi", "cn_name": "老夫子", "types": ["warrior"], "ready":0,
     "skills": [
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "", "name": "", "cn_name": "师道尊严",
+        "description": "Passive: 老夫子普通攻击命中会增加1点训诫值，最多叠加5点，叠满后会获得强化自身，持续5秒；强化时老夫子会增加60点移动速度和25%攻击速度，同时普通攻击将会附带60点真实伤害，每次攻击能够减少1秒圣人训诫和举一反三的冷却时间"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": ""
+        "id": "", "name": "", "cn_name": "圣人训诫", "cooldown": 8,
+        "description": "老夫子向指定方向挥动戒尺，将范围内的敌人抽到自己身前，造成200/240/280/320/360/400（+80%物理加成）点物理伤害并减少其25%移动速度，持续1秒"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": ""
+        "id": "", "name": "", "cn_name": "举一反三", "cooldown": 10,
+        "description": "老夫子爆发气场，增加25/28/31/34/37/40%移动速度并且减少50/54/58/62/66/70%受到的伤害，持续2秒，同时会反弹普通攻击，对攻击者造成等量的物理伤害并减少其50/54/58/62/66/70%移动速度，持续2秒；反弹会附带普通攻击的法球效果，每个敌人最多被反弹一次；被动：每次普通攻击有25%几率发动两次普通攻击，第二次普通攻击只会造成50%伤害"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "", "name": "", "cn_name": "圣人之威", "cooldown": "45/40/35",
+        "description": "Ultimate: 老夫子向指定方向冲锋造成400/500/600（+120%物理加成）点物理伤害，并且会将第一个撞到的敌方英雄捆在明灯上，令其无法离开明灯的范围，持续5秒，期间将减少20%该英雄造成的伤害"
       }
     ]
   },
   {
-    "name": "libai", "cn_name": "", "types": [], "ready":0,
+    "name": "lianpo", "cn_name": "廉颇", "types": ["tank"], "ready":0,
     "skills": [
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "", "name": "", "cn_name": "友情守护",
+        "description": "Passive: 廉颇释放技能的过程中处于霸体状态，并且减少20%所受到的伤害"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": ""
+        "id": "", "name": "", "cn_name": "豪情突进", "cooldown": "9/8.4/7.8/7.2/6.6/6", "mana": 60,
+        "description": "廉颇向指定方向发起冲锋，对敌人造成115/130/145/160/175/190（+100%物理加成）点物理伤害并将其击飞1秒"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": ""
+        "id": "", "name": "", "cn_name": "激情迸发", "cooldown": "12/11/10/9/8/7", "mana": 70,
+        "description": "廉颇短暂蓄力后爆发为自身提供抵免350/420/490/560/630/700点伤害的护盾，同时对范围内的敌人造成500/560/620/680/740/800（+155%物理加成）点物理伤害并减少其30%移动速度，持续1秒"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "", "name": "", "cn_name": "正义豪腕", "cooldown": "54/45/36", "mana": 150,
+        "description": "Ultimate: 廉颇跳向指定区域连续锤击地面三次，第一次锤击会对范围内敌人造成150/200/250（+80%物理加成）点物理伤害，随后每次递增50%的伤害，并且第一次和第二次锤击时，范围内敌人分别会减少30%和50%移动速度，持续1秒，第三次锤击会将范围内的敌人击飞1.5秒"
       }
     ]
   },
   {
-    "name": "liubang", "cn_name": "", "types": [], "ready":0,
+    "name": "libai", "cn_name": "李白", "types": ["assassin"], "ready":0,
     "skills": [
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "", "name": "", "cn_name": "侠客行",
+        "description": "Passive: 李白使用普通攻击攻击敌人时，会积累1道剑气，持续3秒；积累4道剑气后进入侠客行状态，增加5%物理攻击力并解除青莲剑歌的封印，持续5秒；攻击建筑不会积累剑气"
       },
       {
-        "id": "", "name": "", "cn_name": "","description": ""
+        "id": "", "name": "", "cn_name": "将进酒", "cooldown": "12/10.6/9.2/7.8/6.4/5", "mana": 80,
+        "description": "李白可用醉剑式向指定方向连续突进2次，对路径上的敌人造成120/144/168/192/216/240（+100%物理加成）点物理伤害并且造成晕眩0.5秒；第三次释放会回到原地；每次释放间隔不能超过5秒"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": ""
+        "id": "", "name": "", "cn_name": "神来之笔", "cooldown": "12/11.6/11.2/10.8/10.4/10", "mana": 60,
+        "description": "李白以自身为中心化剑为青莲剑阵，对范围内敌人造成110/142/174/206/238/270（+54%物理加成）点物理伤害；对触碰到剑圈的敌人造成180（+90%物理加成）点物理伤害并且减少90%移动速度，持续1秒；同时敌人会减少100/175/250/325/400/475点物理防御，持续3秒；李白释放技能期间不可被选中"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "", "name": "", "cn_name": "青莲剑歌", "cooldown": 12, "mana": 120,
+        "description": "Ultimate: 李白化身为剑气，对指定方向范围内的所有敌人飞速穿梭斩击5次，每次斩击造成150/215/280（+68%物理加成）点物理伤害；当同时攻击多个敌方英雄时，每增加一位敌方英雄将衰减15%的伤害，最低衰减至初始伤害的70%；青莲剑歌需要由侠客行解除限制后方可释放，使用后立即进入限制状态；李白释放技能期间不可被选中和攻击"
       }
     ]
   },
   {
-    "name": "liubei", "cn_name": "", "types": ["warrior"], "ready":0,
+    "name": "liubang", "cn_name": "刘邦", "types": ["tank"], "ready":0,
     "skills": [
       {
-        "id": "bullet_strengthening", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "", "name": "", "cn_name": "君主野望",
+        "description": "Passive: 刘邦第三次普通攻击将附带最大生命值4-8%的法术伤害，增加幅度随英雄等级成长，该效果无法对机关造成伤害"
       },
       {
-        "id": "double_shoot", "name": "", "cn_name": "",
-        "description": ""
+        "id": "", "name": "", "cn_name": "霸业之盾", "cooldown": 10, "mana": 75,
+        "description": "刘邦开启护盾将自身笼罩，持续5秒，护盾可抵免500/650/800/950/1100/1250（+168）（最大生命值的5/6/7/8/9/10%）点伤害，结束时对周围造成400/520/640/760/880/1000（+134）（最大生命值的4/4/5/6/7/8%）点法术伤害；2秒后再次施放可立即结束护盾，若护盾被击破，则不会造成伤害"
       },
       {
-        "id": "take_the_lead", "name": "", "cn_name": "",
-        "description": ""
+        "id": "", "name": "", "cn_name": "双重恐吓", "cooldown": "10/9.6/9.2/8.8/8.4/8","mana": 70,
+        "description": "刘邦蓄力后挥剑冲锋300-500距离，对路径上敌人造成150/180/210/240/270/300~600（+60%物理加成）点法术伤害和0.5-1秒晕眩效果，冲锋距离、攻击伤害和晕眩时长和蓄力时间成正比。蓄力达2秒后各效果强度达到上限，最多可保存蓄力状态5秒，蓄力期间若取消或被打断，该技能会执行40%冷却时间"
       },
       {
-        "id": "virtuous_people", "name": "", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "", "name": "", "cn_name": "统御战场", "cooldown": "70/65/60", "mana": 140,
+        "description": "Ultimate: 刘邦指定一名队友并开始原地吟唱，持续2.2秒，期间刘邦和该队友将减少40%所受到的伤害，并且1技能损人利己将以援护队友作为添加护盾目标；吟唱后刘邦将传送到该队友位置；传送后刘邦增加30%移动速度，持续1.5秒；同时会生成一个跟随自身的法术场，法术场为范围内队友提供60/105/150点物理防御和法术防御，持续6秒"
       }
     ]
   },
   {
-    "name": "liuchan", "cn_name": "", "types": [], "ready":0,
+    "name": "liubei", "cn_name": "刘备", "types": ["warrior"], "ready":0,
     "skills": [
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "bullet_strengthening", "name": "", "cn_name": "强化霰弹",
+        "description": "Passive: 被动：刘备的火铳是霰弹枪，目标会受到50%总攻击力+35%×额外弹丸数的总伤害；每颗弹丸命中敌方英雄，会增加1层战斗本能，战斗本能会给刘备增加6~10点物理防御和法术防御，持续6秒，最多叠加12层，增加幅度随英雄等级成长；每次射击只有中间的2颗弹丸能够暴击并触发装备效果；建筑不受额外弹丸影响"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": ""
+        "id": "double_shoot", "name": "", "cn_name": "双重射击", "cooldown": "8/7.6/7.2/6.8/6.4/6", "mana": 60,
+        "description": "刘备增加40%移动速度，持续1.5秒，并在下一次普通攻击变更为两次连射，连射时每颗弹丸会造成120（+40%物理加成）点物理伤害"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": ""
+        "id": "take_the_lead", "name": "", "cn_name": "身先士卒", "cooldown": "10/9.4/8.8/8.2/7.6/7", "mana": 80,
+        "description": "刘备向指定方向冲撞，对撞击到的敌人造成180/200/220/240/260/280（+70%物理加成）点物理伤害并停止冲撞；同时撞击到的敌人会被击退；若撞击到敌方英雄将减少2秒身先士卒的冷却时间"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "virtuous_people", "name": "", "cn_name": "以德服人", "cooldown": "60/55/50", "mana": 130,
+        "description": "Ultimate: 刘备立即解除自身的控制效果，并获得可抵免1100/1650/2200点伤害的护盾，持续6秒；刘备在护盾存在期间免疫控制，同时将对敌方英雄造成伤害的50%转化为护盾值，对小兵和野怪造成伤害的20%转化为护盾值，护盾上限为初始值的150%；释放技能还会获得50/100/150点物理攻击力加成，持续6秒"
       }
     ]
   },
   {
-    "name": "liyuanfang", "cn_name": "", "types": ["archer"], "ready":0,
+    "name": "liuchan", "cn_name": "刘禅", "types": ["tank"], "ready":0,
     "skills": [
       {
-        "id": "spying", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "", "name": "", "cn_name": "磁力屏障",
+        "description": "Passive: 刘禅可对机关释放技能造成等量的伤害，并且刘禅的控制技能可对机关造成干扰效果，持续1秒；当刘禅技能对机关造成还伤害时会掠夺零件为自身回复200~396点生命值，回复效果随英雄等级成长"
       },
       {
-        "id": "spy_photography", "name": "", "cn_name": "",
-        "description": ""
+        "id": "", "name": "", "cn_name": "小霸王护盾", "cooldown": "12/11/10/9/8/7", "mana": 70,
+        "description": "刘禅立即重置普攻并开启护盾向前发起冲锋，吸收600/840/1080/1320/1560/1800点伤害同时提升自身移动速度持续3秒，并强化下一次普通攻击，造成350/400/450/500/550/600（+122%物理加成）点物理伤害并短暂击飞"
       },
       {
-        "id": "evade", "name": "", "cn_name": "",
-        "description": ""
+        "id": "", "name": "", "cn_name": "机关魔爪", "cooldown": 8, "mana": 65,
+        "description": "刘禅操纵机关熊猫向指定方向伸出魔爪进行攻击，对范围内的敌人造成400/480/560/640/720/800（+100%物理加成）点物理伤害并且会将范围内敌人眩晕1秒"
       },
       {
-        "id": "close_blade_wind", "name": "", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "", "name": "", "cn_name": "暴走熊猫", "cooldown": "40/35/30", "mana": 140,
+        "description": "Ultimate: 刘禅操纵机关熊猫展开双臂持续旋转攻击附近敌人，持续3秒，对方范围内的敌人每0.5秒造成240/320/400（+75%物理加成）点物理伤害"
       }
     ]
   },
   {
-    "name": "lubanqihao", "cn_name": "", "types": [], "ready":0,
+    "name": "liyuanfang", "cn_name": "李元芳", "types": ["archer"], "ready":0,
     "skills": [
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "spying", "name": "Spying", "cn_name": "密探谛听",
+        "description": "Passive: 元芳可爱的大耳朵可以帮助元芳周期性谛听周围的动向，获得并捕捉敌方英雄的踪迹，获得敌方视野1秒，对同一单位6秒生效一次"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": ""
+        "id": "spy_photography", "name": "Spy photography", "cn_name": "谍影重重", "cooldown": "10/9.6/9.2/8.8/8.4/8", "mana": 60,
+        "description": "元芳使用暗印标记敌方目标，最多持续4秒，4秒后爆炸对范围内敌方造成100/120/140/160/180/200(+65%物理加成）点物理伤害，元芳对该目标的普通攻击会叠加暗印标记，最多叠加4层，每层印记会额外造成100/120/140/160/180/200(+65%物理加成）点物理伤害，叠加满4层会立即引爆暗印；释放技能时元芳会增加40%攻击速度和75点攻击距离，持续4秒"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": ""
+        "id": "evade", "name": "Evade", "cn_name": "刃遁", "cooldown": "12/11.2/10.4/9.6/8.8/8", "mana": 80,
+        "description": "元芳向指定方向放出飞轮，同时施展鬼魅身法在终点现身接住飞轮，移动时元芳将无法被选中，飞轮会对敌人造成80/90/100/110/120/130（+67%物理加成）点物理伤害并减少50%移动速度，持续2秒；经过的地面留下燃痕，对路径上的敌人每0.25秒造成30/36/42/48/54/60（+25%物理加成）点物理伤害并减少50%移动速度"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "close_blade_wind", "name": "Close blade wind", "cn_name": "无间刃风", "cooldown": "36/30/24", "mana": 130,
+        "description": "Ultimate: 元芳平扔出飞轮到指定位置旋转卷起利刃风暴，利刃撞击目标中造成215/275/335（+75%物理加成）点物理伤害，持续5.4秒，对范围内的敌人每0.5秒造成75/93/111（+30%物理加成）点物理伤害并减少50%移动速度，内圈会受到双倍的刃伤；刃伤也可叠加暗印层数"
+      }
+    ]
+  },
+  {
+    "name": "lubanqihao", "cn_name": "鲁班七号", "types": ["archer"], "ready":0,
+    "skills": [
+      {
+        "id": "", "name": "", "cn_name": "火力压制",
+        "description": "Passive: 鲁班七号连续使用普通攻击时，第五次普通攻击会掏出机关枪进行扫射，扫射会造成3次伤害，对敌人英雄每次造成其最大生命5%物理伤害（每80点额外物理攻击提升1%），对小兵野怪防御塔造成120（+50%物理加成）点物理伤害"
+      },
+      {
+        "id": "", "name": "", "cn_name": "河豚手雷", "cooldown": "12/11/10/9/8/7", "mana": 70,
+        "description": "鲁班向指定位置投掷一枚河豚手雷，对范围内的敌人造成300/350/400/450/500/550（+100%物理加成）点物理伤害并减少其25%移动速度，持续2秒;使用手雷后鲁班七号下一次普通攻击更变为扫射"
+      },
+      {
+        "id": "", "name": "", "cn_name": "无敌鲨嘴炮", "cooldown": "17/16/15/14/13/12", "mana": 70,
+        "description": "鲁班向指定方向发射火箭炮击退身前敌人，命中英雄后造成260/295/330/365/400/435（+100%物理加成）点物理伤害，并附带目标已损生命5/6/7/8/9/10%法术伤害，发射火箭后鲁班七号下一次普通攻击变更为扫射"
+      },
+      {
+        "id": "", "name": "", "cn_name": "空中支援", "cooldown": "40/30/20", "mana": 100,
+        "description": "Ultimate: 鲁班召唤河豚飞艇向指定方向进行空中支援，支援持续14秒，河豚飞艇可照亮视野且每秒对范围内随机一个敌人投掷炸弹，炸弹会在0.75秒落下，对于目标范围内的敌人造成320/400/480（+123%物理加成）点物理伤害；召唤飞艇后鲁班七号下一次普通攻击变更为扫射"
       }
     ]
   },
@@ -868,44 +891,44 @@
     ]
   },
   {
-    "name": "lvbu", "cn_name": "", "types": [], "ready":0,
+    "name": "lvbu", "cn_name": "吕布", "types": ["warrior"], "ready":0,
     "skills": [
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "", "name": "", "cn_name": "饕餮血统",
+        "description": "Passive: 吕布拥有比其他近战更远的攻击距离；方天画戟附魔状态下，普通攻击会造成100%物理加成的真实伤害并且回复自身已损生命值1%（+25%额外物理加成）点生命值；如果下一次方天画斩未命中英雄，会立刻失去附魔效果"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": ""
+        "id": "", "name": "", "cn_name": "方天画斩", "cooldown": 5,
+        "description": "吕布向指定方向挥动方天画斩，造成600/720/840/960/1080/1200（+225%额外物理加成）点物理伤害，如果命中英雄，将会附魔自身武器，武器附魔状态下，方天画戟会造成500/620/740/860/980/1100（+275%额外物理加成）点真实伤害，并且每命中一位敌方英雄会回复自身已损生命4%（+50%额外物理加成）点生命值"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": ""
+        "id": "", "name": "", "cn_name": "贪狼之握", "cooldown": "12/11/10/9/8/7",
+        "description": "吕布夺取指定方向范围内敌人的魂灵，对其造成80（+35%额外物理加成）点物理伤害并减少其30%移动速度，持续3秒，每夺取一个魂灵都会为自身增加可抵免300/420/540/660/780/900点伤害的护盾，最多叠加3层"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "", "name": "", "cn_name": "魔神降世", "cooldown": "60/55/50",
+        "description": "Ultimate: 吕布在指定位置从天而降展开杀戮，落地时会标记范围并将范围内敌人击飞1秒，在标记范围内施展方天画斩会造成400/650/900（+250%额外物理加成）点物理伤害，并且方天画斩攻击范围会增加；吕布在范围内会获得额外的240/300/360点物理防御和法术防御，触碰范围边缘的敌人会受到150（+87%额外物理加成）点物理伤害并减少其50%移动速度，持续2秒；当敌方英雄触碰时还会额外回复吕布自身已损生命4%（+50%额外物理加成）点生命值"
       }
     ]
   },
   {
-    "name": "makeboluo", "cn_name": "", "types": [], "ready":0,
+    "name": "makeboluo", "cn_name": "马可波罗", "types": ["archer"], "ready":0,
     "skills": [
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "", "name": "", "cn_name": "连锁反应",
+        "description": "Passive: 马可波罗每一次普通攻击会连续发射两枪，第一枪命中造成70%物理加成点物理伤害，第二枪命中造成40%物理加成点物理伤害"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": ""
+        "id": "", "name": "", "cn_name": "华丽左轮", "cooldown": "7/6.6/6.2/5.8/5.4/5", "mana": 70,
+        "description": "马可波罗向指定方向连续射击，射击时会增加10%移动速度，每次命中会造成140/154/168/182/196/210（+12%物理加成）点物理伤害，每次命中都能触发普攻的法球效果并回复10点能量，额外的攻击速度会影响技能射出的子弹数目，在攻速达到0/75%/150%时射出子弹数5/7/9"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": ""
+        "id": "", "name": "", "cn_name": "漫游之枪", "cooldown": "5/4.8/4.6/4.4/4.2/4", "mana": 70,
+        "description": "马可波罗向指定方向迅速移动，接下来3秒内普通攻击变更为漫游射击，每次射击会附带35/41/47/53/59/65（+11%物理加成）点法术伤害"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "", "name": "", "cn_name": "狂热弹幕", "cooldown": "40/35/30", "mana": 70,
+        "description": "Ultimate: 马可波罗向四周倾泻弹药，攻击时会增加10%移动速度，造成200/250/300（+30%物理加成）点物理伤害，弹幕可以触发普通攻击的法球效果，额外攻击速度会影响技能射出的弹幕波数，在攻速达到0/75%/150%时射出子弹数5/7/9；被动：马可波罗附近存在敌方英雄时，会增加20%的伤害和25%移动速度"
       }
     ]
   },
@@ -931,22 +954,22 @@
     ]
   },
   {
-    "name": "mingshiyin", "cn_name": "", "types": [], "ready":0,
+    "name": "mingshiyin", "cn_name": "明世隐", "types": ["support"], "ready":0,
     "skills": [
       {
-        "id": "great_profit", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "great_profit", "name": "Great profit", "cn_name": "大吉大利",
+        "description": "Passive: 明世隐对同一目标的第三次普攻会对其造成0.75秒晕眩，对同一目标叠满印记后3秒内无法再对其叠加印记"
       },
       {
-        "id": "divine_diagram", "name": "", "cn_name": "",
-        "description": ""
+        "id": "divine_diagram", "name": "Divine diagram", "cn_name": "临卦·无忧", "cooldown": 50, "mana": 3,
+        "description": "以法器连接一名队友/敌人，增加/减少75~180物攻和90~215法攻（受法术加成及卦师·飞翼等级影响）及15%移速，强化自身2/3该数值的物攻和法强（不随断链移除）并提升15%移速；若目标是敌人，还会每0.5秒造成100（+20%法术加成）点法术伤害，并对魂链触碰的敌人也造成同等伤害；对目标的属性影响可由师卦·飞翼切换为增加/减少连接的队友/敌人36%-54%物理及法术防御（师卦·飞翼等级影响）；被魂链连接的目标将暴露视野；同时只能连接一个目标"
       },
       {
-        "id": "divination_master", "name": "", "cn_name": "",
-        "description": ""
+        "id": "divination_master", "name": "Divination master", "cn_name": "师卦·飞翼", "cooldown": 50, "mana": 3,
+        "description": "明世隐切换法器状态，法器状态切换后，临卦·无忧对目标的连接效果也会相应切换；攻击改变状态：使连接的队友/敌人增加/减少其75/96/117/138/159/180(+9%法术加成)物理及90/115/140/165/190/215（+10%法术加成）法术攻击，并强化自身2/3该数值的物理及法术攻击；防御改变状态：增加/减少连接的队友/敌人36%/39%/43%/46%/50%/54%物理及法术防御，并强化自身2/3该数值的物理及法术防御"
       },
       {
-        "id": "safe_divination", "name": "", "cn_name": "",
+        "id": "safe_divination", "name": "Safe divination", "cn_name": "泰卦·长生", "cooldown": "40/35/30", "mana": 120,
         "description": "Ultimate: "
       }
     ]
@@ -973,23 +996,23 @@
     ]
   },
   {
-    "name": "mozi", "cn_name": "", "types": [], "ready":0,
+    "name": "mozi", "cn_name": "墨子", "types": ["mage"], "ready":0,
     "skills": [
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "", "name": "", "cn_name": "兼爱非攻",
+        "description": "Passive: 墨子连续使用普通攻击时，第四次普通攻击将变更为炮击，炮击会造成125%法术加成及150%物理加成的法术伤害，同时将目标击退0.75秒；当墨子施放技能时会获得抵免250（+35%法术加成）点伤害的护盾，持续3秒"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": ""
+        "id": "", "name": "", "cn_name": "和平漫步", "cooldown": "10/9/8/7/6/5", "mana": 70,
+        "description": "墨子驾驶机关人向指定方向突进，对路径上的敌人造成250/300/350/400/450/500（+38法术加成）点法术伤害，并将下一次普通攻击变更为炮击"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": ""
+        "id": "", "name": "", "cn_name": "机关重炮", "cooldown": 7, "mana": 70,
+        "description": "墨子驾驶机关人向指定方向发射一枚炮弹，炮弹命中敌人时会发生范围爆炸造成600/700/800/900/1000/1100（+130%法术加成）点法术伤害并将范围内敌人眩晕1秒"
       },
       {
-        "id": "", "name": "", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "", "name": "", "cn_name": "墨守成规", "cooldown": "42/35/28", "mana": 150,
+        "description": "Ultimate: 墨子驾驶机关人展开高能屏障，对触碰到屏障的敌人每0.5秒造成200/250/300（+45%法术加成）点法术伤害并将其晕眩在原地，屏障最多持续3.3秒"
       }
     ]
   },
@@ -1015,44 +1038,44 @@
     ]
   },
   {
-    "name": "nezha", "cn_name": "", "types": ["warrior"], "ready":0,
+    "name": "nezha", "cn_name": "哪吒", "types": ["warrior"], "ready":0,
     "skills": [
       {
-        "id": "furnace_fire", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "furnace_fire", "name": "", "cn_name": "炙炼火种",
+        "description": "Passive: 当哪吒用三尖枪和乾坤圈，混天绫进行攻击时会在敌人身上残留炙炼火种，造成35（+26%物理加成）点真实伤害，持续3秒，并且炙炼火种会减少其25%的生命回复效果"
       },
       {
-        "id": "three_point_blaze", "name": "", "cn_name": "",
-        "description": ""
+        "id": "three_point_blaze", "name": "", "cn_name": "火焰三尖枪", "cooldown": 5, "mana": 55,
+        "description": "哪吒挥动三尖枪攻击四周的敌人，造成300/360/420/480/540/600(+85%物理加成)点物理伤害。每击中一个敌方英雄都会触发1次风火轮，当哪吒触发风火轮时会增加6%移动速度，持续5秒，最多可叠加5层"
       },
       {
-        "id": "confusion_binding", "name": "", "cn_name": "",
-        "description": ""
+        "id": "confusion_binding", "name": "", "cn_name": "混天绫·束", "cooldown": "12/11.6/11.2/10.8/10.4/10", "mana": 65,
+        "description": "哪吒用混天绫短暂束缚敌人，然后迅速俯冲向该名敌人并翻越至另一侧，该技能4秒可以再次释放；每击中一名敌人都会触发一次风火轮；释放技能会触发火莲之印；当哪吒触发火莲之印后会减少15/16/17/18/19/20%所受伤害。所受伤害，持续3秒"
       },
       {
-        "id": "yingyang_fall", "name": "", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "yingyang_fall", "name": "", "cn_name": "乾坤·天降", "cooldown": "80/75/70", "mana": 140,
+        "description": "Ultimate: 哪吒升上天空对敌方所有英雄施加乾坤圈，释放后将获得其视野并打断其回城.随后可选择一名敌方英雄并飞冲到其身前，造成500/625/750（+100%物理加成）点物理伤害并将其击退，落地时激发火莲之华，对火莲范围内的敌人每秒施加1次炙炼火种，并增加自身30%韧性；落地时还会触发火莲之印；飞行过程中再次释放技能会立即降落并激发火莲之华"
       }
     ]
   },
   {
-    "name": "niumo", "cn_name": "", "types": ["tank"], "ready":0,
+    "name": "niumo", "cn_name": "牛魔", "types": ["tank"], "ready":0,
     "skills": [
       {
-        "id": "powerful_protector", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "powerful_protector", "name": "Powerful protector", "cn_name": "强力援护",
+        "description": "Passive: 当牛魔附近500范围内有友方英雄时，牛魔和范围内血量最少的友方英雄会获得200点物理防御和法术防御"
       },
       {
-        "id": "roar_hachet", "name": "", "cn_name": "",
-        "description": ""
+        "id": "roar_hachet", "name": "Roar hachet", "cn_name": "咆哮之斧", "cooldown": 6, "mana": 55,
+        "description": "牛魔向指定方向以大斧横劈，对范围内的敌人造成250/300/350/400/450/500（+110%物理加成）点物理伤害，同时敌方英雄将减少15%的物理攻击力和法术攻击力，持续3秒；如果命中敌方英雄，牛魔下一次普通攻击或技能将额外造成200点法术伤害"
       },
       {
-        "id": "tyrannize", "name": "", "cn_name": "",
-        "description": ""
+        "id": "tyrannize", "name": "Tyrannize", "cn_name": "横行霸道", "cooldown": "10/9.6/9.2/8.8/8.4/8", "mana": 80,
+        "description": "牛魔朝指定方向冲锋，对路径上的敌人造成450/530/610/690/770/850（+90%物理加成）点物理伤害并击飞0.75秒；敌人落地后会减少90%移动速度，持续1秒"
       },
       {
-        "id": "landslide_split", "name": "", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "landslide_split", "name": "Landslide split", "cn_name": "山崩地裂", "cooldown": "40/35/30", "mana": 150,
+        "description": "Ultimate: 牛魔短暂蓄力后向指定方向以巨斧猛力劈开大地，对范围内敌人造成550/700/850（+130%物理加成）点物理伤害并将其击飞1秒；同时被劈开的大地被撕裂5秒，对处于其中的敌人每0.5秒造成80/100/120（+20%物理加成）点物理伤害并减少其50%移动速度"
       }
     ]
   },
@@ -1082,65 +1105,86 @@
     ]
   },
   {
-    "name": "sulie", "cn_name": "", "types": ["tank"], "ready":0,
+    "name": "peiqinhu", "cn_name": "裴擒虎", "types": ["assassin"], "ready":0,
     "skills": [
       {
-        "id": "unyielding_wall", "name": "Unyielding wall", "cn_name": "",
-        "description": "Passive: "
+        "id": "0", "name": "", "cn_name": "寸劲",
+        "description": "Passive: 在人形态下每次普攻将发出气功波，攻击目标时造成额外20点法术伤害（伤害随英雄等级提升），额外造成的法术伤害可以在3秒内进行叠加，至多提升到基础值的3倍。普攻每次命中恢复5点能量"
       },
       {
-        "id": "destroy_the_beacon", "name": "Destroy the fire beacon",
-        "description": ""
+        "id": "1", "name": "", "cn_name": "冲拳式", "cooldown": "8/7.6/7.2/6.8/6.4/6", "mana": 50,
+        "description": "朝指定方向发出气功，对一条路径上的敌人造成250/300/350/400/450/500（+115%额外物理加成）点法术伤害和目标当前生命值8%的额外法术伤害并减少目标50%移动速度，持续1.5秒。该技能命中敌方英雄时恢复20点能量"
       },
       {
-        "id": "invincible", "name": "Invincible", "cn_name": "",
-        "description": ""
+        "id": "2", "name": "", "cn_name": "气守式", "cooldown": "8/7.4/6.8/6.2/5.6/5", "mana": 50,
+        "description": "施展念气环绕自身，施法瞬间对附近敌人造成200/240/280/320/360/400（+64%额外物理加成）点法术伤害，并形成护盾包裹自身持续5秒，可吸收400（+150%额外物理加成）伤害。护盾存在期间每0.5秒对附近敌人造成50/60/70/80/90/100（+16%额外物理加成）点法术伤害并提升裴擒虎50%攻击速度"
       },
       {
-        "id": "ardent_army", "name": "Ardent army", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "3", "name": "", "cn_name": "虎啸风生", "cooldown": "7/6/5", "mana": 0,
+        "description": "Ultimate: 裴擒虎切换到虎形态，1秒内增加30%移动速度并强化下两次攻击，第一击扑向指定目标，造成80/160/240（+100%物理加成）点物理伤害和1秒90%减速。第二击对面前的敌人造成80/160/240（+100%物理加成）点法术伤害"
       }
     ]
   },
   {
-    "name": "sunbin", "cn_name": "", "types": [], "ready":0,
+    "name": "sulie", "cn_name": "苏烈", "types": ["tank"], "ready":0,
     "skills": [
       {
-        "id": "0", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "unyielding_wall", "name": "Unyielding wall", "cn_name": "不屈铁壁",
+        "description": "Passive: 苏烈在濒临死亡时会立即回复60%最大生命值，同时会陷入虚弱状态，持续4.5秒；虚弱状态下将禁止一切操作并免疫控制效果，自身会减少25%物理和法术防御；虚弱状态结束时，苏烈将发出怒吼，对附近敌人造成150（+100%物理加成）法术伤害并减少其50%移动速度，持续2秒；虚弱状态结束时，苏烈还将增加50%攻击速度和30%移动速度，持续2秒；刚陷入虚弱状态时，苏烈周围会出现3盏烽火台，队友可通过触碰烽火灯台来点亮烽火，每点亮一盏将会为苏烈和该名队友回复10%最大生命值;3盏烽火台都被点亮时，会立即结束虚弱状态；苏烈每90秒才能触发一次虚弱状态；苏烈的意志力能增加60点物理防御和法术防御，但不屈铁壁处于冷却时会暂时失效"
       },
       {
-        "id": "1", "name": "", "cn_name": "",
-        "description": ""
+        "id": "destroy_the_beacon", "name": "Destroy the fire beacon", "cn_name": "烽烟踏破", "cooldown": "9/8.4/7.8/7.2/6.6/6", "mana": 60,
+        "description": "苏烈的下三次普通攻击变更为强化攻击，每次攻击造成100/130/160/190/220/250（+120%物理加成）点物理伤害，第三击将会对敌人造成0.75秒击飞"
       },
       {
-        "id": "2", "name": "", "cn_name": "",
-        "description": ""
+        "id": "invincible", "name": "Invincible", "cn_name": "所向披靡", "cooldown": "10/9.6/9.2/8.8/8.4/8", "mana": 80,
+        "description": "苏烈短暂蓄力后，朝指定方向冲撞，对敌人造成100/130/160/190/220/250（+40%物理加成）点物理伤害并将其击退。如果敌人在击退至地形边缘，将会受到额外50%伤害并晕眩1秒。如果苏烈冲撞敌方建筑，将对建筑造成250（+100%物理加成）点物理伤害"
       },
       {
-        "id": "3", "name": "", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "ardent_army", "name": "Ardent army", "cn_name": "所向披靡", "cooldown": "45/40/35", "mana": 120,
+        "description": "Ultimate: 苏烈短暂蓄力后，朝指定方向冲撞，对敌人造成100/130/160/190/220/250（+40%物理加成）点物理伤害并将其击退。如果敌人在击退至地形边缘，将会受到额外50%伤害并晕眩1秒。如果苏烈冲撞敌方建筑，将对建筑造成250（+100%物理加成）点物理伤害"
       }
     ]
   },
   {
-    "name": "sunshangxiang", "cn_name": "", "types": [], "ready":0,
+    "name": "sunbin", "cn_name": "孙膑", "types": ["support"], "ready":0,
     "skills": [
       {
-        "id": "0", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "0", "name": "", "cn_name": "时间沙漏",
+        "description": "Passive: 孙膑释放技能会增加20%移动速度，持续1秒"
       },
       {
-        "id": "1", "name": "", "cn_name": "",
-        "description": ""
+        "id": "1", "name": "", "cn_name": "时空爆弹", "cooldown": "8/7.6/7.2/6.8/6.4/6", "mana": 60,
+        "description": "孙膑向指定方向投掷一枚炸弹，并附带着在目标身上，持续3秒后爆炸，附着目标时造成180/225/270/315/360/405（+18%法术加成）点法术伤害，爆炸对范围内敌人造成540/675/810/945/1080/1215（+54%法术加成）点法术伤害并减少其40%移动速度，持续2秒。"
       },
       {
-        "id": "2", "name": "", "cn_name": "",
-        "description": ""
+        "id": "2", "name": "", "cn_name": "时之波动", "cooldown": "12/11.2/10.4/9.6/8.8/8", "mana": 60,
+        "description": "孙膑引导时空之力，使得范围内友军增加30%/36%/42%/48%/54%/60%移动速度和20%冷却缩短，持续2秒，持续时间结束后会时光倒流，并返还期间所受到40%的伤害"
       },
       {
-        "id": "3", "name": "", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "3", "name": "", "cn_name": "时光流逝", "cooldown": "45/40/35", "mana": 100,
+        "description": "Ultimate: 孙膑向指定方向投掷一枚强化炸弹，附着敌人或飞行到最大距离后展开力场，展开时会对范围内敌人造成500/625/750（+45%法术加成）点法术伤害并减少其50%移动速度，同时敌人还会被沉默1秒；力场将持续5秒，处于力场中的敌人会减少25%冷却的恢复速度，5秒后会再次对范围内敌人造成1500/1875/2250（+135%法术加成）点法术伤害"
+      }
+    ]
+  },
+  {
+    "name": "sunshangxiang", "cn_name": "孙尚香", "types": ["archer"], "ready":0,
+    "skills": [
+      {
+        "id": "0", "name": "", "cn_name": "活力迸发",
+        "description": "Passive: 孙尚香每次普通攻击都会减少0.5秒翻滚突袭的冷却时间"
+      },
+      {
+        "id": "1", "name": "", "cn_name": "翻滚突袭", "cooldown": 5, "mana": 35,
+        "description": "孙尚香向指定方向翻滚，下一次普通攻击变更为强化射击，强化射击会对一条直线上的敌人造成300/330/360/390/420/450（+100%物理加成）点物理伤害，如果翻滚后附近有敌方英雄将会增加80%持续衰减的移动速度，持续2秒，使用强化射击后会重置下一次普通攻击并增加攻击距离"
+      },
+      {
+        "id": "2", "name": "", "cn_name": "红莲爆弹", "cooldown": "10/9.2/8.4/7.6/6.8/6", "mana": 80,
+        "description": "孙尚香向指定目标范围投掷爆弹，对范围内敌人造成125/140/155/170/185/200（+50%物理加成）点物理伤害并减少90%移动速度，持续1秒，命中敌方后增加自身物理穿透20%，持续4秒"
+      },
+      {
+        "id": "3", "name": "", "cn_name": "究极弩炮", "cooldown": "30/25/20", "mana": 140,
+        "description": "Ultimate: 孙尚香蓄力向指定方向发射一枚弩炮，弩炮在触碰敌人或者飞行到最远距离后将发生爆炸，对第一名触碰的敌人造成500/750/1000（+185%物理加成）点物理伤害，对爆破范围内的敌人造成50%伤害"
       }
     ]
   },
@@ -1166,23 +1210,23 @@
     ]
   },
   {
-    "name": "taiyizhenren", "cn_name": "", "types": ["support"], "ready":0,
+    "name": "taiyizhenren", "cn_name": "太乙真人", "types": ["support"], "ready":0,
     "skills": [
       {
-        "id": "gold_glitering", "name": "Glitering gold", "cn_name": "",
-        "description": "Passive: "
+        "id": "gold_glitering", "name": "Glitering gold", "cn_name": "黄金闪闪",
+        "description": "Passive: 太乙真人附近800范围内的敌方非英雄单位死亡时，太乙真人和附近的队友都会获得额外35％金币"
       },
       {
-        "id": "accident", "name": "Accident", "cn_name": "",
-        "description": ""
+        "id": "accident", "name": "Accident", "cn_name": "意外事故", "cooldown": 5, "mana": 65,
+        "description": "法术伤害并将其眩晕0.5秒~1.5秒；太乙真人可随时结束炼制并触发爆炸，但炼制时间越长，伤害越高并且晕眩时间越长；炼制时，自身会逐渐增加移动速度，最多增加至30％；同时，太乙真人还会获得60/96/132/168/204/240点物理及法术防御加成；炼制达到最长时间后，若爆炸命中敌方英雄将减少意外事故的全部冷却时间"
       },
       {
-        "id": "third_hand", "name": "Third hand", "cn_name": "",
-        "description": ""
+        "id": "third_hand", "name": "Third hand", "cn_name": "第三只手", "cooldown": "10/9.2/8.4/7.6/6.8/6", "mana": 65,
+        "description": "太乙真人的炉子向指定方向伸出一只触手，会将自身拉向命中的第一个目标；如果是敌方目标，还会造成450/500/550/600/650/700（+80％法术加成）点法术伤害并将其眩晕1秒"
       },
       {
-        "id": "methamorphosis", "name": "Methamorphosis", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "methamorphosis", "name": "Methamorphosis", "cn_name": "大变活人", "cooldown": "70/65/60", "mana": 150,
+        "description": "Ultimate: 太乙真人召唤替身傀儡，替身傀儡会保护太乙真人和附近血量最低的一名队友，持续3秒；若在傀儡保护下死亡，2秒后将在原地复活，同时将获得2000/2750/3500（+200％法术加成）点生命；复活时，还会对周围的敌人造成600/750/900（+80％法术加成）点法术伤害并减少其50％移动速度，持续2秒；该技能可以在被控制时释放"
       }
     ]
   },
@@ -1208,86 +1252,86 @@
     ]
   },
   {
-    "name": "wuzetian", "cn_name": "", "types": [], "ready":0,
+    "name": "wuzetian", "cn_name": "武则天", "types": ["mage"], "ready": 0,
     "skills": [
       {
-        "id": "0", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "0", "name": "", "cn_name": "天命之女",
+        "description": "Passive: 武则天脱离战斗后会增加50点移动速度，同时每秒会回复1％最大法力值"
       },
       {
-        "id": "1", "name": "", "cn_name": "",
-        "description": ""
+        "id": "1", "name": "", "cn_name": "女帝辉光", "cooldown": 3, "mana": 60,
+        "description": "武则天向指定方向释放能量法球，命中敌人后爆开，对范围内的敌人造成350/410/470/530/590/650（+45％法术加成）点法术伤害；由被动强化的女帝辉光将造成双倍伤害并使目标击飞0.75秒；被动：武则天释放任意两个技能后，女帝辉光会立即冷却并得到强化，持续3秒"
       },
       {
-        "id": "2", "name": "", "cn_name": "",
-        "description": ""
+        "id": "2", "name": "", "cn_name": "女帝威严", "cooldown": "8/7.6/7.2/6.8/6.4/6", "mana": 90,
+        "description": "武则天的威严不可侵犯，击退附近的敌人并对他们造成250/280/310/340/370/400（+30％法术加成）点法术伤害；如果技能命中敌人，自身会增加30/34/38/42/44/50％移动速度，持续1秒，命中的敌人会减少30/34/38/42/46/50％的移动速度，持续2秒"
       },
       {
-        "id": "3", "name": "", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "3", "name": "", "cn_name": "生杀予夺", "cooldown": "80/70/60", "mana": 150,
+        "description": "Ultimate: 武则天以女帝权威施行制裁，在所有敌方英雄脚下召唤法阵并引爆，对范围内敌人造成750/925/1100（+90％法术加成）点法术伤害并晕眩1秒，同时获取敌方视野，持续3秒"
       }
     ]
   },
   {
-    "name": "xiahoudun", "cn_name": "", "types": [], "ready":0,
+    "name": "xiahoudun", "cn_name": "夏侯惇", "types": ["tank"], "ready":0,
     "skills": [
       {
-        "id": "0", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "0", "name": "", "cn_name": "噬目", "cooldown": 60,
+        "description": "Passive: 夏侯惇生命值低于50％时，每一次技能或普通攻击命中目标都会回复3％的最大生命值，持续8秒；每30秒最多触发一次"
       },
       {
-        "id": "1", "name": "", "cn_name": "",
-        "description": ""
+        "id": "1", "name": "", "cn_name": "豪气斩", "cooldown": 7, "mana": 30,
+        "description": "夏侯惇挥动大刀，向指定方向斩一道刃风，对路径上的敌人造成240/290/340/390/440/490（+100％物理加成）点物理伤害并减少其50％移动速度，持续2秒；刃风命中英雄后可再次挥动大刀向指定范围方向释放豪气斩，豪气斩会造成240/290/340/390/440/490（+100％物理加成）点物理伤害并将范围内敌人击飞1秒"
       },
       {
-        "id": "2", "name": "", "cn_name": "",
-        "description": ""
+        "id": "2", "name": "", "cn_name": "龙卷闪", "cooldown": "12/11/10/9/8/7", "mana": 60,
+        "description": "夏侯惇对周围敌人造成200/225/250/275/300/325（+70％物理加成）点法术伤害；同时获得一个可抵免等同于自身额外最大生命值15％的护盾，持续5秒；并且夏侯惇的下三次普通攻击将附加100点真实伤害，持续8秒；每次强化普攻命中敌人时减少1秒不羁之刃的冷却时间"
       },
       {
-        "id": "3", "name": "", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "3", "name": "", "cn_name": "不羁之刃", "cooldown": 15, "mana": 80,
+        "description": "Ultimate: 夏侯惇向指定目标方向扔出链刃，链刃飞向指定位置或击中敌人后会对范围内敌人造成300/425/550(+118％物理加成）点物理伤害并将自己拉向链刃位置，并且击中的首个敌人会眩晕1秒；夏侯惇飞抵目标区域后还将追加300/425/550（+118％物理加成）点物理伤害"
       }
     ]
   },
   {
-    "name": "xiangyu", "cn_name": "", "types": [], "ready":0,
+    "name": "xiangyu", "cn_name": "项羽", "types": ["tank"], "ready":0,
     "skills": [
       {
-        "id": "0", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "0", "name": "", "cn_name": "陷阵之志",
+        "description": "Passive: 项羽生命低于30%时，自身减少40%所受到的伤害，持续6秒，每90秒最多触发一次；项羽的普通攻击会对目标额外造成其6%最大生命值比例的物理伤害，每个目标每6秒只能触发一次"
       },
       {
-        "id": "1", "name": "", "cn_name": "",
-        "description": ""
+        "id": "1", "name": "", "cn_name": "无畏冲锋", "cooldown": "4/13/12/11/10/9", "mana": 50,
+        "description": "项羽向指定方向冲撞，冲撞时触碰到的所有敌人会被一起击退，冲撞结束时项羽还会向前方发动一次挑斩，挑斩会将敌人击飞0.5秒，冲撞和挑斩都会对敌人造成120/144/168/192/216/240（+48%物理加成）点物理伤害，技能命中敌方会减少30%无畏冲锋的冷却时间"
       },
       {
-        "id": "2", "name": "", "cn_name": "",
-        "description": ""
+        "id": "2", "name": "", "cn_name": "破釜沉舟", "cooldown": 9, "mana": 40,
+        "description": "项羽发出怒吼，对附近范围内的敌人造成150/180/210/240/270/300（+80%物理加成）点法术伤害，并且会减少30%的移动速度和25/28/31/34/37/40%的伤害输出，持续2秒； 被动：项羽的每1点物理防御会额外增加1.5-2.5点最大生命值（随技能等级成长）"
       },
       {
-        "id": "3", "name": "", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "3", "name": "", "cn_name": "霸王斩", "cooldown": "50/45/40", "mana": 100,
+        "description": "Ultimate: 项羽朝指定方向蓄力后斩出一道刀气，对路径上的敌人造成540/810/1080（+96%物理加成）点物理伤害，对被枪刃命中的敌人会造成额外66%伤害并将其眩晕1秒；被动：项羽会对等级低于或等于自身的目标造成额外15%的伤害"
       }
     ]
   },
   {
-    "name": "xiaoqiao", "cn_name": "", "types": [], "ready":0,
+    "name": "xiaoqiao", "cn_name": "小乔", "types": ["mage"], "ready": 0,
     "skills": [
       {
-        "id": "0", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "0", "name": "", "cn_name": "治愈微笑",
+        "description": "Passive: 小乔释放技能命中敌人时，会增加25％移动速度，持续2秒"
       },
       {
-        "id": "1", "name": "", "cn_name": "",
-        "description": ""
+        "id": "1", "name": "", "cn_name": "绽放之舞", "cooldown": 5, "mana": 60,
+        "description": "小乔向指定方向扔出一把回旋飞行的扇子，会对第一个命中的敌人造成450/540/630/720/810/900（+80％法术加成）点法术伤害，每次命中后伤害都会衰减20％，最低衰减至初始伤害的40％"
       },
       {
-        "id": "2", "name": "", "cn_name": "",
-        "description": ""
+        "id": "2", "name": "", "cn_name": "甜蜜恋风", "cooldown": "14.5/13.3/12.1/10.9/9.7/8.5", "mana": 80,
+        "description": "小乔在指定区域召唤出一道旋风，对区域内敌人造成300/340/380/420/460/500（+50％法术加成）点法术伤害并击飞1.5秒"
       },
       {
-        "id": "3", "name": "", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "3", "name": "", "cn_name": "星华缭乱", "cooldown": "42/35/28", "mana": 140,
+        "description": "Ultimate: 小乔召唤流星并不断向附近的敌人坠落，召唤持续5秒，每颗流星会造成400/500/600（+100％法术加成）点法术伤害，每个敌人最多承受4次攻击，当多颗流星命中同一目标时，从第二颗流星开始将只造成50％伤害"
       }
     ]
   },
@@ -1334,65 +1378,65 @@
     ]
   },
   {
-    "name": "yangjian", "cn_name": "", "types": ["warrior"], "ready":0,
+    "name": "yangjian", "cn_name": "杨戬", "types": ["warrior"], "ready":0,
     "skills": [
       {
-        "id": "wisdom_erosion", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "wisdom_erosion", "name": "", "cn_name": "神智侵蚀",
+        "description": "Passive: 杨戬附近的每个敌方英雄都会使杨戬减少10%所受控制效果的持续时间，最多减少30%"
       },
       {
-        "id": "yinyang_reverse", "name": "", "cn_name": "",
-        "description": ""
+        "id": "yinyang_reverse", "name": "", "cn_name": "逆转乾坤", "cooldown": "8/7.6/7.2/6.8/6.4/6", "mana": 60,
+        "description": "杨戬召唤哮天犬并让其向指定方向发起冲锋，对第一个命中的敌人造成150/180/210/240/270/300（+70%物理加成）点物理伤害，如果命中敌人，5秒内可再次施放该技能，施放后杨戬将冲向该敌人并发起一次攻击，造成225/270/315/360/405/450（+105%物理加成）点物理伤害并附加目标已损生命值16%的物理伤害；如果杨戬直接击败目标，将立即刷新逆转乾坤冷却时间"
       },
       {
-        "id": "fake_annihilation", "name": "", "cn_name": "",
-        "description": ""
+        "id": "fake_annihilation", "name": "", "cn_name": "虚妄破灭", "cooldown": "12/11.6/11.2/10.8/10.4/10", "mana": 70,
+        "description": "杨戬向指定方向横扫，对范围内敌人造成250/300/350/400/450/500（+100%物理加成）点物理伤害并减少50%移动速度，持续2秒；如果命中的目标生命值百分比高于杨戬，将会晕眩1秒；命中敌人后，杨戬的普通攻击将附带80/120/160/200/240/280（+35%物理加成）点真实伤害，持续5秒"
       },
       {
-        "id": "origin_eye", "name": "", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "origin_eye", "name": "", "cn_name": "根源之目", "cooldown": "30/25/20", "mana": 100,
+        "description": "Ultimate: 杨戬可利用天眼施放3次激光，每次间隔不超过5秒，对路径上的敌人造成250/315/380（+85%物理加成）点物理伤害。第3次将会发出3道激光，同时被多道激光命中，从第二道激光开始只会造成30%的伤害；激光命中敌人时，造成的伤害值的50%会转化为杨戬的生命值1"
       }
     ]
   },
   {
-    "name": "yase", "cn_name": "", "types": ["warrior"], "ready":0,
+    "name": "yase", "cn_name": "亚瑟", "types": ["warrior"], "ready":0,
     "skills": [
       {
-        "id": "holy_light_guard", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "holy_light_guard", "name": "", "cn_name": "圣光守护",
+        "description": "Passive: 亚瑟获得圣光守护，每2秒回复1%的最大生命值"
       },
       {
-        "id": "oath_shield", "name": "", "cn_name": "",
-        "description": ""
+        "id": "oath_shield", "name": "", "cn_name": "誓约之盾", "cooldown": "10/9/8/7/6/5",
+        "description": "亚瑟增加30%移动速度，持续3秒，下一次普通攻击变更为跳斩，跳斩会造成180/205/230/255/280/305（+100%物理加成）点物理伤害并将目标沉默1秒，同时跳斩命中的敌方英雄会被标记，持续5秒，亚瑟的普通攻击和技能会额外造成目标最大生命值1%的法术伤害；标记附近的友军会增加10%的移动速度"
       },
       {
-        "id": "rotation_hit", "name": "", "cn_name": "",
-        "description": ""
+        "id": "rotation_hit", "name": "", "cn_name": "回旋打击", "cooldown": "12/11.4/10.8/10.2/9.6/9",
+        "description": "亚瑟召唤圣盾围绕自身旋转，对路径上的敌人会造成145/163/181/199/217/235（+80%物理加成）点物理伤害，圣盾最多持续5秒"
       },
       {
-        "id": "holy_sword_judgment", "name": "", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "holy_sword_judgment", "name": "", "cn_name": "圣剑裁决", "cooldown": "42/35/28",
+        "description": "Ultimate: 亚瑟举起圣剑跃向敌方英雄，造成敌方英雄最大生命12/16/20%法术伤害并将其击飞0.5秒；同时召唤圣印覆盖落点范围，持续5秒，圣印会对范围内敌人造成每秒85/105/125点法术伤害"
       }
     ]
   },
   {
-    "name": "yingzheng", "cn_name": "", "types": [], "ready":0,
+    "name": "yingzheng", "cn_name": "嬴政", "types": ["mage"], "ready":0,
     "skills": [
       {
-        "id": "0", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "0", "name": "", "cn_name": "王者审判",
+        "description": "Passive: 嬴政的普通攻击可以击穿目标，并造成70（+100%物理加成）（+30%法术加成）点法术伤害；攻击机关时会衰减50%的伤害"
       },
       {
-        "id": "1", "name": "", "cn_name": "",
-        "description": ""
+        "id": "1", "name": "", "cn_name": "王者惩戒", "cooldown": 8, "mana": 100,
+        "description": "嬴政在指定目标区域召唤黄金剑阵，持续2.5秒，每0.5秒对范围内的敌人造成100/120/140/160/180/200（+27%法术加成）点法术伤害；范围内敌人会减少10%移动速度，持续1秒，最多叠加5层"
       },
       {
-        "id": "2", "name": "", "cn_name": "",
-        "description": ""
+        "id": "2", "name": "", "cn_name": "王者守御", "cooldown": "12/11/10/9/8/7", "mana": 40,
+        "description": "嬴政开启王之护盾，持续时间内增加自身140/168/196/224/252/280法术攻击力和10/11/12/13/14/15%移动速度；被动：增加嬴政自身70/84/98/112/126/140法术攻击力和2/3/3/4/4/5%移动速度"
       },
       {
-        "id": "3", "name": "", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "3", "name": "", "cn_name": "至尊王权", "cooldown": 30, "mana": 150,
+        "description": "Ultimate: 嬴政展示王者权力，号令55只飞剑持续向指定方向进行冲击，持续5秒，每只飞剑能造成70/90/110（+8%法术加成）点法术伤害，该技能会对小兵和野怪造成25%额外伤害"
       }
     ]
   },
@@ -1400,7 +1444,7 @@
     "name": "yuji", "cn_name": "虞姬", "types": ["archer"], "ready": 1,
     "skills": [
       {
-        "id": "tree_god_blessing", "name": "Tree god blessing", "cn_name": "树神佑护", "cooldown": "", "mana": "",
+        "id": "tree_god_blessing", "name": "Tree god blessing", "cn_name": "树神佑护",
         "description": "Passive: After entering combat, next attack will deal an additional 200(+200% Phsy) physical damages and slow the target move speed by 90% for 1.5s."
       },
       {
@@ -1413,112 +1457,133 @@
       },
       {
         "id": "front_wave_dance", "name": "Front wave dance", "cn_name": "阵前舞", "cooldown": "20/17/14", "mana": 100,
-        "description": "Ultimate:  will jump at her target stunning it for 0.5s. She will afterwards leap backwards sending in her target direction to projectiles dealing 220/280/340 (+120 Phys) physical damages. At her leap point,  is immuned to crowd control."
+        "description": "Ultimate: 虞姬 will jump at her target stunning it for 0.5s. She will afterwards leap backwards sending in her target direction to projectiles dealing 220/280/340 (+120 Phys) physical damages. At her leap point,  is immuned to crowd control."
       }
     ]
   },
   {
-    "name": "zhangfei", "cn_name": "", "types": ["tank"], "ready":0,
+    "name": "yixing", "cn_name": "弈星", "types": ["mage"], "ready": 1,
     "skills": [
       {
-        "id": "dark_potential", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "", "name": "", "cn_name": "气合",
+        "description": "Passive: 血量低于35%时，弈星会遁入虚无，免疫所有伤害并提升30%移动速度，持续2秒，并在旁边自动生成两颗棋子，这个效果有90秒CD。弈星的普通攻击会造成70（+100%物理加成）（+20%法术加成）点法术伤害"
       },
       {
-        "id": "spot_restriction", "name": "", "cn_name": "",
-        "description": ""
+        "id": "", "name": "", "cn_name": "定式·镇神", "cooldown": 1, "mana": 35,
+        "description": "在指定地点放置一颗黑色棋子，棋子生成时会对周围敌人造成200/240/280/320/360/400（+25%法术加成）点法术伤害。黑白棋子如果距离低于1000，则会互相吸引并爆炸，对范围内的敌人造成400（+50%法术加成）点法术伤害和90%减速持续1秒(爆炸伤害随英雄等级成长,2秒内连续受到爆炸后续伤害将衰减50%)。棋子每8秒存储一发（受到减CD属性影响），最多存储4颗，每颗棋子最多持续15秒"
       },
       {
-        "id": "guard_mechanism", "name": "", "cn_name": "",
-        "description": ""
+        "id": "", "name": "", "cn_name": "定式·倚盖", "cooldown": 1, "mana": 35,
+        "description": "在指定地点放置一颗白色棋子，棋子生成时会对周围敌人造成200/240/280/320/360/400（+25%法术加成）点法术伤害。黑白棋子如果距离低于1000，则会互相吸引并爆炸，对范围内的敌人造成400（+50%法术加成）点法术伤害和90%减速持续1秒(爆炸伤害随英雄等级成长,2秒内连续受到爆炸后续伤害将衰减50%)。棋子每8秒存储一发（受到减CD属性影响），最多存储4颗，每颗棋子最多持续15秒"
       },
       {
-        "id": "unyielding_mad_beast", "name": "", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "", "name": "", "cn_name": "天元", "cooldown": "80/75/70", "mana": 120,
+        "description": "Ultimate: 弈星划出一个巨大的虚空棋盘，棋盘上会自动生成4颗棋子。释放技能2秒后棋盘完全成型，成型时对棋盘内的敌人造成480/720/960（+72%法术加成）点法术伤害和0.5秒眩晕，棋盘完全成型后所有棋盘上的敌人将无法离开棋盘范围，棋盘成型后共持续4秒"
       }
     ]
   },
   {
-    "name": "zhangliang", "cn_name": "", "types": ["mage"], "ready":0,
+    "name": "zhangfei", "cn_name": "张飞", "types": ["tank"], "ready":0,
     "skills": [
       {
-        "id": "incarnation", "name": "Word of incarnation",
-        "description": "Passive: "
+        "id": "dark_potential", "name": "Dark potential", "cn_name": "黑暗潜能",
+        "description": "Passive: 张飞变身前，每次普通攻击会增加狂意；张飞变身后，施放技能会使得周围的地面震动，附近的敌人将会减少50％移动速度，持续2秒；并且变身后的普通攻击将会造成40（+200％物理加成）点伤害"
       },
       {
-        "id": "barrier", "name": "Word of barrier",
-        "description": ""
+        "id": "spot_restriction", "name": "Spot restriction", "cn_name": "画地为牢", "cooldown": 6, "mana": 0,
+        "description": "张飞向四周挥扫蛇矛，对范围内的敌人造成450/550/650/750/850/950（+100％物理加成）点物理伤害；命中敌方英雄时会将其击退；每命中一个敌方非英雄单位会增加1点狂意，命中敌方英雄会增加3点狂意；变身后，张飞会向指定方向疯狂的砸击地面，对范围内的敌人造成450/550/650/750/850/950（+100％物理加成）点物理伤害"
       },
       {
-        "id": "erosion", "name": "Word of erosion",
-        "description": ""
+        "id": "guard_mechanism", "name": "Guard mechanism", "cn_name": "守护机关", "cooldown": 10, "mana": 0,
+        "description": "张飞向指定区域跳跃，落地时启动机关印记，机关会给范围内友军生成可抵免500/675/850/1025/1200/1375（+47％物理加成）点伤害的护盾；释放技能会增加3点狂意，每给一位友方英雄生成一个护盾可额外增加1点狂意；变身后，张飞向指定区域跳跃，践踏该区域敌军造成380/430/480/530/580/630（+94％物理加成）点物理伤害"
       },
       {
-        "id": "manipulation", "name": "Word of manipulation",
-        "description": "Ultimate: "
+        "id": "unyielding_mad_beast", "name": "Unyielding mad beast", "cn_name": "狂兽血性", "cooldown": 40, "mana": 100,
+        "description": "Ultimate: 张飞狂意达顶峰，指定方向怒吼形成狂风通路并展现魔种真身，获得相当于自身最大生命值40％的护盾，持续15秒；怒吼期间免疫控制，狂风会推开通路两边敌人，同时对通路末端敌人造成500/750/1000（65％物理加成）点物理伤害并将其眩晕1.5秒；张飞在通路范围内会增加50％移动加速"
       }
     ]
   },
   {
-    "name": "zhaoyun", "cn_name": "", "types": [], "ready":0,
+    "name": "zhangliang", "cn_name": "张良", "types": ["mage"], "ready": 0,
     "skills": [
       {
-        "id": "0", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "incarnation", "name": "Word of incarnation", "cn_name": "言灵·咒令",
+        "description": "Passive: 张良对任一敌人造成的相邻两次普攻或技能伤害的时间间隔若小于1.5秒，这两次伤害的间隔时间被视为“连续攻击状态”，该状态每积累满2秒，会使该敌人额外承受140（+50%法术加成）点真实伤害，该伤害随英雄等级每级成长10点"
       },
       {
-        "id": "1", "name": "", "cn_name": "",
-        "description": ""
+        "id": "barrier", "name": "Word of barrier", "cn_name": "言灵·壁垒", "cooldown": "11/10.6/10.2/9.8/9.4/9", "mana": 80,
+        "description": "张良以言灵之术召唤4道并列的法术壁垒，敌人触碰壁垒将受到400/450/500/550/600/650（+75%法术加成）点法术伤害、0.75秒晕眩和之后0.5秒50%减速，并撞碎这块壁垒。重复触碰壁垒的敌人受到的伤害衰减50%，不再承受晕眩效果，但会承受1.25秒50%减速效果"
       },
       {
-        "id": "2", "name": "", "cn_name": "",
-        "description": ""
+        "id": "erosion", "name": "Word of erosion", "cn_name": "言灵·命数", "cooldown": 2, "mana": 80,
+        "description": "张良以言灵之术召唤侵蚀法阵，法阵每0.5秒对踏入其中的敌人之一造成120/144/168/192/216/240（+17%法术加成）点法术伤害，同时最多存在2个法阵(法阵对小兵野怪额外造成25%伤害)。法阵每13秒存储一次（受到减CD属性影响），最多存储3次，每个法阵持续5.5秒"
       },
       {
-        "id": "3", "name": "", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "manipulation", "name": "Word of manipulation", "cn_name": "言灵·操纵", "cooldown": "40/35/30", "mana": 130,
+        "description": "Ultimate: 张良以言灵之术抓住一名敌方英雄，持续2秒，期间每0.5秒造成120/150/180（+15%法术加成）点法术伤害，并持续支配对方。技能完整释放后，还会在目标身下生成一个法术区域，对踏进其中的敌人造成240/300/360（+30%法术加成）点法术伤害和0.75秒晕眩"
       }
     ]
   },
   {
-    "name": "zhenji", "cn_name": "", "types": [], "ready":0,
+    "name": "zhaoyun", "cn_name": "赵云", "types": ["warrior"], "ready":0,
     "skills": [
       {
-        "id": "0", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "0", "name": "", "cn_name": "龙鸣",
+        "description": "Passive: 赵云每损失3%最大生命值，就会获得减少1%所受到的伤害"
       },
       {
-        "id": "1", "name": "", "cn_name": "",
-        "description": ""
+        "id": "1", "name": "", "cn_name": "惊雷之龙", "cooldown": "7/6.4/5.8/5.2/4.6/4", "mana": 40,
+        "description": "赵云执枪向指定方向冲锋，对路径上的敌人造成190/214/238/262/286/310（+100%物理加成）点物理伤害；冲锋后的下一次普通攻击会造成65/74/83/92/101/110（+160%物理加成）点物理伤害并将其减少25%移动速度，持续2秒"
       },
       {
-        "id": "2", "name": "", "cn_name": "",
-        "description": ""
+        "id": "2", "name": "", "cn_name": "破云之龙", "cooldown": "8/7.2/6.4/5.6/4.8/4", "mana": 60,
+        "description": "赵云向指定方向连续3次刺出龙枪，对指定方向敌人每次造成140/158/176/194/212/230（+60%物理加成）点物理伤害；每次命中英雄后回复35/39/43/47/51/55（+14%物理加成）点生命值"
       },
       {
-        "id": "3", "name": "", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "3", "name": "", "cn_name": "天翔之龙", "cooldown": "18/15/12", "mana": 135,
+        "description": "Ultimate: 赵云跃向空中，向目标区域发动雷霆一击，对范围内敌人造成370/460/550（+140%物理加成）点物理伤害并击飞1秒；同时标记敌人为感电目标；赵云的普通攻击和技能伤害对感电目标会造成额外30/45/60（+13%物理加成）点法术伤害"
       }
     ]
   },
   {
-    "name": "zhongkui", "cn_name": "", "types": ["mage"], "ready":0,
+    "name": "zhenji", "cn_name": "甄姬", "types": ["mage"], "ready":0,
     "skills": [
       {
-        "id": "punish_ceremony", "name": "Punish ceremony", "cn_name": "",
-        "description": "Passive: "
+        "id": "0", "name": "", "cn_name": "凝泪成冰",
+        "description": "Passive: 甄姬的每次技能伤害都会为目标叠加冰冻印记，持续7秒，叠加满3层后目标将被冰冻1秒，造成350（52％法术加成）点法术伤害，每个敌方英雄在5秒内只会被冰冻一次"
       },
       {
-        "id": "void_cleaner", "name": "Void cleaner", "cn_name": "",
-        "description": ""
+        "id": "1", "name": "", "cn_name": "泪如泉涌", "cooldown": 8, "mana": 90,
+        "description": "甄姬在指定位置召唤水柱冲出地面，对范围内敌人造成500/590/680/770/860/950（+70％法术加成）点法术伤害并击飞1秒"
       },
       {
-        "id": "destruction_lock", "name": "Destruction lock", "cn_name": "",
-        "description": ""
+        "id": "2", "name": "", "cn_name": "叹息水流", "cooldown": 6, "mana": 70,
+        "description": "甄姬引导指定方向的水流，水流会锁定敌人并在敌人间弹射，最多弹射3次，每次弹射会对敌人造成300/350/400/450/500/550（+45％法术加成）点法术伤害"
       },
       {
-        "id": "reincarnation_swallow", "name": "Reincarnation swallow", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "3", "name": "", "cn_name": "洛神降临", "cooldown": "50/45/40", "mana": 150,
+        "description": "Ultimate: 甄姬向指定方向释放水之精魄，水之精魄会向指定方向不断推进，对直接命中的敌人造成400/500/600（+65％法术加成）点法术伤害；最终会形成一片水域，持续5秒，每秒对触碰的敌人造成200/250/300（+32％法术加成）点法术伤害并减少其50％移动速度，持续2秒"
+      }
+    ]
+  },
+  {
+    "name": "zhongkui", "cn_name": "钟馗", "types": ["mage"], "ready": 0,
+    "skills": [
+      {
+        "id": "punish_ceremony", "name": "Punish ceremony", "cn_name": "制裁仪式",
+        "description": "Passive: 钟馗受到单次伤害超过10%当前生命值会引发爆炸，对自身附近的敌人造成40（+40%法术加成）（+68)（最大生命值2%）法术伤害，引发爆炸有2秒冷却时间；钟馗死亡后3秒引爆之身，对自身附近的敌人造成240（+240%法术加成）（+410）（最大生命值12%）法术伤害"
+      },
+      {
+        "id": "void_cleaner", "name": "Void cleaner", "cn_name": "虚空清道者", "cooldown": 4, "mana": 60,
+        "description": "钟馗以虚空之力锤击地面，对范围内的敌人造成200/240/280/320/360/400（+70%法术加成）点法术伤害并减少30%移动速度，持续1秒；在钟馗身边的敌人受到150%伤害并减少30%移动速度，持续2秒"
+      },
+      {
+        "id": "destruction_lock", "name": "Destruction lock", "cn_name": "湮灭之锁", "cooldown": "17/16/15/14/13/12", "mana": 60,
+        "description": "钟馗向指定方向投出钩锁并将第一个命中敌人拉至身前，钩锁命中将造成700/840/980/1120/1260/1400（+160%法术加成）点法术伤害，同时为该敌人添加标记，轮回吞噬的每次吞噬会将标记的敌人眩晕0.5秒；被动：钟馗每次击败英雄或助攻会获得1层虚空噬魂。每层虚空噬魂会增加125最大生命值，最多叠加20层"
+      },
+      {
+        "id": "reincarnation_swallow", "name": "Reincarnation swallow", "cn_name": "轮回吞噬", "cooldown": "40/35/30", "mana": 130,
+        "description": "Ultimate: 钟馗蓄力后向指定方向张开虚空身躯，对范围内的敌人进行多次吞噬效果，总共造成2400/3000/3600（+360%法术加成）点法术伤害；钟馗在释放同时会获得可抵免240点伤害护盾"
       }
     ]
   },
@@ -1544,65 +1609,65 @@
     ]
   },
   {
-    "name": "zhouyu", "cn_name": "", "types": [], "ready":0,
+    "name": "zhouyu", "cn_name": "周瑜", "types": ["mage"], "ready":0,
     "skills": [
       {
-        "id": "0", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "0", "name": "", "cn_name": "引燃",
+        "description": "Passive: 周瑜普通攻击和技能的火焰会对敌人和敌方建筑叠加引燃印记，持续4秒；叠加满4层后目标将被引燃，在4秒内每秒承受125（+17%法术加成）点法术伤害并减少其30%移动速度，持续1秒；引燃期间目标不会再被叠加印记"
       },
       {
-        "id": "1", "name": "", "cn_name": "",
-        "description": ""
+        "id": "1", "name": "", "cn_name": "东风浩荡", "cooldown": "6/5.6/5.2/4.8/4.4/4", "mana": 60,
+        "description": "周瑜向指定方向召唤狂风形成一个单向风区，风区内己方英雄移速提升10%，敌方英雄移速降低20%，持续5秒，狂风吹起瞬间，还会将附近的敌人朝风向方向击退并造成200/240/280/320/360/400（+30%法术加成）点法术伤害，火区若被风区持续覆盖1.5秒，会朝风向方向蔓延出新的火区，火区每0.5秒对敌人造成一次125/150/175/200/225/250（+17%法术加成）点法术伤害"
       },
       {
-        "id": "2", "name": "", "cn_name": "",
-        "description": ""
+        "id": "2", "name": "", "cn_name": "流火之矢", "cooldown": 0.6, "mana": 50,
+        "description": "周瑜下令发射火矢轰击指定目标区域，火矢轰击会造成250/300/350/400/450/500（+34%法术加成）点法术伤害并留下一块火区，持续8秒，每0.5秒对火区内敌人造成一次125/150/175/200/225/250（+17%法术加成）点法术伤害。火区的数量若超过5个将清除较早生成的火区。火矢每10秒可储备1次，最多储备3次"
       },
       {
-        "id": "3", "name": "", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "3", "name": "", "cn_name": "烽火赤壁", "cooldown": "10/9/8", "mana": 100,
+        "description": "Ultimate: 周瑜向指定范围方向召唤一片火焰，造成200/300/400（+40%法术加成）点法术伤害，火焰掠过火区会激起一道火风，火风会造成额外200/300/400（+40%法术加成）点法术伤害并将敌人晕眩1秒"
       }
     ]
   },
   {
-    "name": "zhuangzhou", "cn_name": "", "types": [], "ready":0,
+    "name": "zhuangzhou", "cn_name": "庄周", "types": ["support"], "ready":0,
     "skills": [
       {
-        "id": "0", "name": "", "cn_name": "",
-        "description": "Passive: "
+        "id": "0", "name": "", "cn_name": "自然意志",
+        "description": "Passive: 庄周每隔6秒进入自然梦境，会解除自身所有控制效果，并且减少15%所受到的伤害，增加15%移动速度，持续2秒"
       },
       {
-        "id": "1", "name": "", "cn_name": "",
-        "description": ""
+        "id": "1", "name": "", "cn_name": "化蝶", "cooldown": 8, "mana": 80,
+        "description": "庄周幻化蝴蝶飞向指定方向，对路径上的敌人造成375/450/525/600/675/750（+69%法术加成）点法术伤害，并减少其50%移动速度，持续2秒"
       },
       {
-        "id": "2", "name": "", "cn_name": "",
-        "description": ""
+        "id": "2", "name": "", "cn_name": "蝴蝶效应", "cooldown": "6/5.4/4.8/4.2/3.6/3", "mana": 40,
+        "description": "庄周梦中蝴蝶扇起翅膀，对身边的敌人造成250/320/390/460/530/600（+30%法术加成）的法术伤害，并增加范围内友军3%移动速度，持续5秒，技能连续命中会叠加效果，伤害每层叠加125/160/195/230/265/300（+15%法术加成）的法术伤害，移动速度每层叠加3%，最多叠加4层；被动：庄周每隔6秒会自动释放一次蝴蝶效应"
       },
       {
-        "id": "3", "name": "", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "3", "name": "", "cn_name": "天人合一", "cooldown": "60/55/50", "mana": 150,
+        "description": "Ultimate: 庄周幻化梦域保护附近友军，使得他们免疫控制效果并且减少10%所受到的伤害，持续2秒"
       }
     ]
   },
   {
-    "name": "zhugeliang", "cn_name": "", "types": ["mage"], "ready":0,
+    "name": "zhugeliang", "cn_name": "诸葛亮", "types": ["mage"], "ready":0,
     "skills": [
       {
-        "id": "stratagem_time", "name": "Stratagem time", "cn_name": "",
-        "description": "Passive: "
+        "id": "stratagem_time", "name": "Stratagem time", "cn_name": "策谋之刻",
+        "description": "Passive: 诸葛亮法术命中敌人时，会为自己施加谋略刻印，当刻印达到5层时，会召唤5颗法球围绕自身，短暂时间后依次飞出攻击附近的敌人造成270(+52%法术加成)点法术伤害；法球在1秒内连续命中同一目标时，从第二颗法球开始将只造成20%伤害；法球会优先攻击敌方英雄，法球不会攻击非战斗状态的野怪"
       },
       {
-        "id": "east_wind_attack", "name": "East wind attack", "cn_name": "",
-        "description": ""
+        "id": "east_wind_attack", "name": "East wind attack", "cn_name": "东风破袭", "cooldown": "8/7.4/6.8/6.2/5.6/5", "mana": 60,
+        "description": "诸葛亮指定方向发射三颗法球，对路径上的敌人造成500/560/620/680/740/800（+75%法术加成）点法术伤害，如果多颗法球命中同一目标时，从第二颗法球开始将只造成30%伤害；每颗法球能触发1次谋略刻印"
       },
       {
-        "id": "time_travel", "name": "Time travel", "cn_name": "",
-        "description": ""
+        "id": "time_travel", "name": "Time travel", "cn_name": "时空穿梭", "cooldown": 2, "mana": 50,
+        "description": "诸葛亮快速朝指定方向闪烁，并在起始位置和终点位置同时产生一次法力场，对范围内敌人造成350/420/490/560/630/700（+52%法术加成）点法术伤害；同一目标如果在5秒内多次受到法力场影响，将会减少其90%移动速度，持续3秒，该效果会持续衰减；当目标被多个法力场同时命中，将只造成50%伤害；每次法力场影响到敌人，都会触发1次谋略刻印；每10秒可准备1次时空穿梭，最多可储备3次时空穿梭"
       },
       {
-        "id": "fatal_bullet", "name": "Fatal bullet", "cn_name": "",
-        "description": "Ultimate: "
+        "id": "fatal_bullet", "name": "Fatal bullet", "cn_name": "元气弹", "cooldown": "35/30/25", "mana": 120,
+        "description": "Ultimate: 诸葛亮短暂蓄力后锁定目标发出一击强力元气弹，造成450/600/750（+50%法术加成）点法术伤害；目标每损失1%最大生命值元气弹就会增加2%伤害；蓄力时诸葛亮可以移动，并且可以使用时空穿梭；元气弹飞行过程中碰撞到敌方非英雄目标，将会触发同等伤害并将其击飞0.5秒；元气弹可触发1次谋略刻印；如果元气弹直接击败敌方英雄，立即发动策谋之刻，并减少80%元气弹的冷却时间"
       }
     ]
   }
