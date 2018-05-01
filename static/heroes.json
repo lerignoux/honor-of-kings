@@ -1,6 +1,6 @@
 [
   {
-    "name": "ake", "cn_name": "阿轲", "types": ["assassin"], "ready":1,
+    "name": "ake", "cn_name": "阿轲", "types": ["assassin"], "ready": 1,
     "skills": [
       {
         "id": "death_kiss", "name": "Death Kiss", "cn_name": "死吻",
@@ -21,107 +21,107 @@
     ]
   },
   {
-    "name": "anqila", "cn_name": "安琪拉", "types": ["mage"], "ready":0,
+    "name": "anqila", "cn_name": "安琪拉", "types": ["mage"], "ready": 1,
     "skills": [
       {
         "id": "fire_magic", "name": "Fire Magic", "cn_name": "咒术火焰",
-        "description": "Passive: 安琪拉的技能会灼烧敌人，每层灼烧效果会造成11（+2%法术加成）点法术伤害，灼烧效果最多叠加10层"
+        "description": "Passive: 安琪拉 abilities burn enemies each burn level (up to 10 levels) dealing 11（+2% Mag）magic damages"
       },
       {
         "id": "fireball", "name": "Fireball", "cn_name": "火球术", "cooldown": 6, "mana": 70,
-        "description": "安琪拉召唤5颗火球朝指定位置攻击，每颗火球对敌人造成350/390/430/470/510/550（+30%法术加成）点法术伤害，当多颗火球命中同一目标时，从第二颗火球开始将只造成30%伤害，当火球命中敌方英雄时会停止移动并销毁"
+        "description": "安琪拉 calls 5 fireballs at the given position, each dealing 350/390/430/470/510/550（+30% Mag）magic damages. When hitting a same target the additional balls deal only 30% of the damages. Balls are destroyed when they hit a target"
       },
       {
         "id": "chaos_spark", "name": "Chaos Spark", "cn_name": "混沌火种", "cooldown": "10/9.6/9.2/8.8/8.4/8", "mana": 80,
-        "description": "安琪拉朝指定方向释放混沌火种，火种会在命中敌人或飞行到最远距离时裂变为火焰漩涡，火焰漩涡会继续缓慢的向前飞行并且每0.5秒对周围的敌人造成130/145/160/175/190/205（+17%法术加成）点法术伤害，持续3秒；同时范围内的敌人会减少50%移动速度，持续1.5秒；当火种直接命中敌人时还会将其晕眩1秒"
+        "description": "安琪拉 send chaos orb in a direction. when reaching the maximum distand or hitting a target it become a flame. the flame will still progress slowly for 3s dealing 130/145/160/175/190/205（+17% Mag）magic damages every 0.5s to enemies caught inside. Enemy caught will be slowed by 50% for 1.5s enemies directly hit by the flame will be stunned for 1s"
       },
       {
         "id": "blazing_radiance", "name": "Blazing Radiance", "cn_name": "炽热光辉", "cooldown": "30/26/22", "mana": 120,
-        "description": "Ultimate: 安琪拉引导魔力朝指定方向释放炽热光辉，持续3秒，对触碰的敌人每0.3秒造成150/190/230（+21%法术加成）点法术伤害并获得可抵免600/900/1200（+80%法术加成）点伤害的炽热护盾，护盾存在期间不会受到控制效果，施法1秒后再次释放该技能可以取消引导"
+        "description": "Ultimate: 安琪拉 focus a ray of fire for 3s dealing 150/190/230（+21%法术加成）magic damages every 0.3s to enemy hit. She will also gain a shield preventing 600/900/1200（+80% Mag）damages. While the protection is active 安琪拉 cannot suffer crowd control effect. It can be cancelled up to 1s after casting."
       }
     ]
   },
   {
-    "name": "bailishouyue", "cn_name": "百里守约", "types": ["archer", "assassin"], "ready":0,
+    "name": "bailishouyue", "cn_name": "百里守约", "types": ["archer", "assassin"], "ready": 1,
     "skills": [
       {
         "id": "aim", "name": "Aim", "cn_name": "瞄准",
-        "description": "Passive: 被动：百里守约的普通攻击会造成180%物理加成点物理伤害，但攻击间隔更长且无法暴击；百里守约每获得1%暴击几率就会将其转化为3点物理攻击力；非战斗状态下，百里守约能够隐匿在地形边缘，进入伪装状态，并增加16%~30%移动速度，移动速度随英雄等级成长"
+        "description": "Passive: 被动：百里守约Attacks deal additional 180% Phys damages but his attack speed is lower and cannot cause criticals.every 1% critical chance, 百里守约 will gain 3 point of attack strength. When out of combat,百里守约 is hidden and gain 16%-30% speed. The speed is increased with his level"
       },
       {
         "id": "quiet_eye", "name": "Quiet eye", "cn_name": "静谧之眼", "cooldown": 1.5, "mana": 30,
-        "description": "百里守约在脚下布置一个视野装置，获得600~1000范围的全部视野，随技能等级成长；视野装置每50/48/46/44/42/40秒可准备1个，最多储备3个；同时最多放置3个视野装置，每个视野装置可持续300秒；视野装置被敌方英雄占领后失效；百里守约普通攻击和技能对探测视野内的野怪会额外造成伤害；被动：原地不动时百里守约每秒获得1层伏击效果，每层伏击效果会增加7/8/9/10/11/12%物理穿透，最多叠加5层；移动后伏击效果消失"
+        "description": "百里守约place a trap on the floor granting full vision in a 600~1000 range(increased along his level).One device can be placed every50/48/46/44/42/40s, to a maximum of 3. Each device remain 300s. Traps are disabled when enemies walk on them.百里守约will deal additional damages to targets within traps detection range. Passive: if 百里守约 does not move fro, the initial position he will get 1 ambush level every second. Each level granting 7/8/9/10/11/12% armor penetration, to a max of 5. Effect is cancelled after he moves"
       },
       {
         "id": "gale_rest", "name": "Gale Rest", "cn_name": "狂风之息", "cooldown": 1.5, "mana": 60,
-        "description": "百里守约开始瞄准，并尝试进行一次狙击，对命中目标造成1050/1200/1350/1500/1650/1800（+250%额外物理加成）点物理伤害并减少其90%移动速度，持续0.5秒；瞄准需要花费2秒的时间，但在瞄准未完成时子弹有可能产生偏移；技能子弹每16秒获得一颗，最多储存3颗（受冷却缩减影响）"
+        "description": "百里守约 goes in snipe mode able to shoot 1 time dealing1050/1200/1350/1500/1650/1800（+250%Phys）physical damages and reducing target speed of 90% for 0.5s. Aiming requires 2s, otherwise an offset may be applied. The skill stores one bullet every 16s to a max of 3（affected by cooldown reduction）"
       },
       {
         "id": "escape", "name": "Escape", "cn_name": "逃脱", "cooldown": "25/20/15", "mana": 100,
-        "description": "Ultimate: 百里守约向后跳跃并向指定方向射击，造成500/700/900（+168%物理加成）点物理伤害并减少其50%移动速度，持续2秒；落地后自身将增加30%移动速度，持续2秒，但普通攻击或技能攻击会立即停止增加移动速度"
+        "description": "Ultimate: 百里守约 jump backwards and shoot in front dealing 500/700/900（+168%Phys）physical damages and reducing target speed by 50% for 2s. After his jump he will gain 30% move speed for 2s.attacks or skills will reset his speed immediatly"
       }
     ]
   },
   {
-    "name": "bailixuance", "cn_name": "百里玄策", "types": ["assassin"], "ready":0,
+    "name": "bailixuance", "cn_name": "百里玄策", "types": ["assassin"], "ready": 1,
     "skills": [
       {
         "id": "fanatical_order", "name": "Fanatical Order", "cn_name": "狂热序章",
-        "description": "Passive: 钩链近端造成80%物理加成点物理伤害，远端额外造成50%伤害。玄策普通攻击将会触发神乎钩镰的效果且有25%的概率造成暴击，当钩镰远端命中敌人时降低移速，并且自身会获得短暂移速提升，该效果受神乎钩镰等级影响"
+        "description": "Passive: the hook deals 80% damages near it's end, and 50% at the end. outside of this outcome it also has 25 critical chance. When an enemy is affected by the hook, he will be slowed down and 玄策 will get a small speed increase."
       },
       {
         "id": "god_hook", "name": "God Hook", "cn_name": "神乎钩镰", "cooldown": "5/4.8/4.6/4.4/4.2/4", "mana": 50,
-        "description": "玄策进行快速位移戏弄对手增加自身25/30/35/40/45/50点物理攻击力，钩镰链中时，玄策进行快速位移会将链中的目标向自己移动方向拉动一小段距离。当钩镰远端命中敌人时，敌人将会减少10%/14%/18%/22%/26%/30%移动速度，自身增加10%/14%/18%/22%/26%/30%移动速度"
+        "description": "玄策enter a quick move mode where is strength is increased by 25/30/35/40/45/50. In this mode玄策 will pull by a little every enemy hooked. It will also slow enemies by 10%/14%/18%/22%/26%/30% and increase his move speed by 10%/14%/18%/22%/26%/30%"
       },
       {
         "id": "nightmare_lock", "name": "Nightmare Lock", "cn_name": "梦魇钩锁", "cooldown": "10/9.6/9.2/8.8/8.4/8.0", "mana": 70,
-        "description": "玄策舞动钩镰，蓄力后将钩镰向指定方向甩出，钩镰会对路径上的敌人造成400/480/560/640/720/800(+200%额外物理加成)点物理伤害并捆绑在回收过程中命中的第一个目标，同时对捆绑目标施加狩猎效果；如果捆绑住目标后再次释放该技能，玄策会将目标甩向身后并失去狩猎效果;蓄力越久，钩镰飞行距离越远，蓄力最多持续4秒；蓄力时，自身将增加30%移动速度；取消蓄力会减少梦魇钩锁60%的冷却时间；玄策和狩猎目标作战时将增加10%/12%/14%/16%/18%/20%伤害并减少20%/22%/24%/26%/28%/30%该目标对自己的伤害；狩猎目标死亡，将立刻刷新梦魇钩锁的冷却时间"
+        "description": "玄策Dance with his hook. After a while the hook is sent in the given direction dealing 400/480/560/640/720/800(+200% Phys)physical damages. It will also return back on the first enemy. If activated a second time, 玄策 will move behind the hooked enemy turning is hook around for 4s with 30% increased move speed. If not activated 梦魇钩锁 recovers 60% of his cooldown. The enemies afflicted suffer 10%/12%/14%/16%/18%/20% lowered damages and 20%/22%/24%/26%/28%/30% more damages received in combat. If the enemy afflicted by hunter die 梦魇钩锁 cooldown is reset"
       },
       {
-        "id": "shans_wink", "name": "Shan\"s wink", "cn_name": "瞬镰闪", "cooldown": "2.5/2.3/2.0", "mana": 80,
-        "description": "Ultimate: 玄策沿钩镰锁链瞬镰闪到对方身后，对路径的的敌人造成350/525/700（+200%额外物理加成）点物理伤害；移动过程中，玄策挥舞短镰，将会减少50%所受到的伤害；瞬镰闪只有在钩镰捆绑住目标时才能释放；被动:玄策助攻或击杀死英雄都会激发心中的狂血使得移速增加70%（随时间效果衰减），攻速增加75%，持续5秒"
+        "id": "shans_wink", "name": "Shan's wink", "cn_name": "瞬镰闪", "cooldown": "2.5/2.3/2.0", "mana": 80,
+        "description": "Ultimate: 玄策blink behind his target dealing 350/525/700（+200% Phys）physical damages. During his move 玄策 receives 50% less damages. This is only activable when an enemy is hooked. Passive: Upon kill or assist 玄策 get 70% move speed + 75% attack speed for 5seconds (bonus lowered with time)"
       }
     ]
   },
   {
-    "name": "baiqi", "cn_name": "白起", "types": ["tank"], "ready":0,
+    "name": "baiqi", "cn_name": "白起", "types": ["tank"], "ready": 1,
     "skills": [
       {
-        "id": "", "name": "", "cn_name": "反击之镰",
-        "description": "Passive: 白起的普通攻击和技能将会减少目标对白起造成5％~12％的伤害，持续3秒，减少幅度随英雄等级成长"
+        "id": "counter", "name": "counter", "cn_name": "反击之镰",
+        "description": "Passive: 白起 attacks and skills will lessen enemy damages to 白起 by 5％~12％ for 3s (increasing with his level)"
       },
       {
-        "id": "", "name": "", "cn_name": "血之回响", "cooldown": 7, "mana": 40,
-        "description": "白起回旋大镰血洗四方，对范围内的敌人造成150/200/250/300/350/400（+40％物理加成）（+3％最大生命值）点物理伤害，并回复2％已损失生命值，命中敌方英雄时会额外回复2％已损生命；被动：白起受伤时有20％几率释放血之回响"
+        "id": "blood_retaliation", "name": "blood retaliation", "cn_name": "血之回响", "cooldown": 7, "mana": 40,
+        "description": "白起 release 4 blood quartet dealing to enemies within range 150/200/250/300/350/400（+40％ Phys）（+3％ max health）physical damages and recovering 2％ of his health lost. Every enmy hit increase the recovery by 2%. Passive：when 白起 is hit he has 20％ chance of releasing a blood retaliation"
       },
       {
-        "id": "", "name": "", "cn_name": "死神之镰", "cooldown": "14/13/12/11/10/9", "mana": 60,
-        "description": "白起在指定位置召唤镰刀，镰刀在一定延迟后收回，对范围内的敌人造成200/230/260/290/320/350（+100％物理加成）点法术伤害并将其拉回；同时敌人会减少50％移动速度，持续2.5秒；被动：白起对生命值低于30％的目标会额外造成30％伤害"
+        "id": "death_sickle", "name": "Death Sickle", "cn_name": "死神之镰", "cooldown": "14/13/12/11/10/9", "mana": 60,
+        "description": "白起 send forth and back his sickle in a direction. Enemy hit suffer 200/230/260/290/320/350（+100％ Phys）magic damages and be pulled back. They will also be slowed by 50％ for 2.5s. Passive：白起 deals 30% more damages against enemies with less than 30% of their life"
       },
       {
-        "id": "", "name": "", "cn_name": "傲慢嘲讽", "cooldown": "40/35/30", "mana": 100,
-        "description": "Ultimate: 白起向指定位置跳跃，造成300/380/460（+100％物理加成）点法术伤害并嘲讽敌人，持续1/1.3/1.5秒；嘲讽时间会随着白起的额外生命值增加，每1000点额外生命值额外提供0.2秒嘲讽时长，最多持续2.5秒；期间受到生命回复效果提升100％；被动：白起受到攻击时会获得庇佑，增加10点移动速度与30/60/90点物理防御，持续3秒，最多叠加3层"
+        "id": "arrogant_mocker", "name": "Arrogant mocker", "cn_name": "傲慢嘲讽", "cooldown": "40/35/30", "mana": 100,
+        "description": "Ultimate: 白起 jump in the given direction dealing 300/380/460（+100％ Phys）magical damanges and mocking enemies for 1/1.3/1.5s. Mocked enemies health is summed. every 1000 health marked the effect duration is increased by 0.2s (up to 2.5s). While active all health restoration on 白起 are increased by 100%. Passive: Whenever 白起 receive damage he gain 10% move speed and 30/60/90 physical armor for 3s. Can be stacked up to 3 times"
       }
     ]
   },
   {
-    "name": "bianque", "cn_name": "扁鹊", "types": ["mage"], "ready":0,
+    "name": "bianque", "cn_name": "扁鹊", "types": ["mage"], "ready": 1,
     "skills": [
       {
-        "id": "", "name": "", "cn_name": "恶德医疗",
-        "description": "Passive: 扁鹊的普通攻击和技能都会附带剧毒，每秒造成25（+5%法术加成）点法术伤害，并叠加1层毒药印记，当友方英雄受到善恶诊断的治疗时，每秒回复5（+2%法术加成）点生命值，并叠加1层回复印记；毒药印记和恢复印记最多可叠加至多5层，持续7秒"
+        "id": "evil_treatment", "name": "Evil treatment", "cn_name": "恶德医疗",
+        "description": "Passive: All 扁鹊 attacks and abilities are toxic and deal every second 25（+5%Mag）magical damages and put one mark. When allied are affected, they are healed of 5（+2% Mag）health and get 1 healing mark. Marks can stack up to 5 times and last 7s"
       },
       {
-        "id": "", "name": "", "cn_name": "致命灵药", "cooldown": 2, "mana": 40,
-        "description": "扁鹊朝指定目标范围扔出致命毒药瓶，毒液会残留原地，持续4秒，毒液每秒会对范围内的敌人造成70/76/82/88/94/100（+12%法术加成）点法术伤害并减少其30%移动速度，持续2秒；扁鹊每15/14.4/13.8/13.2/12.6/12秒可制作1瓶毒药，最多存放3瓶"
+        "id": "fatal_elixir", "name": "Fatal elixir", "cn_name": "致命灵药", "cooldown": 2, "mana": 40,
+        "description": "扁鹊send a bottle spreading poison in the area for 4s enemies in the area will suffer 70/76/82/88/94/100（+12%Mag）magic damages and 30% lowered speed for 2s.扁鹊 refill 1 bottle every 15/14.4/13.8/13.2/12.6/12s, up to 3 bottles"
       },
       {
-        "id": "", "name": "", "cn_name": "善恶诊断", "cooldown": 5, "mana": 60,
-        "description": "扁鹊朝指定方向释放药剂，对路径上的敌人造成100/120/140/160/180/200（+30%法术加成）点法术伤害，并且对触碰的友军英雄施加恢复印记并回复50/60/70/80/90/100（+15%法术加成）点生命值"
+        "id": "good_diagnostic", "name": "Good diagnostic", "cn_name": "善恶诊断", "cooldown": 5, "mana": 60,
+        "description": "扁鹊send poison in the area dealing 100/120/140/160/180/200（+30% Mag）magic damages to enemy on the way and healing allied by 50/60/70/80/90/100（+15% Mag）health"
       },
       {
-        "id": "", "name": "", "cn_name": "生命主宰", "cooldown": "18/15/12", "mana": 130,
-        "description": "Ultimate: 扁鹊引爆附近所有印记，对敌人造成200/250/300（+40%法术加成）点法术伤害，对友军英雄治疗80/100/120（+20%法术加成）点生命值.每层印记额外增加50%的额外伤害与治疗效果。"
+        "id": "master_of_life", "name": "Master of life", "cn_name": "生命主宰", "cooldown": "18/15/12", "mana": 130,
+        "description": "Ultimate: 扁鹊 detonate marks on nearby enemies dealing 200/250/300（+40% Mag）magic damages. It heals allies by 80/100/120（+20% Mag）health. Heach additional mark increase the damage or healing by 50%."
       }
     ]
   },
@@ -138,7 +138,7 @@
       },
       {
         "id": "fan_slap", "name": "Fan slap", "cn_name": "花蝶扇", "cooldown": "4/3.6/3.2/2.8/2.4/2", "mana": 40,
-        "description": "不知火舞 send her fan dealing 500/590/680/770/860/950（+100% Mag）magic damags to the first enemy hit. It will also reduce target speed by 90% for 1s and reduce it's magic resist by 50/100/150/200/250/300 for 3s. Upon hit 不知火舞 will recover 25 Life."
+        "description": "不知火舞 send her fan dealing 500/590/680/770/860/950（+100% Mag）magic damages to the first enemy hit. It will also reduce target speed by 90% for 1s and reduce it's magic resist by 50/100/150/200/250/300 for 3s. Upon hit 不知火舞 will recover 25 Life."
       },
       {
         "id": "certain_death", "name": "Certain death", "cn_name": "必杀·忍蜂", "cooldown": "25/22.5/20", "mana": 110,
@@ -150,19 +150,19 @@
     "name": "caiwenji", "cn_name": "蔡文姬","types": ["support"], "ready":1,
     "skills": [
       {
-        "id": "singing_travel", "name": "", "cn_name":"长歌行",
+        "id": "singing_travel", "name": "Singing travel", "cn_name":"长歌行",
         "description": "Passive: When receiving damage 蔡文姬 gain 70% move speed for 2s, she will also heal herself of 250（+50% Magic). Can be triggered every 10s"
       },
       {
-        "id": "ungulited_reasoning", "name": "", "cn_name":"思无邪", "cooldown": "15/14.4/13.8/13.2/12.6/12", "mana": 100,
+        "id": "unguilted_reasoning", "name": "Unguilted reasoning", "cn_name":"思无邪", "cooldown": "15/14.4/13.8/13.2/12.6/12", "mana": 100,
         "description": "蔡文姬 play for 3s increasing her speed by 20% and healing her and allies nearby by 60/66/72/78/84/90（+20% Magic）every 0.5s"
       },
       {
-        "id": "hu_whistle", "name": "", "cn_name":"胡笳乐", "cooldown": 9, "mana": 70,
+        "id": "hu_whistle", "name": "Hu whistle", "cn_name":"胡笳乐", "cooldown": 9, "mana": 70,
         "description": "蔡文姬 send a sound wave dealing 60/66/72/78/84/90（+20% Magic） magic damages and stuning each enemy hurt for 0.75s. If another enmy is in range the wave will be reflected on him. up to 6 targets can be hit. A target can be hit only 2 times but with only half damages the second time."
       },
       {
-        "id": "forget_concerns", "name": "", "cn_name":"忘忧曲", "cooldown": 60, "mana": 120,
+        "id": "forget_concerns", "name": "Forget concern", "cn_name":"忘忧曲", "cooldown": 60, "mana": 120,
         "description": "Ultimate: play music healing each 0.5s the hero (in range) with least health of 150/200/250（+35%法术加成）health. At the same time all nearby allies gain 200/250/300 physical and magical resist. Song last 5s"
       }
     ]
@@ -176,8 +176,7 @@
       },
       {
         "id": "", "name": "", "cn_name": "霸道之刃", "cooldown": "10/9.4/8.8/8.2/7.6/7",
-        "description": "曹操向指定方向发起斩击突袭，对路径上的敌人造成160/185/210/235/260/285（+84%物理加成）点物理伤害；最多可以发动3次，每次斩击间隔不能超过8秒，并且第三次斩击会将敌人击飞0.5秒
-"
+        "description": "曹操向指定方向发起斩击突袭，对路径上的敌人造成160/185/210/235/260/285（+84%物理加成）点物理伤害；最多可以发动3次，每次斩击间隔不能超过8秒，并且第三次斩击会将敌人击飞0.5秒"
       },
       {
         "id": "", "name": "", "cn_name": "纵横天下", "cooldown": "12/11/10/9/8/7",
@@ -1462,7 +1461,7 @@
     ]
   },
   {
-    "name": "yixing", "cn_name": "弈星", "types": ["mage"], "ready": 1,
+    "name": "yixing", "cn_name": "弈星", "types": ["mage"], "ready": 0,
     "skills": [
       {
         "id": "", "name": "", "cn_name": "气合",
