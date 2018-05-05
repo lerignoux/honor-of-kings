@@ -255,20 +255,20 @@
     "name": "damo", "cn_name": "达摩", "types": ["warrior"], "ready":0,
     "skills": [
       {
-        "id": "", "name": "", "cn_name": "真言·心经",
-        "description": "Passive: 达摩每次释放技能将会获得真言护体，每层真言增加80点物理防御，最多叠加3层；如果技能命中目标，下两次普通攻击将增加100%攻击速度，并会造成额外的（+30%物理加成）的物理伤害并回复60点生命值"
+        "id": "heart", "name": "Incantation: heart", "cn_name": "真言·心经",
+        "description": "Passive: Every time 达摩 release an ability he gain true protection (up to 3 stacks). Each protection level grant him 80 physical protection. If an ability hit an enemy, his next 2 attacks have 100% more attack speed, will deal +30% Physical damages and recover 60 Health to 达摩."
       },
       {
-        "id": "", "name": "", "cn_name": "真言·无相", "cooldown": 7, "mana": 45,
-        "description": "达摩往前冲刺挥出强力冲拳，对路径上的敌人造成200/240/280/320/360/400（+100%物理加成）点物理伤害并击飞目标0.5秒"
+        "id": "unrivalled", "name": "Incantation: unrivalled", "cn_name": "真言·无相", "cooldown": 7, "mana": 45,
+        "description": "达摩 punch forward dealing 200/240/280/320/360/400（+100% Phys）physical damages to enemies on the way and sending them flying for 0.5s"
       },
       {
-        "id": "", "name": "", "cn_name": "真言·明王", "cooldown": "10/9.6/9.2/8.8/8.4/8", "mana": 60,
-        "description": "达摩快速朝指定方向连续打出五拳，每一拳造成75/90/105/120/135/150（+33%物理加成）点物理伤害并减少目标20/28/36/44/52/60点物理防御，最多叠加5层，持续5秒"
+        "id": "bright_king", "name": "Incantation: Bright king", "cn_name": "真言·明王", "cooldown": "10/9.6/9.2/8.8/8.4/8", "mana": 60,
+        "description": "达摩 rapidly punch in a direction, each punch dealing 75/90/105/120/135/150（+33% Phys）physical damages and lessening target physical resistance for 5s by 20/28/36/44/52/60 (added up to 5 times)"
       },
       {
-        "id": "", "name": "", "cn_name": "真言·普渡", "cooldown": "35/30/25", "mana": 100,
-        "description": "Ultimate: 达摩向指定方向挥出超强一拳，对附近的敌人造成150/225/300（+65%物理加成）点物理伤害并将敌人向该方向击退；被击退的敌人如果在飞行过程中触碰了地形边缘将会再次受到150/225/300（+65%物理加成）点物理伤害并晕眩1.5秒；成功将敌方击退至地形边缘可再次释放真言·普渡，再次释放时达摩会向指定方向飞踢，对路径上的敌人造成150/225/300（+65%物理加成）点物理伤害并附带目标已损生命值16%的额外伤害"
+        "id": "push_through", "name": "Incantation: Push through", "cn_name": "真言·普渡", "cooldown": "35/30/25", "mana": 100,
+        "description": "Ultimate: 达摩 make a powerfull hit in the direction dealing to enemies nearby 150/225/300（+65% Phys）physical damages and pushing them backwards. Enemies that were already sent flying receive an additional 150/225/300（+65% Phys）physical damages and are stunned for 1.5s. If enemies where pushed backwards 达摩 can trigger Push through again dealing 150/225/300（+65% Phys）physical damages to enemies on the way and kicking enemies already hurt of an additional 16% damages"
       }
     ]
   },
@@ -276,23 +276,23 @@
     "name": "daqiao", "cn_name": "大乔", "types": ["support"], "ready":1,
     "skills": [
       {
-        "id": "unending_flow", "name": "", "cn_name": "川流不息",
+        "id": "unending_flow", "name": "Un-ending flow", "cn_name": "川流不息",
         "description": "Passive: 大乔 will increase the nearest ally in range move speed by 40～60. increase depending on her level."
       },
       {
-        "id": "jump_flow", "name": "jumping carp flow", "cn_name": "鲤跃之潮", "cooldown": 7, "mana": 70,
+        "id": "jump_flow", "name": "Jumping carp flow", "cn_name": "鲤跃之潮", "cooldown": 7, "mana": 70,
         "description": "大乔 send a carp in a direction dealing 550/700/850/1000（+56%法术加成）to the first enemy. when hit the path will become a river for 4s granting 30% move speed to allies within."
       },
       {
-        "id": "ocean_karma", "name": "", "cn_name": "宿命之海", "cooldown": 8, "mana": 50,
+        "id": "ocean_karma", "name": "Ocean karma", "cn_name": "宿命之海", "cooldown": 8, "mana": 50,
         "description": "大乔 will summon a typhoon for 4s. At the end all heroes in range will be attracted in the center. It will also restore life and grant 25% move speed for 3s"
       },
       {
-        "id": "decision_bridge", "name": "", "cn_name": "决断之桥", "cooldown": "11/10/9/8", "mana": 80,
+        "id": "decision_bridge", "name": "Decision bridge", "cn_name": "决断之桥", "cooldown": "11/10/9/8", "mana": 80,
         "description": "Ultimate: 大乔 summon a wave dealing 180/210/240/270（+20% Magic）magic damage and sliencing enemies within"
       },
       {
-        "id": "whirlpool_portal", "name": "", "cn_name": "漩涡之门", "cooldown": "70/55/40", "mana": 120,
+        "id": "whirlpool_portal", "name": "Whirlpool portal", "cn_name": "漩涡之门", "cooldown": "70/55/40", "mana": 120,
         "description": "Ultimate: 大乔 summon for 8s a large scale vortex dealing 660/830/1000（+72%法术加成）magic damages to enemies. During this time allied can be transported to the center. Allies already inside gain 40% Attack speed."
       }
     ]
@@ -302,19 +302,19 @@
     "skills": [
       {
         "id": "", "name": "", "cn_name": "激怒",
-        "description": "Passive: 典韦每一次击败英雄或者助攻会增加1层激怒效果，每层激怒效果会增加典韦12点物理攻击力，最多叠20层"
+        "description": "Passive: 典韦put a rage token on each hit on enemies (up to 20). Each token increase the physical strength of 典韦 hits by 12"
       },
       {
         "id": "", "name": "", "cn_name": "红眼", "cooldown": "9/8.6/8.2/7.8/7.4/7", "mana": 55,
-        "description": "暴怒的典韦践踏大地，对范围内敌人造成250/280/310/340/370/400（+100%物理加成）点物理伤害并减少其50%的移动速度，持续2秒，如果命中敌人将会突破自身极限，增加200%攻击速度和30%吸血效果，持续2秒"
+        "description": "典韦 prepare to charge. Upon charging, he removes all crowd control affecting him, and gain +60% move speed for 3s. Next standard attack will deal an additional 250/300/350/400/450/500（+120%Phys）physical damages to enemies close by."
       },
       {
         "id": "", "name": "", "cn_name": "狂暴", "cooldown": "8/7.4/6.8/6.2/5.6/5", "mana": 65,
-        "description": "暴怒的典韦践踏大地，对范围内敌人造成250/280/310/340/370/400（+100%物理加成）点物理伤害并减少其50%的移动速度，持续2秒，如果命中敌人将会突破自身极限，增加200%攻击速度和30%吸血效果，持续2秒"
+        "description": "典韦 rage trample the hearth dealing 250/280/310/340/370/400（+100% Phys）physical damages and lessening enemies in range of 50% move speed for 2s. If it hurt an enemy 典韦 gets for 2s +200% attack speed and 30% life steal"
       },
       {
         "id": "", "name": "", "cn_name": "嗜血", "cooldown": "30/25/20", "mana": 130,
-        "description": "Ultimate: 典韦对锁定目标发起跳斩，造成300/375/450（+140%物理加成）点真实伤害并减少其50%的移动速度，持续3秒，同时会强化自身，对敌人造成的所有伤害附带目标最大生命3%的真实伤害，持续5秒"
+        "description": "Ultimate: 典韦 lock a target dealing 300/375/450（+140% Phys）true damages and reducting his move speed by 50% for 3s. He also strengthen himself dealing additional 3% of his attack damages as true damages for 5s"
       }
     ]
   },
@@ -340,23 +340,23 @@
     ]
   },
   {
-    "name": "direnjie", "cn_name": "狄仁杰", "types": ["archer"], "ready":0,
+    "name": "direnjie", "cn_name": "狄仁杰", "types": ["archer"], "ready": 1,
     "skills": [
       {
-        "id": "", "name": "", "cn_name": "迅捷",
-        "description": "Passive: 狄仁杰的普通攻击能够获得1层迅捷效果，每层迅捷效果会增加3％攻击速度和5％移动速度，最多叠加5层"
+        "id": "nimble", "name": "Nimble", "cn_name": "迅捷",
+        "description": "Passive: 狄仁杰 standard attacks grant him one nimble mark (up to 5). Each mark grant him 3％ attack speed and 5％ move speed"
       },
       {
-        "id": "", "name": "", "cn_name": "逃脱", "cooldown": "8/7.6/7.2/6.8/6.4/6", "mana": 60,
-        "description": "狄仁杰向指定方向甩出六道令牌，对命中的目标造成65％物理加成点物理伤害和80/88/96/104/112/120（+20％法术加成）（+40％额外物理加成）点法术伤害，其中蓝牌只能造成50％的伤害，但蓝牌会减少目标90％移动速度，持续0.5秒，当同一目标受到多道令牌伤害，从第二道令牌开始伤害会衰减至初始伤害的70％，令牌可以触发普通攻击的法球效果；被动：狄仁杰持续使用普通攻击时，每两次普通攻击后下一次普通攻击将会随机强化为一张蓝牌或红牌"
+        "id": "6_projectiles", "name": "6 projectiles", "cn_name": "六令追凶", "cooldown": "8/7.6/7.2/6.8/6.4/6", "mana": 60,
+        "description": "狄仁杰 sends 6 carvings around him dealing 65% of his Phys as physical damages and 80/88/96/104/112/120（+20％ Mag）（+40％ extra physical damages）magic damages. Blue carvings deal only 50% damages, but reduce enemy move speed by 90% for 0.5s. If a target his hit by multiple carvings, the additional ones deal only 70% damages. It can also trigger his basic attack effect. Passive: every two attack 狄仁杰 his next attack will trigger a red or blue carving"
       },
       {
-        "id": "", "name": "", "cn_name": "逃脱", "cooldown": "14/13.6/13.2/12.8/12.4/12", "mana": 70,
-        "description": "狄仁杰向周围掷出八道令牌，清除自身负面效果，增加25％移动速度，持续1秒，令牌的伤害和效果与六令追凶相同"
+        "id": "escape", "name": "Escape", "cn_name": "逃脱", "cooldown": "14/13.6/13.2/12.8/12.4/12", "mana": 70,
+        "description": "狄仁杰 Jump backwards sending a carving in front of him. He gets +25% move speed for 1s"
       },
       {
-        "id": "magnificent", "name": "", "cn_name": "王朝密令", "cooldown": "30/25/20", "mana": 100,
-        "description": "Ultimate: 狄仁杰向指定方向掷出一道金色密令，对命中的第一个敌方英雄造成300/375/450(+60％法术加成）（+120％额外物理加成）点物理伤害和300/375/450(60％法术加成）（+120％额外物理加成）点法术伤害，并将其晕眩1秒，同时会减少目标30％物理防御和法术防御，命中后会获得目标视野，持续5秒；期间友军向该目标移动时会增加10％移动速度"
+        "id": "secret_dynasty", "name": "Secret dynasty", "cn_name": "王朝密令", "cooldown": "30/25/20", "mana": 100,
+        "description": "Ultimate: 狄仁杰 send a golden projectile in the direction hitting the first enemy by 300/375/450(+60％ Mag）（+120％ extra Phys）physical damages and 300/375/450(60％ Mag）（+120％ extra Phys）magic damages and stunning him for 1s. It will also lessen the target physical and magical resistance by 30% and reveal the enemy for 5s. 狄仁杰 will gain 10% move speed while the target is stunned"
       }
     ]
   },
@@ -364,7 +364,7 @@
     "name": "donghuangtaiyi", "cn_name": "东皇太一", "types": ["tank"], "ready":0,
     "skills": [
       {
-        "id": "freezing_bite", "name": "", "cn_name": "暗冕之噬",
+        "id": "freezing_bite", "name": "Freezing bite", "cn_name": "暗冕之噬",
         "description": "Passive: 东皇太一使用祭典创造出来的黑暗能量体极不稳定，敌人被黑暗能量体触碰到都会造成100（+敌方3%最大生命值）（50%法术加成）点法术伤害；每当黑暗能量体对敌方英雄造成伤害时，东皇太一将会回复100（自身最大生命3%）（+40%法术加成）点生命值，对敌人非英雄目标造成伤害时，东皇太一将会回复自身1%最大生命值"
       },
       {

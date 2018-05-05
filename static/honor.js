@@ -14,7 +14,7 @@
     //$scope.contents = [{heading:"Content heading", description:"The actual content"}];
     //Just a placeholder. All web content will be in this format
 
-      $scope.types = ['soldier', 'tank', 'mage', 'assassin', 'archer', 'support'];
+      $scope.types = ['warrior', 'tank', 'mage', 'assassin', 'archer', 'support'];
       $scope.filter = undefined;
 
       $scope.items = [];
