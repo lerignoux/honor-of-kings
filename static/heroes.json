@@ -234,11 +234,11 @@
     "name": "daji", "cn_name": "妲己", "types": ["mage"], "ready": 1,
     "skills": [
       {
-        "id": "dishearted", "name": "Dis-hearted", "cn_name": "失心", "cooldown": "8/7.4/6.8/6.2/5.6/5", "mana": 80,
+        "id": "dishearted", "name": "Dis-hearted", "cn_name": "失心",
         "description": "Passive: When one of 妲己 ability hit an enemy it reduces it\"s magic resistance by 30~72. Can be stacked 3 times"
       },
       {
-        "id": "soul_attack", "name": "Soul attack", "cn_name": "灵魂冲击", "cooldown": "12/11/10/9/8/7", "mana": 120,
+        "id": "soul_attack", "name": "Soul attack", "cn_name": "灵魂冲击", "cooldown": "8/7.4/6.8/6.2/5.6/5", "mana": 80,
         "description": "妲己 send a shockwave dealing 520/585/650/715/780/845（+122% Magic）magic damages to enemies hit"
       },
       {
@@ -284,7 +284,7 @@
         "description": "大乔 send a carp in a direction dealing 550/700/850/1000（+56%法术加成）to the first enemy. when hit the path will become a river for 4s granting 30% move speed to allies within."
       },
       {
-        "id": "ocean_karma", "name": "Ocean karma", "cn_name": "宿命之海", "cooldown": 8, "mana": 50,
+        "id": "ocean_karma", "name": "Ocean's karma", "cn_name": "宿命之海", "cooldown": 8, "mana": 50,
         "description": "大乔 will summon a typhoon for 4s. At the end all heroes in range will be attracted in the center. It will also restore life and grant 25% move speed for 3s"
       },
       {
@@ -361,23 +361,23 @@
     ]
   },
   {
-    "name": "donghuangtaiyi", "cn_name": "东皇太一", "types": ["tank"], "ready":0,
+    "name": "donghuangtaiyi", "cn_name": "东皇太一", "types": ["tank"], "ready":1,
     "skills": [
       {
         "id": "freezing_bite", "name": "Freezing bite", "cn_name": "暗冕之噬",
-        "description": "Passive: 东皇太一使用祭典创造出来的黑暗能量体极不稳定，敌人被黑暗能量体触碰到都会造成100（+敌方3%最大生命值）（50%法术加成）点法术伤害；每当黑暗能量体对敌方英雄造成伤害时，东皇太一将会回复100（自身最大生命3%）（+40%法术加成）点生命值，对敌人非英雄目标造成伤害时，东皇太一将会回复自身1%最大生命值"
+        "description": "Passive: 东皇太一 sacrificial energy is very unstable. Every enemy touching it will receive 100（+3% of enemy maximum health）（50% Mag）magical damages. It will also heal 东皇太一 of 100（3% of his own maximum health）（+40% MAg）health when touching enemies already under it's influence. Enemies not affected by it will only heal him of 1% of his maximum health."
       },
       {
-        "id": "daily_sacrifice", "name": "", "cn_name": "日蚀祭典", "cooldown": 5, "mana": 60,
-        "description": "东皇太一释放力量，对周围造成300/360/420/480/540/600（+40%法术加成）点法术伤害并创造出黑暗能量体在身边环绕，同时最多存在3个；释放能量时，若对范围内敌人造成伤害，则会减少50%日蚀祭典的冷却时间；黑暗能量体的数量会影响曜龙烛兆的威力"
+        "id": "daily_sacrifice", "name": "Daily saacrifice", "cn_name": "日蚀祭典", "cooldown": 5, "mana": 60,
+        "description": "东皇太一 release his power dealing ot enemy in the area 300/360/420/480/540/600（+40% Mag）magical damages and leaving dark energy in the area (up to 3 maximum). If dark energy is already present in the area, the Daily sacrifice cooldown is reduced by 50%. The matter will influence Bright dragon ability strength"
       },
       {
-        "id": "bright_dragon", "name": "", "cn_name": "曜龙烛兆", "cooldown": 6, "mana": 75,
-        "description": "东皇太一每拥有1个黑暗能量体，就可召唤1条曜龙对指定方向进行范围冲击，每次冲击将造成500/600/700/800/900/1000（+60%法术加成）点法术伤害；第一次和第二次冲击范围内的敌人减少50%和90%移动速度，持续1秒；第三次冲击范围内的敌人将被眩晕1秒；释放时，自身将增加30%移动速度，持续1秒，并且每增加1个黑暗能量体将额外增加10%移动速度"
+        "id": "bright_dragon", "name": "Bright dragon", "cn_name": "曜龙烛兆", "cooldown": 6, "mana": 75,
+        "description": "For each dark energy orb 东皇太一 has he can summon a dragon flying traight to teh given direction. Each will deal to enemies in range 500/600/700/800/900/1000（+60%Mag) magical damages The first and second will also slow enemies by respectively 50% and 90% their move speed for 1s The third one will stun enemies for 1s. Upon release 东皇太一 gain 30% move speed for 1s and each stack of dark matter will add an additional 10% speed"
       },
       {
         "id": "fall_agreement", "name": "", "cn_name": "堕神契约", "cooldown": "50/45/40", "mana": 100,
-        "description": "Ultimate: 东皇太一压制敌方英雄，同时在彼此间创造一个契约链接，持续2.5秒；当契约的双方的一方受到伤害时，另一方会受到同等的伤害；在强大的堕神契约下双方无法进行任何操作，也无法净化；堕神契约强大的能量溢出，东皇太一将直接获得三个黑暗能量体"
+        "description": "Ultimate: 东皇太一 suppress an enemy both of them linked by contract for 2.5s. Both are unable to move and any damage suffered by one will be replicated to the other. There is no way to stop the contract. Activating this ability will immediatly grant 东皇太一 with three dark energy orbs"
       }
     ]
   },
@@ -494,7 +494,7 @@
     "name": "guiguzi", "cn_name": "鬼谷子", "types": ["support"], "ready":0,
     "skills": [
       {
-        "id": "warp_soldiers", "name": "", "cn_name": "纵横兵法",
+        "id": "warp_warriors", "name": "", "cn_name": "纵横兵法",
         "description": "Passive: 鬼谷子脱离敌方视野3秒后，玄微子会再次归巢到法杖中，下一次普通攻击变更为强化攻击，强化攻击会造成300（+45%法术加成）点法术伤害并将范围内的敌人减少50%移动速度，持续1.5秒；如果使用强化攻击时，鬼谷子不处于敌方视野，则纵横兵法的冷却时间将会增加至10秒"
       },
       {
@@ -725,20 +725,20 @@
     "name": "lianpo", "cn_name": "廉颇", "types": ["tank"], "ready":0,
     "skills": [
       {
-        "id": "", "name": "", "cn_name": "友情守护",
-        "description": "Passive: 廉颇释放技能的过程中处于霸体状态，并且减少20%所受到的伤害"
+        "id": "friendly_guard", "name": "Friendly guard", "cn_name": "友情守护",
+        "description": "Passive: When triggering an ability 廉颇 enter in tyran form reducing all incoming damages of 20%."
       },
       {
-        "id": "", "name": "", "cn_name": "豪情突进", "cooldown": "9/8.4/7.8/7.2/6.6/6", "mana": 60,
-        "description": "廉颇向指定方向发起冲锋，对敌人造成115/130/145/160/175/190（+100%物理加成）点物理伤害并将其击飞1秒"
+        "id": "hero_dash", "name": "Hero dash", "cn_name": "豪情突进", "cooldown": "9/8.4/7.8/7.2/6.6/6", "mana": 60,
+        "description": "廉颇 dash to the given position dealing 115/130/145/160/175/190（+100% Phys）physical damages and sending them flying for 1s"
       },
       {
-        "id": "", "name": "", "cn_name": "激情迸发", "cooldown": "12/11/10/9/8/7", "mana": 70,
-        "description": "廉颇短暂蓄力后爆发为自身提供抵免350/420/490/560/630/700点伤害的护盾，同时对范围内的敌人造成500/560/620/680/740/800（+155%物理加成）点物理伤害并减少其30%移动速度，持续1秒"
+        "id": "burst_of_passion", "name": "Burst of passion", "cn_name": "激情迸发", "cooldown": "12/11/10/9/8/7", "mana": 70,
+        "description": "廉颇 gather his power granting him 350/420/490/560/630/700 damage protection，it deals also to nearby enemies 500/560/620/680/740/800（+155%Phys）physical damages and slow their move speed down of 30% for 1s"
       },
       {
-        "id": "", "name": "", "cn_name": "正义豪腕", "cooldown": "54/45/36", "mana": 150,
-        "description": "Ultimate: 廉颇跳向指定区域连续锤击地面三次，第一次锤击会对范围内敌人造成150/200/250（+80%物理加成）点物理伤害，随后每次递增50%的伤害，并且第一次和第二次锤击时，范围内敌人分别会减少30%和50%移动速度，持续1秒，第三次锤击会将范围内的敌人击飞1.5秒"
+        "id": "justice_arm", "name": "Justice arm", "cn_name": "正义豪腕", "cooldown": "54/45/36", "mana": 150,
+        "description": "Ultimate: 廉颇 jump to the given possition hammering the floor three times. The first hit deals 150/200/250（+80%Phys）physical damages to enemies in range. the following hits damages will be increased by 50% Whats more  the first and second hit slow enemies in range of 30% and 50% move speed for 1s. The third hit send enemies in range flying for 1.5s."
       }
     ]
   },

@@ -93,11 +93,13 @@
 									<h3>{{skill.name}}</h3>
 									<h3 ng-if="skill.cn_name">{{skill.cn_name}}</h3>
 								</header>
-								<p class="cooldown" ng-if="skill.cooldown">
-									Cooldown: {{skill.cooldown}}
+								<p class="cooldown">
+									<span ng-if="skill.cooldown">Cooldown: {{skill.cooldown}}</span>
+									<span ng-if="!skill.cooldown"><br/></span>
 								</p>
-								<p class="energy" ng-if="skill.mana">
-									Energy: {{skill.mana}}
+								<p class="energy">
+									<span ng-if="skill.mana">Energy: {{skill.mana}}</span>
+									<span ng-if="!skill.mana"><br/></span>
 								</p>
 								<p>
 									{{skill.description}}
